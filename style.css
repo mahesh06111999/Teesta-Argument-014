@@ -3,7 +3,9 @@
   width: 100%;
   margin: auto;
 }
-
+body {
+  font-family: sans-serif;
+}
 #mafoot1 {
   display: flex;
   justify-content: center;
@@ -76,4 +78,32 @@ a {
   margin-top: 20px;
   font-size: 12px;
   color: gray;
+}
+#maheadings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#maheadings > p:nth-child(1) {
+  font-weight: 550;
+  font-size: 33px;
+  margin-bottom: 0px;
+  letter-spacing: 1.5px;
+}
+#maheadings > p:nth-child(2) {
+  font-weight: 800px;
+  font-size: 27px;
+  letter-spacing: 1.5px;
+}
+#maimg1 img {
+  margin-bottom: 15px;
+}
+#ma1 {
+  width: 1570px;
+  padding: 13px;
+  border: 2px solid black;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 70px;
 }
