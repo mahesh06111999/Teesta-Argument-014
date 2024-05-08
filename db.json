@@ -131,7 +131,514 @@
       ],
       "new": "false",
       "category": "clothing"
-    }
+    },
+
+    {
+      "designer": "ACNE STUDIOS",
+      "title": "Midsummer Shopper Bag",
+      "price": "₹57,119.75",
+      "image": [
+        "https://is4.fwrdassets.com/images/p/fw/45/ACNE-WY93_V1.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/ACNE-WY93_V2.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/ACNE-WY93_V3.jpg"
+        
+      ],
+      "new": "false",
+      "category": "bags"
+    },
+
+    {
+      "designer": "BALENCIAGA",
+      "title": "BB Soft Flap Small Bag",
+      "price": "₹57,119.75",
+      "image": [
+        "https://is4.fwrdassets.com/images/p/fw/45/BALF-WY1457_V1.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/JLEO-WY2_V1.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/BALF-WY1457_V3.jpg"
+        
+      ],
+      "new": "false",
+      "category": "bags"
+    },
+
+    {
+      "designer": "JANESSA LEONE",
+      "title": "Beca Backpack",
+      "price": "₹57,119.75",
+      "image": [
+        "https://is4.fwrdassets.com/images/p/fw/45/JLEO-WY2_V1.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/FNEF-WY2925_V1.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/JLEO-WY2_V3.jpg"
+        
+      ],
+      "new": "false",
+      "category": "backpacks"
+    },
+
+    {
+      "designer": "FWRD RENEW",
+      "title": "Saint Laurent Small Kate Chain Bag",
+      "price": "₹57,119.75",
+      "image": [
+        "https://is4.fwrdassets.com/images/p/fw/45/FNEF-WY2925_V1.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/FNEF-WY2925_V2.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/FNEF-WY2925_V3.jpg"
+        
+      ],
+      "new": "false",
+      "category": "black"
+    },
+
     
+
+    {
+      "designer": "FWRD RENEW",
+      "title": "Saint Laurent Small Kate Chain Bag",
+      "price": "₹57,119.75",
+      "image": [
+        "https://is4.fwrdassets.com/images/p/fw/45/FNEF-WY2932_V1.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/FNEF-WY2932_V2.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/FNEF-WY2932_V3.jpg"
+        
+      ],
+      "new": "false",
+      "category": "Bucket Bags"
+    },
+
+    {
+      "designer": "FWRD RENEW",
+      "title": "Bottega Veneta The Pouch Chain Bag",
+      "price": "₹57,119.75",
+      "image": [
+        "https://is4.fwrdassets.com/images/p/fw/45/FNEF-WY16_V1.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/FNEF-WY16_V2.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/FNEF-WY16_V3.jpg"
+        
+      ],
+      "new": "false",
+      "category": "Cluches"
+    },
+
+    {
+      "designer": "BOTTEGA VENETA",
+      "title": "Micro Arco Tote Bag",
+      "price": "₹57,119.75",
+      "image": [
+        "https://is4.fwrdassets.com/images/p/fw/45/BOTT-WY1675_V1.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/BOTT-WY1675_V2.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/BOTT-WY1675_V3.jpg"
+        
+      ],
+      "new": "false",
+      "category": "Crossbody Bags"
+    },
+
+    {
+      "designer": "FWRD RENEW",
+      "title": "Gucci GG Marmont Waist Bag",
+      "price": "₹57,119.75",
+      "image": [
+        "https://is4.fwrdassets.com/images/p/fw/45/FNEF-WY2913_V1.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/FNEF-WY2913_V2.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/FNEF-WY2913_V3.jpg"
+        
+      ],
+      "new": "false",
+      "category": "Fanny Packs"
+    },
+
+    {
+      "designer": "BOTTEGA VENETA",
+      "title": "Mini Jodie Bag",
+      "price": "₹57,119.75",
+      "image": [
+        "https://is4.fwrdassets.com/images/p/fw/45/BOTT-WY1676_V1.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/BOTT-WY1676_V2.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/BOTT-WY1676_V3.jpg"
+        
+      ],
+      "new": "false",
+      "category": "Hobos"
+    },
+
+
+    {
+      "designer": "FWRD RENEW",
+      "title": "Channel Boy Wallet On Chain Bag",
+      "price": "₹57,119.75",
+      "image": [
+        "https://is4.fwrdassets.com/images/p/fw/45/FNEF-WY3159_V1.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/FNEF-WY3159_V2.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/FNEF-WY3159_V3.jpg"
+        
+      ],
+      "new": "false",
+      "category": "Mini Bags"
+    },
+
+    {
+      "designer": "FWRD RENEW",
+      "title": "The Row Small North South Park Tote Bag",
+      "price": "₹57,119.75",
+      "image": [
+        "https://is4.fwrdassets.com/images/p/fw/45/FNEF-WY3006_V1.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/FNEF-WY3006_V2.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/FNEF-WY3006_V3.jpg"
+        
+      ],
+      "new": "false",
+      "category": "Pre-Owned"
+    },
+
+    {
+      "designer": "FWRD RENEW",
+      "title": "Fendi Bucket Embroidered 2 Way Shoulder Bag",
+      "price": "₹57,119.75",
+      "image": [
+        "https://is4.fwrdassets.com/images/p/fw/45/FNEF-WY3209_V1.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/FNEF-WY3209_V2.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/FNEF-WY3209_V3.jpg"
+        
+      ],
+      "new": "false",
+      "category": "Satchels"
+    },
+
+    {
+      "designer": "BOTTEGA VENETA",
+      "title": "Small Hop Bag",
+      "price": "₹57,119.75",
+      "image": [
+        "https://is4.fwrdassets.com/images/p/fw/45/BOTT-WY1673_V1.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/BOTT-WY1673_V2.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/BOTT-WY1673_V3.jpg"
+        
+      ],
+      "new": "false",
+      "category": "Shoulder Bags"
+    },
+
+    {
+      "designer": "BOTTEGA VENETA",
+      "title": "Tag Holder",
+      "price": "₹57,119.75",
+      "image": [
+        "https://is4.fwrdassets.com/images/p/fw/45/BOTT-WA287_V1.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/BOTT-WA287_V2.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/BOTT-WA287_V3.jpg"
+        
+      ],
+      "new": "false",
+      "category": "Small Leather Goods"
+    },
+
+    {
+      "designer": "CULT GAIA",
+      "title": "Brynn Tote Bag",
+      "price": "₹57,119.75",
+      "image": [
+        "https://is4.fwrdassets.com/images/p/fw/45/GAIA-WY134_V1.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/GAIA-WY134_V2.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/GAIA-WY134_V3.jpg"
+        
+      ],
+      "new": "false",
+      "category": "Straw Bags"
+    },
+
+    {
+      "designer": "BODE",
+      "title": "Clothesline Tote Bag",
+      "price": "₹57,119.75",
+      "image": [
+        "https://is4.fwrdassets.com/images/p/fw/45/BOFE-WY2_V1.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/BOFE-WY2_V1.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/BOFE-WY2_V1.jpg"
+        
+      ],
+      "new": "false",
+      "category": "Totes"
+    },
+
+    {
+      "designer": "PARAVEL",
+      "title": "Packing Cube Quad Case",
+      "price": "₹57,119.75",
+      "image": [
+        "https://is4.fwrdassets.com/images/p/fw/45/PAVF-WA1_V1.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/PAVF-WA1_V2.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/PAVF-WA1_V3.jpg"
+        
+      ],
+      "new": "false",
+      "category": "Travel Bags"
+    },
+
+    {
+      "designer": "BALENCIAGA",
+      "title": "Monogram Long Coin Card Holder",
+      "price": "₹57,119.75",
+      "image": [
+        "https://is4.fwrdassets.com/images/p/fw/45/BALF-WY1451_V1.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/BALF-WY1451_V2.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/BALF-WY1451_V3.jpg"
+        
+      ],
+      "new": "false",
+      "category": "Wallets"
+    },
+
+    {
+      "designer": "TOM FORD",
+      "title": "Blake Sunglasses",
+      "price": "₹57,119.75",
+      "image": [
+        "https://is4.fwrdassets.com/images/p/fw/45/TFOF-WG26_V1.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/TFOF-WG26_V2.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/TFOF-WG26_V3.jpg"
+        
+      ],
+      "new": "false",
+      "category": "Active"
+    },
+
+    {
+      "designer": "THE ROW",
+      "title": "Ben Bag",
+      "price": "₹57,119.75",
+      "image": [
+        "https://is4.fwrdassets.com/images/p/fw/45/TERX-WY583_V1.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/TERX-WY583_V2.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/TERX-WY583_V3.jpg"
+        
+      ],
+      "new": "false",
+      "category": "Bags"
+    },
+
+    {
+      "designer": "THE ROW",
+      "title": "Ben Bag",
+      "price": "₹57,119.75",
+      "image": [
+        "https://is4.fwrdassets.com/images/p/fw/45/TERX-WY583_V1.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/TERX-WY583_V2.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/TERX-WY583_V3.jpg"
+        
+      ],
+      "new": "false",
+      "category": "Bags"
+    },
+
+    {
+      "designer": "AESOP",
+      "title": "Eleos Aromatique Hand Balm Tube",
+      "price": "₹57,119.75",
+      "image": [
+        "https://is4.fwrdassets.com/images/p/fw/45/AESR-WU183_V1.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/AESR-WU183_V2.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/AESR-WU183_V3.jpg"
+        
+      ],
+      "new": "false",
+      "category": "Beauty"
+    },
+
+    {
+      "designer": "DAVID KOMA",
+      "title": "Crystal Daisy Garter",
+      "price": "₹57,119.75",
+      "image": [
+        "https://is4.fwrdassets.com/images/p/fw/45/DAVF-WA8_V1.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/DAVF-WA8_V2.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/DAVF-WA8_V3.jpg"
+        
+      ],
+      "new": "false",
+      "category": "Belts"
+    },
+
+    {
+      "designer": "EMI JAY",
+      "title": "Silk Scrunchie",
+      "price": "₹57,119.75",
+      "image": [
+        "https://is4.fwrdassets.com/images/p/fw/45/EIJF-WA90_V1.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/EIJF-WA90_V2.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/EIJF-WA90_V3.jpg"
+        
+      ],
+      "new": "false",
+      "category": "Hair Accessories"
+    },
+
+    {
+      "designer": "CLYDE",
+      "title": "Aries Hat",
+      "price": "₹57,119.75",
+      "image": [
+        "https://is4.fwrdassets.com/images/p/fw/45/CLYF-WA38_V1.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/CLYF-WA38_V2.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/CLYF-WA38_V3.jpg"
+        
+      ],
+      "new": "false",
+      "category": "Hats"
+    },
+
+    {
+      "designer": "BUSINESS & PLEASURE CO.",
+      "title": "Market Umbrella",
+      "price": "₹57,119.75",
+      "image": [
+        "https://is4.fwrdassets.com/images/p/fw/z/BSUR-WH45_V1.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/z/BSUR-WH45_V2.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/z/BSUR-WH45_V3.jpg"
+        
+      ],
+      "new": "false",
+      "category": "Home"
+    },
+
+    {
+      "designer": "WOLFORD",
+      "title": "Velvet De Luxe 66 Tights",
+      "price": "₹57,119.75",
+      "image": [
+        "https://is4.fwrdassets.com/images/p/fw/45/WOLF-WA75_V1.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/WOLF-WA75_V2.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/WOLF-WA75_V3.jpg"
+        
+      ],
+      "new": "false",
+      "category": "Hosiery & Socks"
+    },
+
+    {
+      "designer": "DEMARSON",
+      "title": "Naomi Necklace",
+      "price": "₹57,119.75",
+      "image": [
+        "https://is4.fwrdassets.com/images/p/fw/z/DRSF-WL33_V1.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/z/DRSF-WL33_V2.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/z/DRSF-WL33_V3.jpg"
+        
+      ],
+      "new": "false",
+      "category": "Jewelry"
+    },
+
+    {
+      "designer": "SAINT LAURENT",
+      "title": "Gaby Key Pouch",
+      "price": "₹57,119.75",
+      "image": [
+        "https://is4.fwrdassets.com/images/p/fw/45/SLAU-WY2443_V1.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/SLAU-WY2443_V2.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/SLAU-WY2443_V3.jpg"
+        
+      ],
+      "new": "false",
+      "category": "Keychains"
+    },
+
+    {
+      "designer": "FWRD RENEW",
+      "title": "Channel Bucket Hat",
+      "price": "₹57,119.75",
+      "image": [
+        "https://is4.fwrdassets.com/images/p/fw/45/FNEF-WA127_V1.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/FNEF-WA127_V2.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/FNEF-WA127_V3.jpg"
+        
+      ],
+      "new": "false",
+      "category": "Pre-Owned"
+    },
+
+
+    {
+      "designer": "STELLA MCCARTNEY",
+      "title": "Knit Face Mask",
+      "price": "₹57,119.75",
+      "image": [
+        "https://is4.fwrdassets.com/images/p/fw/45/SMCC-WA23_V1.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/SMCC-WA23_V2.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/SMCC-WA23_V3.jpg"
+        
+      ],
+      "new": "false",
+      "category": "Protective Face Masks"
+    },
+
+    {
+      "designer": "SAINT LAURENT",
+      "title": "Grand Scarf",
+      "price": "₹57,119.75",
+      "image": [
+        "https://is4.fwrdassets.com/images/p/fw/45/SLAU-WA360_V1.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/SLAU-WA360_V2.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/SLAU-WA360_V3.jpg"
+        
+      ],
+      "new": "false",
+      "category": "Scarves & Gloves"
+    },
+
+    {
+      "designer": "TOM FORD",
+      "title": "Moira Sunglasses",
+      "price": "₹57,119.75",
+      "image": [
+        "https://is4.fwrdassets.com/images/p/fw/45/TFOF-WG30_V1.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/TFOF-WG30_V2.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/TFOF-WG30_V3.jpg"
+        
+      ],
+      "new": "false",
+      "category": "Sunglasses & Eyewear"
+    },
+
+    {
+      "designer": "BURBERRY",
+      "title": "Rectangle Sunglasses",
+      "price": "₹57,119.75",
+      "image": [
+        "https://is4.fwrdassets.com/images/p/fw/45/BURF-WG4_V1.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/BURF-WG4_V2.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/BURF-WG4_V3.jpg"
+        
+      ],
+      "new": "false",
+      "category": "Sunglasses & Optical"
+    },
+
+    {
+      "designer": "SAINT LAURENT",
+      "title": "Gaby Chain Phone Holder Bag",
+      "price": "₹57,119.75",
+      "image": [
+        "https://is4.fwrdassets.com/images/p/fw/45/SLAU-WY2531_V1.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/SLAU-WY2531_V2.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/SLAU-WY2531_V3.jpg"
+        
+      ],
+      "new": "false",
+      "category": "Tech Accessories"
+    },
+
+    {
+      "designer": "GUCCI",
+      "title": "Bee Watch",
+      "price": "₹57,119.75",
+      "image": [
+        "https://is4.fwrdassets.com/images/p/fw/45/GUCC-WL87_V1.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/GUCC-WL87_V2.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/45/GUCC-WL87_V3.jpg"
+        
+      ],
+      "new": "false",
+      "category": "Watches"
+    }   
   ]
 }
