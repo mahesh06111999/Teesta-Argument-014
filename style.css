@@ -8,6 +8,7 @@ body {
 }
 
  /* ////////////////////////////syed taqi /////////////////////////////*/
+
  .st-container{
   max-width: 1600px;
   width: 100%;
@@ -95,25 +96,74 @@ body {
   cursor: pointer;
 }
 
-#st-navP3 > strong{
+#st-navP3 > div{
   margin-top: 15px;
   display: flex;
-  font-size: 13px;
   align-items:center;
+  font-weight: bold;
   justify-content: space-between;
 }
 
-#st-navP3 > strong > a{
+#st-navP3 > div >div > a{
   text-transform: uppercase;
   font-family: Arial, sans-serif;
   padding: 10px;
   cursor: pointer;
 }
 
-#st-navP3>strong>a:hover{
+#st-navP3>div>div>a:hover{
   text-decoration: underline;
 }
-  /* ////////////////////////////syed taqi /////////////////////////////*/
+
+.st-content > div{
+  display: flex;
+  margin-top: 5px;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.st-content > div > span{
+  margin-bottom: 10px;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  padding: 8px;
+}
+
+.st-content > div > a{
+  padding: 5px;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-family: Arial, sans-serif;
+}
+
+.st-content > div > a:hover{
+  text-decoration: underline;
+}
+
+.st-dropdown:hover .st-content {
+  display: flex; /* Change display when .st-dropdown is hovered */
+}
+
+.st-dropdown .st-content{
+  background-color: white;
+  display: none;
+  position: absolute;
+  border-radius: 10px;
+  transition: display 1s ease;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+
+
+
+
+
+
+
+
+/* ////////////////////////////syed taqi /////////////////////////////*/
 
 #mafoot1 {
   display: flex;
@@ -127,6 +177,7 @@ body {
 #mafoot1 > p:nth-child(1) {
   font-weight: 500;
 }
+
 
 #mafoot1 > p:nth-child(2) {
   font-size: 13.5px;
