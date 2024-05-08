@@ -6,6 +6,115 @@
 body {
   font-family: sans-serif;
 }
+
+ /* ////////////////////////////syed taqi /////////////////////////////*/
+ .st-container{
+  max-width: 1600px;
+  width: 100%;
+  margin: auto;
+  align-items: center;
+}
+
+#st-navP1 > div > span{
+  margin: 8px;
+  cursor: pointer;
+}
+
+#st-navP1{
+  gap: 20px;
+  font-family: Arial;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+#st-navP1 > div:nth-of-type(1) span > img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+#st-navP1 > div:nth-of-type(1){
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#st-navP1 > div:nth-of-type(2) > span{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#st-navP1>div>span:hover{
+  text-decoration: underline;
+}
+
+#st-navP2{
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#st-navP2>div:nth-of-type(1)>a{
+  margin: 15px;
+  font-size: 14px;
+}
+
+#st-navP2>div:nth-of-type(1)>a:hover{
+  text-decoration: underline;
+}
+
+#st-navP2>div:nth-of-type(3)>a:hover{
+  text-decoration: underline;
+}
+
+#st-navP2>div:nth-of-type(2)>a{
+  font-size: 38px;
+  font-weight: 1000;
+}
+
+#st-navP2>div:nth-of-type(3)>a{
+  margin: 15px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  gap: 5px;
+}
+
+#st-navP2>div:nth-of-type(3)>span{
+  margin: 15px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  gap: 5px;
+  cursor: pointer;
+}
+
+#st-navP3 > strong{
+  margin-top: 15px;
+  display: flex;
+  font-size: 13px;
+  align-items:center;
+  justify-content: space-between;
+}
+
+#st-navP3 > strong > a{
+  text-transform: uppercase;
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#st-navP3>strong>a:hover{
+  text-decoration: underline;
+}
+  /* ////////////////////////////syed taqi /////////////////////////////*/
+
 #mafoot1 {
   display: flex;
   justify-content: center;
