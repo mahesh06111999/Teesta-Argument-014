@@ -117,6 +117,21 @@
       ],
       "new": "false",
       "category": "clothing"
+    } , 
+
+    {
+      "designer": "AMBUSH",
+      "title": "Graphic Crewneck",
+      "price": "₹57,119.75",
+      "image": [
+        "https://is4.fwrdassets.com/images/p/fw/z/FNEF-WZ2_V1.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/z/FNEF-WZ2_V2.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/z/FNEF-WZ2_V3.jpg"
+        
+      ],
+      "new": "false",
+      "category": "clothing"
     }
+    
   ]
 }
