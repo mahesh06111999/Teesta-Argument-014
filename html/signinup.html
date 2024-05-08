@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign in | Forward</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../style.css" />
   </head>
   <body>
     <div id="masignin">
@@ -37,11 +37,19 @@
           <li>Keep track of your orders</li>
           <li>Add favorite items to your wish list</li>
         </ul>
-        <input type="text" placeholder="email address" />
-        <input type="password" placeholder="create password" />
-        <input type="password" placeholder="verify your password" />
+        <input type="text" placeholder="email address" id="signupemail" />
+        <input
+          type="password"
+          placeholder="create password"
+          id="signuppassword1"
+        />
+        <input
+          type="password"
+          placeholder="verify your password"
+          id="signuppassword2"
+        />
         <div id="mabox2">
-          <input type="checkbox" /><label for="" id="mabox">
+          <input type="checkbox" checked /><label for="" id="mabox">
             Be the first to know about new arrivals, sales \& promos by
             submitting your email. You can opt out at any time.<a href=""
               >privacy policy</a
@@ -49,9 +57,24 @@
           </label>
         </div>
         <div id="maradios">
-          <input type="radio" name="gender" value="women" />Women
-          <input type="radio" name="gender" value="men" />Men
-          <input type="radio" name="gender" value="both" />Both
+          <input
+            type="radio"
+            name="gender"
+            value="women"
+            class="signupgender"
+          />Women
+          <input
+            type="radio"
+            name="gender"
+            value="men"
+            class="signupgender"
+          />Men
+          <input
+            type="radio"
+            name="gender"
+            value="both"
+            class="signupgender"
+          />Both
         </div>
         <button class="mabtn">AGREE AND CONTINUE</button>
       </form>
