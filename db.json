@@ -1,0 +1,137 @@
+{
+  "users": [
+    {
+      "usermail": "m@gmail.com",
+      "password": "123456",
+      "gender": "men",
+      "cart": [],
+      "mydesigners": [],
+      "id": 1
+    }
+  ],
+  "data": [
+    {
+      "designer": "ACNE STUDIOS",
+      "title": "Varong Sarong",
+      "price": "₹39,191.65",
+      "image": [
+        "https://is4.fwrdassets.com/images/p/fw/z/ACNE-WA211_V1.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/z/ACNE-WA211_V1.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/z/ACNE-WA211_V3.jpg"
+      ],
+      "new": "true",
+      "category": "dress"
+    },
+    {
+      "designer": "ACNE STUDIOS",
+      "title": "Holtz Lace Camo Sun Hat",
+      "price": "₹35,022.33",
+      "image": [
+        "https://is4.fwrdassets.com/images/p/fw/45s/ACNE-WA212_V1.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/z/ACNE-WA212_V2.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/z/ACNE-WA212_V3.jpg"
+      ],
+      "new": "true",
+      "category": "dress"
+    },
+    {
+      "designer": "AGOLDE",
+      "title": "Harper Mid Rise Straight",
+      "price": "₹18,178.33",
+      "image": [
+        "https://is4.fwrdassets.com/images/p/fw/z/AGOL-WJ530_V1.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/z/AGOL-WJ530_V2.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/z/AGOL-WJ530_V3.jpg"
+      ],
+      "new": "true",
+      "category": "dress"
+    },
+    {
+      "designer": "AJE",
+      "title": "Cordelia Corsetted Maxi Dress",
+      "price": "₹52,116.56",
+      "image": [
+        "https://is4.fwrdassets.com/images/p/fw/z/AJEF-WD92_V1.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/z/AJEF-WD92_V2.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/z/AJEF-WD92_V3.jpg"
+      ],
+      "new": "true",
+      "category": "dress"
+    },
+    {
+      "designer": "BODE",
+      "title": "Ace Of Spades Dress",
+      "price": "₹57,536.68",
+      "image": [
+        "https://is4.fwrdassets.com/images/p/fw/z/BOFE-WD12_V1.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/z/BOFE-WD12_V2.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/z/BOFE-WD12_V3.jpg"
+      ],
+      "new": "true",
+      "category": "dress"
+    },
+    {
+      "designer": "ALC",
+      "title": "Delfina Dress",
+      "price": "₹57,953.62",
+      "image": [
+        "https://is4.fwrdassets.com/images/p/fw/z/ALC-WD524_V1.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/z/ALC-WD524_V2.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/z/ALC-WD524_V3.jpg"
+      ],
+      "new": "false",
+      "category": "clothing"
+    },
+    {
+      "designer": "ADIDAS ORIGINALS",
+      "title": "Rivalry 86 Low Sneaker",
+      "price": "₹10,006.38",
+      "image": [
+        "https://is4.fwrdassets.com/images/p/fw/z/ADIO-MZ224_V1.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/z/ADIO-MZ224_V2.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/z/ADIO-MZ224_V3.jpg"
+      ],
+      "new": "true",
+      "category": "shoes"
+    },
+    {
+      "designer": "ALPHA INDUSTRIES",
+      "title": "Panel Jacket",
+      "price": "₹10,339.93",
+      "image": [
+        "https://is4.fwrdassets.com/images/p/fw/z/ALPF-MO100_V1.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/z/ALPF-MO100_V2.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/z/ALPF-MO100_V3.jpg"
+      ],
+      "new": "false",
+      "category": "clothing"
+    },
+    {
+      "designer": "AMBUSH",
+      "title": "Graphic Crewneck",
+      "price": "₹57,119.75",
+      "image": [
+        "https://is4.fwrdassets.com/images/p/fw/z/ASBM-MK8_V1.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/z/ASBM-MK8_V2.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/z/ASBM-MK8_V3.jpg"
+      ],
+      "new": "false",
+      "category": "clothing"
+    } , 
+
+    {
+      "designer": "AMBUSH",
+      "title": "Graphic Crewneck",
+      "price": "₹57,119.75",
+      "image": [
+        "https://is4.fwrdassets.com/images/p/fw/z/FNEF-WZ2_V1.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/z/FNEF-WZ2_V2.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/z/FNEF-WZ2_V3.jpg"
+        
+      ],
+      "new": "false",
+      "category": "clothing"
+    }
+    
+  ]
+}
