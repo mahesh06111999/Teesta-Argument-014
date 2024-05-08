@@ -1,0 +1,26 @@
+{
+  "users": [
+    {
+      "usermail": "m@gmail.com",
+      "password": "123456",
+      "gender": "men",
+      "cart": [],
+      "mydesigners": [],
+      "id": 1
+    }
+  ],
+  "data": [
+    {
+      "designer": "acnestudios",
+      "title": "Varong Sarong",
+      "price": "₹39,191.65",
+      "image": [
+        "https://is4.fwrdassets.com/images/p/fw/z/ACNE-WA211_V1.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/z/ACNE-WA211_V1.jpg",
+        "https://is4.fwrdassets.com/images/p/fw/z/ACNE-WA211_V3.jpg"
+      ],
+      "new": "true",
+      "category": "dress"
+    }
+  ]
+}

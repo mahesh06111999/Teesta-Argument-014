@@ -5,19 +5,31 @@ document.querySelectorAll('input[name="gender"]').forEach((ele) => {
   });
 });
 let signup = document.getElementById('signupbtn');
+
 signup.addEventListener('click', (e) => {
   e.preventDefault();
   let pass1 = document.getElementById('signuppassword1').value;
   let cpass = document.getElementById('signuppassword2').value;
+
   if (pass1 === cpass) {
     let user = {
       usermail: document.getElementById('signupemail').value,
       password: cpass,
       gender: getSelectedValue,
+      cart: [],
+      mydesigners: [],
     };
-    let userarr = JSON.parse(localStorage.getItem('users')) || [];
-    userarr.push(user);
-    localStorage.setItem('users', JSON.stringify(userarr));
+    async function postdata() {
+      let res = await fetch('http://localhost:3000/users', {
+        method: 'POST',
+        headers: {
+          'Content-type': 'application/json',
+        },
+        body: JSON.stringify(user),
+      });
+      let data = await res.json();
+    }
+    postdata();
     alert('Sign Up Sucessfull... Please Login!');
   } else {
     alert('create password and confirm password is not matching');
@@ -28,22 +40,30 @@ let signin = document.getElementById('signin');
 
 signin.addEventListener('click', (e) => {
   e.preventDefault();
-  console.log('clicked');
   let signinmail = document.getElementById('signinmail').value;
   let password = document.getElementById('signinpass').value;
-  let userdata = JSON.parse(localStorage.getItem('users'));
-  let found = false;
-  userdata.forEach((item) => {
-    if (signinmail == item.usermail) {
-      if (password === item.password) {
-        found = true;
-        alert('Login Sucessful...');
-      } else {
-        alert('Enter the correct Id Password!!!');
+
+  async function fetchData(url) {
+    try {
+      let res = await fetch(url);
+      let data = await res.json();
+      let found = false;
+      data.forEach((item) => {
+        if (signinmail == item.usermail) {
+          found = true;
+          if (password === item.password) {
+            alert('Login Sucessful...');
+          } else {
+            alert('Enter the correct Id Password!!!');
+          }
+        }
+      });
+      if (!found) {
+        alert('user not found please create new account!');
       }
+    } catch (error) {
+      console.log(error);
     }
-  });
-  if (!found) {
-    alert('user not found please create new account!');
   }
+  fetchData('http://localhost:3000/users');
 });
