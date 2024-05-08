@@ -8,10 +8,9 @@ Welcome to FWRD
 #lookFWRD
 
 ### Deployed Link
+
 Forward:
 [Live Demo]()
-
-
 
 ## Features
 
@@ -61,9 +60,8 @@ To run this project locally:
 - []()
 - []()
 - []()
-- []()
 
 ## Acknowledgments
 
-- Inspired by the experience of watches.
-- Special thanks to the supportive community at [Casio].
+- Inspired by the experience of E-Shopping.
+- Special thanks to the supportive community at [FRWD].
