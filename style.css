@@ -149,7 +149,13 @@ body {
   font-weight: 500;
   cursor: pointer;
 }
-
+#searchname {
+  border: none;
+}
+#span {
+  border-bottom: 1px solid grey;
+  padding-bottom: 4px;
+}
 .st-button {
   padding: 10px;
   border: none;

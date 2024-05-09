@@ -2,6 +2,7 @@ let signup = document.getElementById('signupbtn');
 
 signup.addEventListener('click', (e) => {
   e.preventDefault();
+  let userid = document.getElementById('signupemail').value;
   let pass1 = document.getElementById('signuppassword1').value;
   let cpass = document.getElementById('signuppassword2').value;
   let getSelectedValue;
@@ -12,11 +13,12 @@ signup.addEventListener('click', (e) => {
   });
   if (pass1 === cpass) {
     let user = {
-      usermail: document.getElementById('signupemail').value,
+      usermail: userid,
       password: cpass,
       gender: getSelectedValue,
       cart: [],
       mydesigners: [],
+      isloggedin: false,
     };
     async function postdata() {
       let res = await fetch('http://localhost:3000/users', {
@@ -53,6 +55,10 @@ signin.addEventListener('click', (e) => {
           found = true;
           if (password === item.password) {
             alert('Login Sucessful...');
+            item.isloggedin = true;
+            //storing the user who logged in
+            localStorage.setItem('user', JSON.stringify(item));
+            window.location.href = 'index.html';
           } else {
             alert('Enter the correct Id Password!!!');
           }
