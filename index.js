@@ -1,7 +1,14 @@
+let arr;
 async function fetchProducts(url) {
   try {
     let res = await fetch(url);
     let data = await res.json();
+    console.log(data);
+    // array = [...data];
+    // data.forEach((i) => {
+    //   arr.push(i);
+    // });
+    arr = data;
     display(data);
   } catch (error) {
     console.log(error);
@@ -9,12 +16,17 @@ async function fetchProducts(url) {
 }
 
 function display(data) {
+  macardbox.innerHTML = '';
   data.forEach((item) => {
     macardbox.append(cardCreater(item));
   });
 }
 
 fetchProducts('http://localhost:3000/data');
+console.log(arr);
+// setTimeout(() => {
+//   console.log(arr);
+// }, 2000);
 
 let macardbox = document.getElementById('macardbox');
 
@@ -39,21 +51,24 @@ function displayCards(val) {
   console.log('clicked');
 
   if (val == 'new') {
-    arr = data.filter((ele) => {
+    let arr1 = arr.filter((ele) => {
       if (ele.val == true) {
         return true;
       }
     });
+    display(arr1);
+    console.log(arr1);
   } else {
-    arr = data.filter((ele) => {
+    let arr1 = arr.filter((ele) => {
       if (ele.category == val) {
         return true;
       }
     });
+    display(arr1);
+    console.log(arr1);
   }
-  console.log(arr);
-  macardbox.innerHTML = '';
-  arr.forEach((item) => {
-    macardbox.append(cardCreater(item));
-  });
+
+  // arr.forEach((item) => {
+  //   macardbox.append(cardCreater(item));
+  // });
 }
