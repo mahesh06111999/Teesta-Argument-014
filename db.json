@@ -784,6 +784,320 @@
       "image": "https://is4.fwrdassets.com/images/p/fw/45/GUCC-WL87_V1.jpg",
       "new": "true",
       "category": "clothing"
+    }, 
+    {
+      "id": 87,
+      "designer": "Acne Studios",
+      "title": "Bondi Slides",
+      "price": "₹46,696.44",
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/ACNE-WZ251_V2.jpg",
+      "new": "false",
+      "category": "shoes"
+    },
+    {
+      "id": 88,
+      "designer": "Coperni",
+      "title": "Flower Single Strap Sandals",
+      "price": "₹59,204.41",
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/ACNE-WZ251_V2.jpg",
+      "new": "true",
+      "category": "shoes"
+    },
+    {
+      "id": 89,
+      "designer": "KHAITE",
+      "title": "Nevada Ankle Stretch 40 Boot",
+      "price": "₹129,249.07",
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/KTAH-WZ137_V2.jpg",
+      "new": "true",
+      "category": "shoes"
+    },
+    {
+      "id": 90,
+      "designer": "BALENCIAGA",
+      "title": "Biker Bootie",
+      "price": "₹408,593.84",
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/BALF-WZ754_V2.jpg",
+      "new": "true",
+      "category": "shoes"
+    },
+    {
+      "id": 91,
+      "designer": "COPERNI",
+      "title": "Bridge Boot",
+      "price": "₹65,041.47",
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/CRNF-WZ38_V2.jpg",
+      "new": "true",
+      "category": "shoes"
+    }, 
+    {
+      "id": 92,
+      "designer": "ISABEL MARANT",
+      "title": "Witney Boot",
+      "price": "₹120,910.42",
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/ISAB-WZ517_V2.jpg",
+      "new": "false",
+      "category": "shoes"
+    },
+    {
+      "id": 93,
+      "designer": "LOEWE",
+      "title": "Toy Low Boot",
+      "price": "₹162,603.67",
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/LOEW-WZ119_V2.jpg",
+      "new": "false",
+      "category": "shoes"
+    },
+    {
+      "id": 94,
+      "designer": "VALENTINO GARAVANI",
+      "title": "V Logo Cut Out Espadrille Slide",
+      "price": "₹60,038.28",
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/VENT-WZ854_V4.jpg",
+      "new": "true",
+      "category": "shoes"
+    },
+    {
+      "id": 95,
+      "designer": "VALENTINO GARAVANI",
+      "title": "Rockstud Wedge Espadrille",
+      "price": "₹74,213.98",
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/VENT-WZ824_V2.jpg",
+      "new": "false",
+      "category": "shoes"
+    },
+    {
+      "id": 96,
+      "designer": "THE ROW",
+      "title": "Canal Slip On",
+      "price": "₹74,213.98",
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/TERX-WZ325_V2.jpg",
+      "new": "false",
+      "category": "shoes"
+    },
+    {
+      "id": 97,
+      "designer": "BURBERRY",
+      "title": "Mesh Ballerina Flat",
+      "price": "₹79,217.17",
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/BURF-WZ91_V2.jpg",
+      "new": "true",
+      "category": "shoes"
+    },
+    {
+      "id": 98,
+      "designer": "ISABEL MARANT",
+      "title": "Belna Ballet Flat",
+      "price": "₹57,953.62",
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/ISAB-WZ538_V2.jpg",
+      "new": "false",
+      "category": "shoes"
+    },
+    {
+      "id": 99,
+      "designer": "FWRD RENEW",
+      "title": "Loewe Petal 90 Sandal",
+      "price": "₹86,721.96",
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/FNEF-WZ1_V2.jpg",
+      "new": "false",
+      "category": "shoes"
+    },
+    {
+      "id": 100,
+      "designer": "AREA",
+      "title": "X Sergio Rossi 95 Pump",
+      "price": "₹99,646.86",
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/ARFE-WZ22_V2.jpg",
+      "new": "true",
+      "category": "shoes"
+    },
+    {
+      "id": 101,
+      "designer": "SAINT LAURENT",
+      "title": "Le Loafer",
+      "price": "₹90,891.28",
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/SLAU-WZ1231_V2.jpg",
+      "new": "true",
+      "category": "shoes"
+    },
+    {
+      "id": 102,
+      "designer": "MIU MIU",
+      "title": "x Church's Loafer",
+      "price": "₹122,578.15",
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/MIUF-WZ143_V2.jpg",
+      "new": "true",
+      "category": "shoes"
+    },
+    {
+      "id": 103,
+      "designer": "MARNI",
+      "title": "Mary Jane High",
+      "price": "₹74,630.92",
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/MARN-WZ94_V2.jpg",
+      "new": "false",
+      "category": "shoes"
+    },
+    {
+      "id": 104,
+      "designer": "VALENTINO GARAVANI",
+      "title": "Rockstud Slide",
+      "price": "₹79,217.17",
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/VENT-WZ841_V2.jpg",
+      "new": "true",
+      "category": "shoes"
+    },
+    {
+      "id": 105,
+      "designer": "PARIS TEXAS",
+      "title": "Deia 100 Mule Heel",
+      "price": "₹66,292.27",
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/PSTF-WZ258_V2.jpg",
+      "new": "false",
+      "category": "shoes"
+    },
+    {
+      "id": 106,
+      "designer": "RETROFETE",
+      "title": "Alessandra Sandal",
+      "price": "₹66,542.43",
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/RTFF-WZ14_V2.jpg",
+      "new": "true",
+      "category": "shoes"
+    },
+    {
+      "id": 107,
+      "designer": "BALENCIAGA",
+      "title": "Crocs Pool Slide Sandal",
+      "price": "₹60,455.21",
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/BALF-WZ759_V2.jpg",
+      "new": "true",
+      "category": "shoes"
+    },
+    {
+      "id": 108,
+      "designer": "GIANVITO ROSSI",
+      "title": "Christina Sling Nuit Pump",
+      "price": "₹79,217.17",
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/GIAN-WZ750_V2.jpg",
+      "new": "true",
+      "category": "shoes"
+    },
+    {
+      "id": 109,
+      "designer": "BOTTEGA VENETA",
+      "title": "Leaf Sandal",
+      "price": "₹120,910.42",
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/BOTT-WZ562_V2.jpg",
+      "new": "false",
+      "category": "shoes"
+    },
+    {
+      "id": 110,
+      "designer": "CONVERSE",
+      "title": "Run Star Utility Sandal Cx",
+      "price": "₹6,670.92",
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/CRSF-WZ129_V2.jpg",
+      "new": "false",
+      "category": "shoes"
+    },
+    {
+      "id": 111,
+      "designer": "DOLCE & GABBANA CASA",
+      "title": "All Over Dg Logo Slippers",
+      "price": "₹22,931.29",
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/DASF-WZ1_V2.jpg",
+      "new": "false",
+      "category": "shoes"
+    },
+    {
+      "id": 112,
+      "designer": "LUSSO CLOUD",
+      "title": "Esto Hairy Suede",
+      "price": "₹12,924.91",
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/LCLO-MZ20_V2.jpg",
+      "new": "false",
+      "category": "shoes"
+    },
+    {
+      "id": 113,
+      "designer": "BOTTER",
+      "title": "x Reebok Sneakers",
+      "price": "₹30,019.14",
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/BOTF-MZ3_V2.jpg",
+      "new": "true",
+      "category": "shoes"
+    },
+    {
+      "id": 114,
+      "designer": "SALOMON",
+      "title": "XT-4 OG",
+      "price": "₹18,345.03",
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/SMOF-MZ121_V2.jpg",
+      "new": "true",
+      "category": "shoes"
+    },
+    {
+      "id": 115,
+      "designer": "AMINA MUADDI",
+      "title": "Lupita Glass PVC Wedge",
+      "price": "₹92,142.08",
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/AMUD-WZ376_V2.jpg",
+      "new": "true",
+      "category": "shoes"
     }
   ]
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
