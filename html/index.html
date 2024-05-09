@@ -31,7 +31,7 @@
             <div>
               <span
                 >Need Help?
-                <span class="material-symbols-outlined"> expand_more </span>
+                <i class="fa-solid fa-caret-down"></i>
               </span>
             </div>
 
@@ -42,37 +42,33 @@
 
           <div id="st-navP2">
             <div>
-              <a href="">Womens</a>
-              <a href="">Mens</a>
+              <a href="index.html" id="st-button">HOME</a>
             </div>
             <div>
               <a href="index.html">FWRD</a>
             </div>
             <div>
-              <span
-                >search<span class="material-symbols-outlined">
-                  search
-                </span></span
-              >
-
-              <a href=""
-                >Wish List<span class="material-symbols-outlined">
-                  favorite
-                </span></a
-              >
+              <span>
+                <input type="text" placeholder="search" /><button
+                  class="st-button"
+                >
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+              </span>
+              <a href="">Wish List<i class="fa-regular fa-heart"></i></a>
               <a href="">My Bag</a>
             </div>
           </div>
 
-          <div id="st-navP3" class="st-dropdown">
-            <div>
+          <div id="st-navP3">
+            <div class="st-dropdown">
               <div>
                 <a
                   href="new.html"
                   onclick="displayCards('new'); event.preventDefault();"
                   >new</a
                 >
-                <div class="st-content">
+                <div class="st-content st-newDD" id="">
                   <div>
                     <img
                       src="https://is4.fwrdassets.com/images/up/2024/February/020224_FW_NAV_BESTSELLERS_1x.jpg"
@@ -123,7 +119,7 @@
               </div>
               <div>
                 <a href="designer.html">designers</a>
-                <div class="st-content">
+                <div class="st-content st-designersDD">
                   <div>
                     <img
                       src="https://is4.fwrdassets.com/images/up/2024/April/041524_FW_NAV_Burberry_1x.jpg"
@@ -149,6 +145,7 @@
                     <a href="">ferragemo</a>
                   </div>
                   <div>
+                    <span><pre></pre></span>
                     <a href="#">gabreila Hearst</a>
                     <a href="#">givenchy</a>
                     <a href="#">helsa</a>
@@ -160,6 +157,7 @@
                     <a href="#">miu miu</a>
                   </div>
                   <div>
+                    <span><pre></pre></span>
                     <a href="#">pre-owned</a>
                     <a href="#">rick owners</a>
                     <a href="#">saint laurent</a>
@@ -172,51 +170,354 @@
                   </div>
                 </div>
               </div>
-              <a
-                href="new.html"
-                onclick="displayCards('clothing'); event.preventDefault();"
-                >clothing</a
-              >
-              <a
-                href="new.html"
-                onclick="displayCards('dress'); event.preventDefault();"
-                >dresses</a
-              >
-              <a
-                href="new.html"
-                onclick="displayCards('shoes'); event.preventDefault();"
-                >shoes</a
-              >
-              <a
-                href="new.html"
-                onclick="displayCards('bags'); event.preventDefault();"
-                >bags</a
-              >
-              <a
-                href="new.html"
-                onclick="displayCards('accessories'); event.preventDefault();"
-                >accessories</a
-              >
-              <a
-                href="new.html"
-                onclick="displayCards('beauty'); event.preventDefault();"
-                >beauty</a
-              >
-              <a
-                href="new.html"
-                onclick="displayCards('sale'); event.preventDefault();"
-                >sale</a
-              >
-              <a
-                href="new.html"
-                onclick="displayCards('shops'); event.preventDefault();"
-                >shops</a
-              >
-              <div><a href="Kendalls.html">kendall's edit</a></div>
+              <div>
+                <a
+                  href="new.html"
+                  onclick="displayCards('clothing'); event.preventDefault();"
+                  >clothing</a
+                >
+                <div class="st-content st-clothingDD">
+                  <div>
+                    <img
+                      src="https://is4.fwrdassets.com/images/up/2024/March/032224_FW_NAV_Clothing_1x.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src="https://is4.fwrdassets.com/images/up/2024/March/032224_FW_NAV_Clothing2_1x.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <span>shop by category</span>
+                    <a href="#">all clothing</a>
+                    <a href="#">dresses</a>
+                    <a href="#">tops</a>
+                    <a href="#">jackets \& coats</a>
+                    <a href="#">jumpsuits \& rompers</a>
+                    <a href="#">sweaters \& kints</a>
+                    <a href="#">loungwears</a>
+                    <a href="#">denim</a>
+                    <a href="#">pants</a>
+                  </div>
+                  <div>
+                    <span>FEATURED brands</span>
+                    <a href="#">acne studio</a>
+                    <a href="#">balenciaga</a>
+                    <a href="#">isabela marant</a>
+                    <a href="#">jacquemus</a>
+                    <a href="#">jean paul gualtier</a>
+                    <a href="#">khaite</a>
+                    <a href="#">r13</a>
+                    <a href="#">saint laurent</a>
+                    <a href="#">wardrobe.NYC</a>
+                  </div>
+                  <div>
+                    <span>featured shops</span>
+                    <a href="#">the cotton shop</a>
+                    <a href="#">kendall's edit</a>
+                    <a href="#">the spring shops</a>
+                    <a href="#">the vacation shsop</a>
+                    <a href="#">everyday fashion formulas</a>
+                    <a href="#">FWRD Renew</a>
+                    <a href="#">the wedding shop</a>
+                    <a href="#">RSVP in style</a>
+                    <a href="#">editor's picks</a>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <a
+                  href="new.html"
+                  onclick="displayCards('dress'); event.preventDefault();"
+                  >dresses</a
+                >
+                <div class="st-content st-dressesDD">
+                  <div>
+                    <img
+                      src="https://is4.fwrdassets.com/images/up/2024/March/032224_FW_NAV_Dresses_1x.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <span>shop by category</span>
+                    <a href="#">all dresses</a>
+                    <a href="#">asymmetrical</a>
+                    <a href="#">black</a>
+                    <a href="#">cocktail</a>
+                    <a href="#">denim</a>
+                    <a href="#">embellished \& sequined</a>
+                    <a href="#">gowns</a>
+                    <a href="#">lace</a>
+                  </div>
+                  <div>
+                    <span><pre></pre></span>
+                    <a href="#">leather</a>
+                    <a href="#">long sleeve</a>
+                    <a href="#">maxi</a>
+                    <a href="#">midi</a>
+                    <a href="#">mini</a>
+                    <a href="#">off duty</a>
+                    <a href="#">off the shoulder</a>
+                    <a href="#">one shoulder</a>
+                  </div>
+                  <div>
+                    <span><pre></pre></span>
+                    <a href="#">printed</a>
+                    <a href="#">sleeveless</a>
+                    <a href="#">slip dress</a>
+                    <a href="#">strapless</a>
+                    <a href="#">sweater dresses</a>
+                    <a href="#">tank</a>
+                    <a href="#">white</a>
+                    <a href="#">wrap</a>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <a
+                  href="new.html"
+                  onclick="displayCards('shoes'); event.preventDefault();"
+                  >shoes</a
+                >
+                <div class="st-content st-shoesDD">
+                  <div>
+                    <img
+                      src="https://is4.fwrdassets.com/images/up/2024/March/032224_FW_NAV_Shoes_1x.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src="https://is4.fwrdassets.com/images/up/2024/March/032224_FW_NAV_Shoes2_1x.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <span>shop by category</span>
+                    <a href="#">all shoes</a>
+                    <a href="#">heels</a>
+                    <a href="#">sneakers</a>
+                    <a href="#">falt</a>
+                    <a href="#">booties</a>
+                    <a href="#">boots</a>
+                    <a href="#">sandals</a>
+                    <a href="#">wedges</a>
+                  </div>
+                  <div>
+                    <span>featured brands</span>
+                    <a href="#">anima muaddi</a>
+                    <a href="#">balenciaga</a>
+                    <a href="#">bottega veneta</a>
+                    <a href="#">gui borghini</a>
+                    <a href="#">Gianvito Rossi</a>
+                    <a href="#">manolo blahnik</a>
+                    <a href="#">saint laurent</a>
+                    <a href="#">the row</a>
+                    <a href="#">valentino garavani</a>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <a
+                  href="new.html"
+                  onclick="displayCards('bags'); event.preventDefault();"
+                  >bags</a
+                >
+                <div class="st-content st-bagsDD">
+                  <div>
+                    <img
+                      src="https://is4.fwrdassets.com/images/up/2024/March/032224_FW_NAV_Bags_1x.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src="https://is4.fwrdassets.com/images/up/2024/March/032224_FW_NAV_Bags2_1x.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <span>shop by category</span>
+                    <a href="#">all bags</a>
+                    <a href="#">clutches</a>
+                    <a href="#">crossbody bags</a>
+                    <a href="#">mini bags</a>
+                    <a href="#">pre owned</a>
+                    <a href="#">shoulder bags</a>
+                    <a href="#">totes</a>
+                    <a href="#">wallets</a>
+                  </div>
+                  <div>
+                    <span>featured brands</span>
+                    <a href="#">alaia</a>
+                    <a href="#">balenciaga</a>
+                    <a href="#">bottega veneta</a>
+                    <a href="#">chloe</a>
+                    <a href="#">givenchy</a>
+                    <a href="#">loewe</a>
+                    <a href="#">saint laurent</a>
+                    <a href="#">the row</a>
+                    <a href="#">valentino garavani</a>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <a href="new.html">accessories</a>
+                <div class="st-content st-accessoriesDD">
+                  <div>
+                    <img
+                      src="https://is4.fwrdassets.com/images/up/2024/March/032224_FW_NAV_Accessories_1x.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <span>shop by category</span>
+                    <a href="#">all accessories</a>
+                    <a href="#">beauty</a>
+                    <a href="#">jewelry</a>
+                    <a href="#">belts</a>
+                    <a href="#">hats</a>
+                    <a href="#">home</a>
+                    <a href="#">gifts</a>
+                    <a href="#">gift Certificates</a>
+                    <a href="#">sunglasses \& eyewear</a>
+                  </div>
+                  <div>
+                    <span>featured brands</span>
+                    <a href="#">balenciaga</a>
+                    <a href="#">bottega veneta</a>
+                    <a href="#">fendi</a>
+                    <a href="#">givenchy</a>
+                    <a href="#">gucci</a>
+                    <a href="#">saint laurent</a>
+                    <a href="#">tom ford</a>
+                    <a href="#">valentino garavani</a>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <a
+                  href="new.html"
+                  onclick="displayCards('beauty'); event.preventDefault();"
+                  >beauty</a
+                >
+                <div class="st-content st-beautyDD">
+                  <div>
+                    <img
+                      src="https://is4.fwrdassets.com/images/up/2024/March/032224_FW_NAV_Beauty_1x_r.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src="https://is4.fwrdassets.com/images/up/2024/March/032224_FW_NAV_Beauty2_1x.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <span>shop by category</span>
+                    <a href="#">all beauty</a>
+                    <a href="#">accessories</a>
+                    <a href="#">bath &body</a>
+                    <a href="#">fragrence</a>
+                    <a href="#">hair</a>
+                    <a href="#">makeup</a>
+                    <a href="#">skincare</a>
+                    <a href="#">tools \& brushes</a>
+                    <a href="#">ties</a>
+                    <a href="#">watches</a>
+                  </div>
+                  <div>
+                    <span>featured brands</span>
+                    <a href="#">aesop</a>
+                    <a href="#">balenciaga</a>
+                    <a href="#">bottega veneta</a>
+                    <a href="#">burberry</a>
+                    <a href="#">byredo</a>
+                    <a href="#">jacquemus</a>
+                    <a href="#">polo ralph lauren</a>
+                    <a href="#">saint laurent</a>
+                    <a href="#">tom ford</a>
+                    <a href="#">trudon</a>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <a
+                  href="new.html"
+                  onclick="displayCards('sale'); event.preventDefault();"
+                  >sale</a
+                >
+              </div>
+              <div>
+                <a
+                  href="new.html"
+                  onclick="displayCards('shops'); event.preventDefault();"
+                  >shops</a
+                >
+                <div class="st-content st-shopsDD">
+                  <div>
+                    <img
+                      src="https://is4.fwrdassets.com/images/up/2024/April/042924_f_shops_thecottonshop_1X.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src="https://is4.fwrdassets.com/images/up/2024/March/032224_FW_NAV_Shops2_1x.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <span>shop by trend</span>
+                    <a href="#">matching sets</a>
+                    <a href="#">everyday fashion formulas</a>
+                    <a href="#">leather</a>
+                    <a href="#">precious cargo</a>
+                  </div>
+                  <div>
+                    <span>featured shops</span>
+                    <a href="#">vacation shop</a>
+                    <a href="#">the cotton shop</a>
+                    <a href="#">kendall's edit</a>
+                    <a href="#">the spring shop</a>
+                    <a href="#">special occassion shop</a>
+                    <a href="#">FWRD renew</a>
+                    <a href="#">the modern bride</a>
+                    <a href="#">RSVP in style</a>
+                    <a href="#">editor's pickes</a>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <a href="Kendalls.html">kendall's edit</a>
+                <div class="st-content st-kendallDD">
+                  <div>
+                    <img
+                      src="https://is4.fwrdassets.com/images/up/2024/March/032224_FW_NAV_KJEdit_1x.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src="https://is4.fwrdassets.com/images/up/2023/December/010124_f_shops_aspen_1x.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src="https://is4.fwrdassets.com/images/up/2024/March/032224_FW_NAV_TheLooks_1x.jpg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </section>
-        <!--////////////////////////////////syed/////////////////////////////////////-->
+        <!--////////////////////////////////syed's work ends /////////////////////////////////////-->
       </nav>
       <main>
         <!-- rahul and pradeep -->

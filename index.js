@@ -1,11 +1,12 @@
 let finaldata = JSON.parse(localStorage.getItem('products')) || [];
-
+let arr;
 async function fetchProducts(url) {
   try {
     let res = await fetch(url);
     let data = await res.json();
     display(data);
     finaldata = data;
+    arr = data;
     localStorage.setItem('products', JSON.stringify(finaldata));
     console.log(data);
   } catch (error) {
@@ -44,9 +45,10 @@ function cardCreater(item) {
 }
 
 function displayCards(val) {
-  if (val === 'new') {
+  console.log(val);
+  if (val == 'new') {
     let arr1 = arr.filter((ele) => {
-      if (ele.new === 'true') {
+      if (ele.new == 'true') {
         return true;
       }
     });
@@ -71,7 +73,13 @@ let finaldesigners = [...new Set(designers)];
 let selection = document.getElementById('selection');
 finaldesigners.forEach((ele) => {
   let option = document.createElement('option');
+  option.className = 'optionfont';
   option.value = ele;
   option.textContent = ele;
   selection.appendChild(option);
+});
+
+selection.addEventListener('change', () => {
+  console.log(selection.value);
+  display(finaldata);
 });
