@@ -1,69 +1,74 @@
-let getSelectedValue;
-document.querySelectorAll('input[name="gender"]').forEach((ele) => {
-  ele.addEventListener('click', () => {
-    getSelectedValue = ele.value;
+let arr;
+async function fetchProducts(url) {
+  try {
+    let res = await fetch(url);
+    let data = await res.json();
+    console.log(data);
+    // array = [...data];
+    // data.forEach((i) => {
+    //   arr.push(i);
+    // });
+    arr = data;
+    display(data);
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+function display(data) {
+  macardbox.innerHTML = '';
+  data.forEach((item) => {
+    macardbox.append(cardCreater(item));
   });
-});
-let signup = document.getElementById('signupbtn');
+}
 
-signup.addEventListener('click', (e) => {
-  e.preventDefault();
-  let pass1 = document.getElementById('signuppassword1').value;
-  let cpass = document.getElementById('signuppassword2').value;
+fetchProducts('http://localhost:3000/data');
+console.log(arr);
+// setTimeout(() => {
+//   console.log(arr);
+// }, 2000);
 
-  if (pass1 === cpass) {
-    let user = {
-      usermail: document.getElementById('signupemail').value,
-      password: cpass,
-      gender: getSelectedValue,
-      cart: [],
-      mydesigners: [],
-    };
-    async function postdata() {
-      let res = await fetch('http://localhost:3000/users', {
-        method: 'POST',
-        headers: {
-          'Content-type': 'application/json',
-        },
-        body: JSON.stringify(user),
-      });
-      let data = await res.json();
-    }
-    postdata();
-    alert('Sign Up Sucessfull... Please Login!');
-  } else {
-    alert('create password and confirm password is not matching');
-  }
-});
+let macardbox = document.getElementById('macardbox');
 
-let signin = document.getElementById('signin');
+function cardCreater(item) {
+  let div = document.createElement('div');
+  div.className = 'cardstyle';
+  let image = document.createElement('img');
+  let designer = document.createElement('p');
+  let title = document.createElement('p');
+  let price = document.createElement('p');
 
-signin.addEventListener('click', (e) => {
-  e.preventDefault();
-  let signinmail = document.getElementById('signinmail').value;
-  let password = document.getElementById('signinpass').value;
+  image.setAttribute('src', item.image);
+  designer.innerText = item.designer;
+  title.innerText = item.title;
+  price.innerText = item.price;
+  div.append(image, designer, title, price);
+  // div.addEventListener('click', productpage);
+  return div;
+}
 
-  async function fetchData(url) {
-    try {
-      let res = await fetch(url);
-      let data = await res.json();
-      let found = false;
-      data.forEach((item) => {
-        if (signinmail == item.usermail) {
-          found = true;
-          if (password === item.password) {
-            alert('Login Sucessful...');
-          } else {
-            alert('Enter the correct Id Password!!!');
-          }
-        }
-      });
-      if (!found) {
-        alert('user not found please create new account!');
+function displayCards(val) {
+  console.log('clicked');
+
+  if (val == 'new') {
+    let arr1 = arr.filter((ele) => {
+      if (ele.val == true) {
+        return true;
       }
-    } catch (error) {
-      console.log(error);
-    }
+    });
+    display(arr1);
+    console.log(arr1);
+  } else {
+    let arr1 = arr.filter((ele) => {
+      if (ele.category == val) {
+        return true;
+      }
+    });
+    display(arr1);
+    console.log(arr1);
   }
-  fetchData('http://localhost:3000/users');
-});
+
+  // arr.forEach((item) => {
+  //   macardbox.append(cardCreater(item));
+  // });
+}

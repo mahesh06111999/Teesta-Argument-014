@@ -11,127 +11,779 @@
   ],
   "data": [
     {
+      "id": 1,
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/NOMF-WD478_V1.jpg",
+      "designer": "Norma Kamali",
+      "title": "Strapless Bill Pickleball Dress",
+      "price": "₹32,833",
+      "category": "clothing"
+    },
+    {
+      "id": 2,
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/RTFF-WP31_V1.jpg",
+      "designer": "retrofete",
+      "title": "Danica Pant",
+      "price": "₹24,520",
+      "category": "clothing"
+    },
+    {
+      "id": 3,
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/SPOF-WD363_V1.jpg",
+      "designer": "self-portrait",
+      "title": "Crepe Bow Mini Dress",
+      "price": "₹38,651",
+      "category": "clothing"
+    },
+    {
+      "id": 4,
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/NOMF-WC108_V1.jpg",
+      "designer": "Norma Kamali",
+      "title": "Long Sleeve Turtleneck Catsuit with Footie",
+      "price": "₹13,299",
+      "category": "clothing"
+    },
+    {
+      "id": 5,
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/HLSA-WO9_V1.jpg",
+      "designer": "Helsa",
+      "title": "Tech Gabardine Zip Jacket",
+      "price": "₹27,263",
+      "category": "clothing"
+    },
+    {
+      "id": 6,
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/CHRF-WD212_V1.jpg",
+      "designer": "Christopher Esber",
+      "title": "Molded Venus Dress",
+      "price": "₹80,544",
+      "category": "clothing"
+    },
+    {
+      "id": 7,
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/NOMF-WD342_V1.jpg",
+      "designer": "Norma Kamali",
+      "title": "Long Sleeve Turtleneck Fishtail Mini Dress",
+      "price": "₹17,871",
+      "category": "clothing"
+    },
+    {
+      "id": 8,
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/HLSA-WD39_V1.jpg",
+      "designer": "Helsa",
+      "title": "Matte Jersey Off Shoulder Maxi Dress",
+      "price": "₹18,951",
+      "category": "clothing"
+    },
+    {
+      "id": 9,
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/NOMF-WD468_V1.jpg",
+      "designer": "Norma Kamali",
+      "title": "Long Sleeve Turtleneck Pickleball Dress",
+      "price": "₹18,702",
+      "category": "clothing"
+    },
+    {
+      "id": 10,
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/ENZF-WP57_V1.jpg",
+      "designer": "Enza Costa",
+      "title": "Twill Everywhere Pant",
+      "price": "₹24,520",
+      "category": "clothing"
+    },
+    {
+      "id": 11,
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/BLMF-WD131_V1.jpg",
+      "designer": "BALMAIN",
+      "title": "Long Sleeve Buttoned Short Dress",
+      "price": "₹2,73,470",
+      "category": "clothing"
+    },
+    {
+      "id": 12,
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/NOMF-WD463_V1.jpg",
+      "designer": "Norma Kamali",
+      "title": "One Sleeve Drop Shoulder Side Drape Mini Dress",
+      "price": "₹16,208",
+      "category": "clothing"
+    },
+    {
+      "id": 13,
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/RTFF-WD319_V1.jpg",
+      "designer": "retrofete",
+      "title": "Nicole Dress",
+      "price": "₹49,457",
+      "category": "clothing"
+    },
+    {
+      "id": 14,
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/NOMF-WS78_V1.jpg",
+      "designer": "Norma Kamali",
+      "title": "Oversized Boyfriend Shirt Bodysuit",
+      "price": "₹17,871",
+      "category": "clothing"
+    },
+    {
+      "id": 15,
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/JQUF-WD132_V1.jpg",
+      "designer": "JACQUEMUS",
+      "title": "La Robe Bari",
+      "price": "₹91,433",
+      "category": "clothing"
+    },
+    {
+      "id": 16,
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/NOMF-WD375_V1.jpg",
+      "designer": "Norma Kamali",
+      "title": "Oversized Shirt Shirred Bottom Mini Dress",
+      "price": "₹15,377",
+      "category": "clothing"
+    },
+    {
+      "id": 17,
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/NOMF-WC121_V1.jpg",
+      "designer": "Norma Kamali",
+      "title": "Long Sleeve Deep V Neck Catsuit",
+      "price": "₹16,208",
+      "category": "clothing"
+    },
+    {
+      "id": 18,
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/MAYF-WD8_V1.jpg",
+      "designer": "Maygel Coronel",
+      "title": "Veranera Dress",
+      "price": "₹42,392",
+      "category": "clothing"
+    },
+    {
+      "id": 19,
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/NOMF-WD451_V1.jpg",
+      "designer": "Norma Kamali",
+      "title": "Sleeveless Pickleball Mini Dress",
+      "price": "₹12,052",
+      "category": "clothing"
+    },
+    {
+      "id": 20,
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/NOMF-WD465_V1.jpg",
+      "designer": "Norma Kamali",
+      "title": "Spliced Fishtail Gown",
+      "price": "₹21,196",
+      "category": "clothing"
+    },
+    {
+      "id": 21,
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/NOMF-WD378_V1.jpg",
+      "designer": "Norma Kamali",
+      "title": "Sleeveless Pickleball Mini Dress",
+      "price": "12,052",
+      "category": "clothing"
+    },
+    {
+      "id": 22,
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/NOMF-WD323_V1.jpg",
+      "designer": "Norma Kamali",
+      "title": "Turtleneck Strapless Fishtail Gown",
+      "price": "₹22,858",
+      "category": "clothing"
+    },
+    {
+      "id": 23,
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/GRLR-WJ604_V1.jpg",
+      "designer": "GRLFRND",
+      "title": "Camille High Rise Flared Trouser",
+      "price": "₹20,364",
+      "category": "clothing"
+    },
+    {
+      "id": 24,
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/SMEF-WD9_V1.jpg",
+      "designer": "Shani Shemer",
+      "title": "Lily Maxi Dress",
+      "price": "₹41,145",
+      "category": "clothing"
+    },
+    {
+      "id": 25,
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/ENZF-WD476_V1.jpg",
+      "designer": "Enza Costa",
+      "title": "Knit Turtleneck Mini Tunic Dress",
+      "price": "₹18,702",
+      "category": "clothing"
+    },
+    {
+      "id": 26,
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/JSIM-WD558_V1.jpg",
+      "designer": "SIMKHAI",
+      "title": "Arta Bustier Mini Dress",
+      "price": "₹61,925",
+      "category": "clothing"
+    },
+    {
+      "id": 27,
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/CITI-WJ1803_V1.jpg",
+      "designer": "Citizens of Humanity",
+      "title": "Ayla Baggy Cuffed Crop",
+      "price": "₹22,276",
+      "category": "clothing"
+    },
+    {
+      "id": 28,
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/NOMF-WD310_V1.jpg",
+      "designer": "Norma Kamali",
+      "title": "One Shoulder Bias Gown",
+      "price": "₹27,014",
+      "category": "clothing"
+    },
+    {
+      "id": 29,
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/AGOL-WJ446_V1.jpg",
+      "designer": "AGOLDE",
+      "title": "90's Pinch Waist",
+      "price": "₹16,458",
+      "category": "clothing"
+    },
+    {
+      "id": 30,
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/RTFF-WD442_V1.jpg",
+      "designer": "retrofete",
+      "title": "Ember Dress",
+      "price": 57769,
+      "category": "clothing"
+    },
+    {
+      "id": 31,
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/NOMF-WD447_V1.jpg",
+      "designer": "Norma Kamali",
+      "title": "Super Oversized Boyfriend Shirt Flared Gown",
+      "price": "₹20,364",
+      "category": "clothing"
+    },
+    {
+      "id": 32,
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/RTFF-WD299_V1.jpg",
+      "designer": "retrofete",
+      "title": "Candice Gown",
+      "price": "₹61,925",
+      "category": "clothing"
+    },
+    {
+      "id": 33,
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/NOMF-WD314_V1.jpg",
+      "designer": "Norma Kamali",
+      "title": "Long Sleeve Turtleneck Side Drape Gown",
+      "price": "₹12,168",
+      "category": "clothing"
+    },
+    {
+      "id": 34,
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/NOMF-WD485_V1.jpg",
+      "designer": "Norma Kamali",
+      "title": "Long Sleeve Turtleneck Side Drape Gown",
+      "price": "₹12,468",
+      "category": "clothing"
+    },
+    {
+      "id": 35,
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/SEDF-WD28_V1.jpg",
+      "designer": "SIEDRES",
+      "title": "Nisha Sun Ray Printed Dress",
+      "price": "₹29,757",
+      "category": "clothing"
+    },
+    {
+      "id": 36,
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/PTAB-WD256_V1.jpg",
+      "designer": "PatBO",
+      "title": "Twist Top Fringe Midi Dress",
+      "price": "₹62,341",
+      "category": "clothing"
+    },
+    {
+      "id": 37,
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/NOMF-WD374_V1.jpg",
+      "designer": "Norma Kamali",
+      "title": "Long Sleeve Diana Gown",
+      "price": "₹18,702",
+      "category": "clothing"
+    },
+    {
+      "id": 38,
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/RTFF-WD342_V1.jpg",
+      "designer": "retrofete",
+      "title": "Regina Dress",
+      "price": "₹49,457",
+      "category": "clothing"
+    },
+    {
+      "id": 39,
+      "image": "https://is4.fwrdassets.com/images/p/fw/p/NOMF-WP68_V1.jpg",
+      "designer": "Norma Kamali",
+      "title": "Thigh High Spliced Legging",
+      "price": "₹8,229",
+      "category": "clothing"
+    },
+    {
+      "id": 40,
       "designer": "ACNE STUDIOS",
       "title": "Varong Sarong",
       "price": "₹39,191.65",
-      "image": [
-        "https://is4.fwrdassets.com/images/p/fw/z/ACNE-WA211_V1.jpg",
-        "https://is4.fwrdassets.com/images/p/fw/z/ACNE-WA211_V1.jpg",
-        "https://is4.fwrdassets.com/images/p/fw/z/ACNE-WA211_V3.jpg"
-      ],
+      "image": "https://is4.fwrdassets.com/images/p/fw/z/ACNE-WA211_V1.jpg",
       "new": "true",
       "category": "dress"
     },
     {
+      "id": 41,
       "designer": "ACNE STUDIOS",
       "title": "Holtz Lace Camo Sun Hat",
       "price": "₹35,022.33",
-      "image": [
-        "https://is4.fwrdassets.com/images/p/fw/45s/ACNE-WA212_V1.jpg",
-        "https://is4.fwrdassets.com/images/p/fw/z/ACNE-WA212_V2.jpg",
-        "https://is4.fwrdassets.com/images/p/fw/z/ACNE-WA212_V3.jpg"
-      ],
+      "image": "https://is4.fwrdassets.com/images/p/fw/45s/ACNE-WA212_V1.jpg",
       "new": "true",
       "category": "dress"
     },
     {
+      "id": 42,
       "designer": "AGOLDE",
       "title": "Harper Mid Rise Straight",
       "price": "₹18,178.33",
-      "image": [
-        "https://is4.fwrdassets.com/images/p/fw/z/AGOL-WJ530_V1.jpg",
-        "https://is4.fwrdassets.com/images/p/fw/z/AGOL-WJ530_V2.jpg",
-        "https://is4.fwrdassets.com/images/p/fw/z/AGOL-WJ530_V3.jpg"
-      ],
+      "image": "https://is4.fwrdassets.com/images/p/fw/z/AGOL-WJ530_V1.jpg",
+
       "new": "true",
       "category": "dress"
     },
     {
+      "id": 43,
       "designer": "AJE",
       "title": "Cordelia Corsetted Maxi Dress",
       "price": "₹52,116.56",
-      "image": [
-        "https://is4.fwrdassets.com/images/p/fw/z/AJEF-WD92_V1.jpg",
-        "https://is4.fwrdassets.com/images/p/fw/z/AJEF-WD92_V2.jpg",
-        "https://is4.fwrdassets.com/images/p/fw/z/AJEF-WD92_V3.jpg"
-      ],
+      "image": "https://is4.fwrdassets.com/images/p/fw/z/AJEF-WD92_V1.jpg",
       "new": "true",
       "category": "dress"
     },
     {
+      "id": 44,
       "designer": "BODE",
       "title": "Ace Of Spades Dress",
       "price": "₹57,536.68",
-      "image": [
-        "https://is4.fwrdassets.com/images/p/fw/z/BOFE-WD12_V1.jpg",
-        "https://is4.fwrdassets.com/images/p/fw/z/BOFE-WD12_V2.jpg",
-        "https://is4.fwrdassets.com/images/p/fw/z/BOFE-WD12_V3.jpg"
-      ],
+      "image": "https://is4.fwrdassets.com/images/p/fw/z/BOFE-WD12_V1.jpg",
+
       "new": "true",
       "category": "dress"
     },
     {
+      "id": 45,
       "designer": "ALC",
       "title": "Delfina Dress",
       "price": "₹57,953.62",
-      "image": [
-        "https://is4.fwrdassets.com/images/p/fw/z/ALC-WD524_V1.jpg",
-        "https://is4.fwrdassets.com/images/p/fw/z/ALC-WD524_V2.jpg",
-        "https://is4.fwrdassets.com/images/p/fw/z/ALC-WD524_V3.jpg"
-      ],
+      "image": "https://is4.fwrdassets.com/images/p/fw/z/ALC-WD524_V1.jpg",
+
       "new": "false",
       "category": "clothing"
     },
     {
+      "id": 46,
       "designer": "ADIDAS ORIGINALS",
       "title": "Rivalry 86 Low Sneaker",
       "price": "₹10,006.38",
-      "image": [
-        "https://is4.fwrdassets.com/images/p/fw/z/ADIO-MZ224_V1.jpg",
-        "https://is4.fwrdassets.com/images/p/fw/z/ADIO-MZ224_V2.jpg",
-        "https://is4.fwrdassets.com/images/p/fw/z/ADIO-MZ224_V3.jpg"
-      ],
+      "image": "https://is4.fwrdassets.com/images/p/fw/z/ADIO-MZ224_V1.jpg",
       "new": "true",
       "category": "shoes"
     },
     {
+      "id": 47,
       "designer": "ALPHA INDUSTRIES",
       "title": "Panel Jacket",
       "price": "₹10,339.93",
-      "image": [
-        "https://is4.fwrdassets.com/images/p/fw/z/ALPF-MO100_V1.jpg",
-        "https://is4.fwrdassets.com/images/p/fw/z/ALPF-MO100_V2.jpg",
-        "https://is4.fwrdassets.com/images/p/fw/z/ALPF-MO100_V3.jpg"
-      ],
+      "image": "https://is4.fwrdassets.com/images/p/fw/z/ALPF-MO100_V1.jpg",
       "new": "false",
       "category": "clothing"
     },
     {
+      "id": 48,
       "designer": "AMBUSH",
       "title": "Graphic Crewneck",
       "price": "₹57,119.75",
-      "image": [
-        "https://is4.fwrdassets.com/images/p/fw/z/ASBM-MK8_V1.jpg",
-        "https://is4.fwrdassets.com/images/p/fw/z/ASBM-MK8_V2.jpg",
-        "https://is4.fwrdassets.com/images/p/fw/z/ASBM-MK8_V3.jpg"
-      ],
+      "image": "https://is4.fwrdassets.com/images/p/fw/z/ASBM-MK8_V1.jpg",
       "new": "false",
       "category": "clothing"
-    } , 
+    },
 
     {
+      "id": 49,
       "designer": "AMBUSH",
       "title": "Graphic Crewneck",
       "price": "₹57,119.75",
-      "image": [
-        "https://is4.fwrdassets.com/images/p/fw/z/FNEF-WZ2_V1.jpg",
-        "https://is4.fwrdassets.com/images/p/fw/z/FNEF-WZ2_V2.jpg",
-        "https://is4.fwrdassets.com/images/p/fw/z/FNEF-WZ2_V3.jpg"
-        
-      ],
+      "image": "https://is4.fwrdassets.com/images/p/fw/z/FNEF-WZ2_V1.jpg",
       "new": "false",
       "category": "clothing"
+    },
+
+    {
+      "id": 50,
+      "designer": "ACNE STUDIOS",
+      "title": "Midsummer Shopper Bag",
+      "price": "₹57,119.75",
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/ACNE-WY93_V1.jpg",
+      "new": "false",
+      "category": "bags"
+    },
+
+    {
+      "id": 51,
+      "designer": "BALENCIAGA",
+      "title": "BB Soft Flap Small Bag",
+      "price": "₹57,119.75",
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/BALF-WY1457_V1.jpg",
+      "new": "false",
+      "category": "bags"
+    },
+
+    {
+      "id": 52,
+      "designer": "JANESSA LEONE",
+      "title": "Beca Backpack",
+      "price": "₹57,119.75",
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/JLEO-WY2_V1.jpg",
+      "new": "false",
+      "category": "bags"
+    },
+
+    {
+      "id": 53,
+      "designer": "FWRD RENEW",
+      "title": "Saint Laurent Small Kate Chain Bag",
+      "price": "₹57,119.75",
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/FNEF-WY2925_V1.jpg",
+      "new": "false",
+      "category": "bags"
+    },
+
+    {
+      "id": 54,
+      "designer": "FWRD RENEW",
+      "title": "Saint Laurent Small Kate Chain Bag",
+      "price": "₹57,119.75",
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/FNEF-WY2932_V1.jpg",
+      "new": "false",
+      "category": "bags"
+    },
+
+    {
+      "id": 55,
+      "designer": "FWRD RENEW",
+      "title": "Bottega Veneta The Pouch Chain Bag",
+      "price": "₹57,119.75",
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/FNEF-WY16_V1.jpg",
+      "new": "false",
+      "category": "bags"
+    },
+
+    {
+      "id": 56,
+      "designer": "BOTTEGA VENETA",
+      "title": "Micro Arco Tote Bag",
+      "price": "₹57,119.75",
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/BOTT-WY1675_V1.jpg",
+      "new": "false",
+      "category": "bags"
+    },
+
+    {
+      "id": 57,
+      "designer": "FWRD RENEW",
+      "title": "Gucci GG Marmont Waist Bag",
+      "price": "₹57,119.75",
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/FNEF-WY2913_V1.jpg",
+      "new": "false",
+      "category": "bags"
+    },
+
+    {
+      "id": 58,
+      "designer": "BOTTEGA VENETA",
+      "title": "Mini Jodie Bag",
+      "price": "₹57,119.75",
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/BOTT-WY1676_V1.jpg",
+      "new": "false",
+      "category": "bags"
+    },
+
+    {
+      "id": 59,
+      "designer": "FWRD RENEW",
+      "title": "Channel Boy Wallet On Chain Bag",
+      "price": "₹57,119.75",
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/FNEF-WY3159_V1.jpg",
+      "new": "false",
+      "category": "bags"
+    },
+
+    {
+      "id": 60,
+      "designer": "FWRD RENEW",
+      "title": "The Row Small North South Park Tote Bag",
+      "price": "₹57,119.75",
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/FNEF-WY3006_V1.jpg",
+      "new": "false",
+      "category": "bags"
+    },
+
+    {
+      "id": 61,
+      "designer": "FWRD RENEW",
+      "title": "Fendi Bucket Embroidered 2 Way Shoulder Bag",
+      "price": "₹57,119.75",
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/FNEF-WY3209_V1.jpg",
+      "new": "false",
+      "category": "bags"
+    },
+
+    {
+      "id": 62,
+      "designer": "BOTTEGA VENETA",
+      "title": "Small Hop Bag",
+      "price": "₹57,119.75",
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/BOTT-WY1673_V1.jpg",
+      "new": "false",
+      "category": "bags"
+    },
+
+    {
+      "id": 63,
+      "designer": "BOTTEGA VENETA",
+      "title": "Tag Holder",
+      "price": "₹57,119.75",
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/BOTT-WA287_V1.jpg",
+      "new": "false",
+      "category": "accessories"
+    },
+
+    {
+      "id": 64,
+      "designer": "CULT GAIA",
+      "title": "Brynn Tote Bag",
+      "price": "₹57,119.75",
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/GAIA-WY134_V1.jpg",
+      "new": "false",
+      "category": "bags"
+    },
+
+    {
+      "id": 65,
+      "designer": "BODE",
+      "title": "Clothesline Tote Bag",
+      "price": "₹57,119.75",
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/BOFE-WY2_V1.jpg",
+      "new": "false",
+      "category": "bags"
+    },
+
+    {
+      "id": 66,
+      "designer": "PARAVEL",
+      "title": "Packing Cube Quad Case",
+      "price": "₹57,119.75",
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/PAVF-WA1_V1.jpg",
+      "new": "false",
+      "category": "bags"
+    },
+
+    {
+      "id": 67,
+      "designer": "BALENCIAGA",
+      "title": "Monogram Long Coin Card Holder",
+      "price": "₹57,119.75",
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/BALF-WY1451_V1.jpg",
+      "new": "false",
+      "category": "accessories"
+    },
+
+    {
+      "id": 68,
+      "designer": "TOM FORD",
+      "title": "Blake Sunglasses",
+      "price": "₹57,119.75",
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/TFOF-WG26_V1.jpg",
+      "new": "false",
+      "category": "accessories"
+    },
+
+    {
+      "id": 69,
+      "designer": "THE ROW",
+      "title": "Ben Bag",
+      "price": "₹57,119.75",
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/TERX-WY583_V1.jpg",
+      "new": "false",
+      "category": "bags"
+    },
+
+    {
+      "id": 70,
+      "designer": "THE ROW",
+      "title": "Ben Bag",
+      "price": "₹57,119.75",
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/TERX-WY583_V1.jpg",
+      "new": "false",
+      "category": "bags"
+    },
+
+    {
+      "id": 71,
+      "designer": "AESOP",
+      "title": "Eleos Aromatique Hand Balm Tube",
+      "price": "₹57,119.75",
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/AESR-WU183_V1.jpg",
+      "new": "false",
+      "category": "beauty"
+    },
+
+    {
+      "id": 72,
+      "designer": "DAVID KOMA",
+      "title": "Crystal Daisy Garter",
+      "price": "₹57,119.75",
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/DAVF-WA8_V1.jpg",
+      "new": "false",
+      "category": "accessories"
+    },
+
+    {
+      "id": 73,
+      "designer": "EMI JAY",
+      "title": "Silk Scrunchie",
+      "price": "₹57,119.75",
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/EIJF-WA90_V1.jpg",
+      "new": "false",
+      "category": "accessories"
+    },
+
+    {
+      "id": 74,
+      "designer": "CLYDE",
+      "title": "Aries Hat",
+      "price": "₹57,119.75",
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/CLYF-WA38_V1.jpg",
+      "new": "true",
+      "category": "hats"
+    },
+
+    {
+      "id": 75,
+      "designer": "BUSINESS & PLEASURE CO.",
+      "title": "Market Umbrella",
+      "price": "₹57,119.75",
+      "image": "https://is4.fwrdassets.com/images/p/fw/z/BSUR-WH45_V1.jpg",
+      "new": "true",
+      "category": "home"
+    },
+
+    {
+      "id": 76,
+      "designer": "WOLFORD",
+      "title": "Velvet De Luxe 66 Tights",
+      "price": "₹57,119.75",
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/WOLF-WA75_V1.jpg",
+      "new": "false",
+      "category": "clothing"
+    },
+
+    {
+      "id": 77,
+      "designer": "DEMARSON",
+      "title": "Naomi Necklace",
+      "price": "₹57,119.75",
+      "image": "https://is4.fwrdassets.com/images/p/fw/z/DRSF-WL33_V1.jpg",
+      "new": "false",
+      "category": "accessories"
+    },
+
+    {
+      "id": 78,
+      "designer": "SAINT LAURENT",
+      "title": "Gaby Key Pouch",
+      "price": "₹57,119.75",
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/SLAU-WY2443_V1.jpg",
+      "new": "false",
+      "category": "accessories"
+    },
+
+    {
+      "id": 79,
+      "designer": "FWRD RENEW",
+      "title": "Channel Bucket Hat",
+      "price": "₹57,119.75",
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/FNEF-WA127_V1.jpg",
+      "new": "false",
+      "category": "clothing"
+    },
+
+    {
+      "id": 80,
+      "designer": "STELLA MCCARTNEY",
+      "title": "Knit Face Mask",
+      "price": "₹57,119.75",
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/SMCC-WA23_V1.jpg",
+      "new": "false",
+      "category": "accessories"
+    },
+
+    {
+      "id": 81,
+      "designer": "SAINT LAURENT",
+      "title": "Grand Scarf",
+      "price": "₹57,119.75",
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/SLAU-WA360_V1.jpg",
+      "new": "false",
+      "category": "accessories"
+    },
+
+    {
+      "id": 82,
+      "designer": "TOM FORD",
+      "title": "Moira Sunglasses",
+      "price": "₹57,119.75",
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/TFOF-WG30_V1.jpg",
+      "new": "false",
+      "category": "accessories"
+    },
+
+    {
+      "id": 83,
+      "designer": "BURBERRY",
+      "title": "Rectangle Sunglasses",
+      "price": "₹57,119.75",
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/BURF-WG4_V1.jpg",
+      "new": "false",
+      "category": "accessories"
+    },
+
+    {
+      "id": 84,
+      "designer": "SAINT LAURENT",
+      "title": "Gaby Chain Phone Holder Bag",
+      "price": "₹57,119.75",
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/SLAU-WY2531_V1.jpg",
+      "new": "false",
+      "category": "bags"
+    },
+
+    {
+      "id": 85,
+      "designer": "GUCCI",
+      "title": "Bee Watch",
+      "price": "₹57,119.75",
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/GUCC-WL87_V1.jpg",
+      "new": "false",
+      "category": "watches"
+    },
+    {
+      "id": 86,
+      "designer": "AJE",
+      "title": "Edith Draped Top",
+      "price": "₹24,119.75",
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/GUCC-WL87_V1.jpg",
+      "new": "true",
+      "category": "clothing"
     }
-    
   ]
 }
