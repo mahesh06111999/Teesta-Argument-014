@@ -7,6 +7,13 @@
       "cart": [],
       "mydesigners": [],
       "id": 1
+    },
+    {
+      "usermail": "g@gmail.com",
+      "password": "999000",
+      "cart": [],
+      "mydesigners": [],
+      "id": 2
     }
   ],
   "data": [
@@ -346,7 +353,6 @@
       "title": "Harper Mid Rise Straight",
       "price": "₹18,178.33",
       "image": "https://is4.fwrdassets.com/images/p/fw/z/AGOL-WJ530_V1.jpg",
-
       "new": "true",
       "category": "dress"
     },
@@ -365,7 +371,6 @@
       "title": "Ace Of Spades Dress",
       "price": "₹57,536.68",
       "image": "https://is4.fwrdassets.com/images/p/fw/z/BOFE-WD12_V1.jpg",
-
       "new": "true",
       "category": "dress"
     },
@@ -375,7 +380,6 @@
       "title": "Delfina Dress",
       "price": "₹57,953.62",
       "image": "https://is4.fwrdassets.com/images/p/fw/z/ALC-WD524_V1.jpg",
-
       "new": "false",
       "category": "clothing"
     },
@@ -406,7 +410,6 @@
       "new": "false",
       "category": "clothing"
     },
-
     {
       "id": 49,
       "designer": "AMBUSH",
@@ -416,7 +419,6 @@
       "new": "false",
       "category": "clothing"
     },
-
     {
       "id": 50,
       "designer": "ACNE STUDIOS",
@@ -426,7 +428,6 @@
       "new": "false",
       "category": "bags"
     },
-
     {
       "id": 51,
       "designer": "BALENCIAGA",
@@ -436,7 +437,6 @@
       "new": "false",
       "category": "bags"
     },
-
     {
       "id": 52,
       "designer": "JANESSA LEONE",
@@ -446,7 +446,6 @@
       "new": "false",
       "category": "bags"
     },
-
     {
       "id": 53,
       "designer": "FWRD RENEW",
@@ -456,7 +455,6 @@
       "new": "false",
       "category": "bags"
     },
-
     {
       "id": 54,
       "designer": "FWRD RENEW",
@@ -466,7 +464,6 @@
       "new": "false",
       "category": "bags"
     },
-
     {
       "id": 55,
       "designer": "FWRD RENEW",
@@ -476,7 +473,6 @@
       "new": "false",
       "category": "bags"
     },
-
     {
       "id": 56,
       "designer": "BOTTEGA VENETA",
@@ -486,7 +482,6 @@
       "new": "false",
       "category": "bags"
     },
-
     {
       "id": 57,
       "designer": "FWRD RENEW",
@@ -496,7 +491,6 @@
       "new": "false",
       "category": "bags"
     },
-
     {
       "id": 58,
       "designer": "BOTTEGA VENETA",
@@ -506,7 +500,6 @@
       "new": "false",
       "category": "bags"
     },
-
     {
       "id": 59,
       "designer": "FWRD RENEW",
@@ -516,7 +509,6 @@
       "new": "false",
       "category": "bags"
     },
-
     {
       "id": 60,
       "designer": "FWRD RENEW",
@@ -526,7 +518,6 @@
       "new": "false",
       "category": "bags"
     },
-
     {
       "id": 61,
       "designer": "FWRD RENEW",
@@ -536,7 +527,6 @@
       "new": "false",
       "category": "bags"
     },
-
     {
       "id": 62,
       "designer": "BOTTEGA VENETA",
@@ -546,7 +536,6 @@
       "new": "false",
       "category": "bags"
     },
-
     {
       "id": 63,
       "designer": "BOTTEGA VENETA",
@@ -556,7 +545,6 @@
       "new": "false",
       "category": "accessories"
     },
-
     {
       "id": 64,
       "designer": "CULT GAIA",
@@ -566,7 +554,6 @@
       "new": "false",
       "category": "bags"
     },
-
     {
       "id": 65,
       "designer": "BODE",
@@ -576,7 +563,6 @@
       "new": "false",
       "category": "bags"
     },
-
     {
       "id": 66,
       "designer": "PARAVEL",
@@ -586,7 +572,6 @@
       "new": "false",
       "category": "bags"
     },
-
     {
       "id": 67,
       "designer": "BALENCIAGA",
@@ -596,7 +581,6 @@
       "new": "false",
       "category": "accessories"
     },
-
     {
       "id": 68,
       "designer": "TOM FORD",
@@ -606,7 +590,6 @@
       "new": "false",
       "category": "accessories"
     },
-
     {
       "id": 69,
       "designer": "THE ROW",
@@ -616,7 +599,6 @@
       "new": "false",
       "category": "bags"
     },
-
     {
       "id": 70,
       "designer": "THE ROW",
@@ -626,7 +608,6 @@
       "new": "false",
       "category": "bags"
     },
-
     {
       "id": 71,
       "designer": "AESOP",
@@ -636,7 +617,6 @@
       "new": "false",
       "category": "beauty"
     },
-
     {
       "id": 72,
       "designer": "DAVID KOMA",
@@ -646,7 +626,6 @@
       "new": "false",
       "category": "accessories"
     },
-
     {
       "id": 73,
       "designer": "EMI JAY",
@@ -656,7 +635,6 @@
       "new": "false",
       "category": "accessories"
     },
-
     {
       "id": 74,
       "designer": "CLYDE",
@@ -666,7 +644,6 @@
       "new": "true",
       "category": "hats"
     },
-
     {
       "id": 75,
       "designer": "BUSINESS & PLEASURE CO.",
@@ -676,7 +653,6 @@
       "new": "true",
       "category": "home"
     },
-
     {
       "id": 76,
       "designer": "WOLFORD",
@@ -686,7 +662,6 @@
       "new": "false",
       "category": "clothing"
     },
-
     {
       "id": 77,
       "designer": "DEMARSON",
@@ -696,7 +671,6 @@
       "new": "false",
       "category": "accessories"
     },
-
     {
       "id": 78,
       "designer": "SAINT LAURENT",
@@ -706,7 +680,6 @@
       "new": "false",
       "category": "accessories"
     },
-
     {
       "id": 79,
       "designer": "FWRD RENEW",
@@ -716,7 +689,6 @@
       "new": "false",
       "category": "clothing"
     },
-
     {
       "id": 80,
       "designer": "STELLA MCCARTNEY",
@@ -726,7 +698,6 @@
       "new": "false",
       "category": "accessories"
     },
-
     {
       "id": 81,
       "designer": "SAINT LAURENT",
@@ -736,7 +707,6 @@
       "new": "false",
       "category": "accessories"
     },
-
     {
       "id": 82,
       "designer": "TOM FORD",
@@ -746,7 +716,6 @@
       "new": "false",
       "category": "accessories"
     },
-
     {
       "id": 83,
       "designer": "BURBERRY",
@@ -756,7 +725,6 @@
       "new": "false",
       "category": "accessories"
     },
-
     {
       "id": 84,
       "designer": "SAINT LAURENT",
@@ -766,7 +734,6 @@
       "new": "false",
       "category": "bags"
     },
-
     {
       "id": 85,
       "designer": "GUCCI",

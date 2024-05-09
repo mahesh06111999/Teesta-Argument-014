@@ -1,15 +1,13 @@
-let arr;
+let finaldata = JSON.parse(localStorage.getItem('products')) || [];
+
 async function fetchProducts(url) {
   try {
     let res = await fetch(url);
     let data = await res.json();
-    console.log(data);
-    // array = [...data];
-    // data.forEach((i) => {
-    //   arr.push(i);
-    // });
-    arr = data;
     display(data);
+    finaldata = data;
+    localStorage.setItem('products', JSON.stringify(finaldata));
+    console.log(data);
   } catch (error) {
     console.log(error);
   }
@@ -21,12 +19,7 @@ function display(data) {
     macardbox.append(cardCreater(item));
   });
 }
-
 fetchProducts('http://localhost:3000/data');
-console.log(arr);
-// setTimeout(() => {
-//   console.log(arr);
-// }, 2000);
 
 let macardbox = document.getElementById('macardbox');
 
@@ -35,8 +28,11 @@ function cardCreater(item) {
   div.className = 'cardstyle';
   let image = document.createElement('img');
   let designer = document.createElement('p');
+  designer.className = 'maptags';
   let title = document.createElement('p');
   let price = document.createElement('p');
+  title.className = 'maptags';
+  price.className = 'maptags';
 
   image.setAttribute('src', item.image);
   designer.innerText = item.designer;
@@ -48,11 +44,9 @@ function cardCreater(item) {
 }
 
 function displayCards(val) {
-  console.log('clicked');
-
-  if (val == 'new') {
+  if (val === 'new') {
     let arr1 = arr.filter((ele) => {
-      if (ele.val == true) {
+      if (ele.new === 'true') {
         return true;
       }
     });
@@ -67,8 +61,17 @@ function displayCards(val) {
     display(arr1);
     console.log(arr1);
   }
-
-  // arr.forEach((item) => {
-  //   macardbox.append(cardCreater(item));
-  // });
 }
+
+let designers = finaldata.map((item) => {
+  return item.designer;
+});
+let finaldesigners = [...new Set(designers)];
+
+let selection = document.getElementById('selection');
+finaldesigners.forEach((ele) => {
+  let option = document.createElement('option');
+  option.value = ele;
+  option.textContent = ele;
+  selection.appendChild(option);
+});

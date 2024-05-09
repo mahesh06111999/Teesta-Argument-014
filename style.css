@@ -348,6 +348,9 @@ input {
 #macategory {
   width: 180px;
   padding: 0px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
 }
 #macontainer {
   width: 1400px;
@@ -386,9 +389,19 @@ input {
   align-items: center;
   width: 400px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 10px;
+  box-sizing: border-box;
 }
 .cardstyle img {
-  height: 500px;
+  height: 400px;
+  margin: 15px 0px;
+}
+.maptags {
+  margin: 7px;
+}
+.optionfont {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 /* ============== Rahul and pradeep ================ */
 
