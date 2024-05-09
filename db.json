@@ -14,6 +14,14 @@
       "cart": [],
       "mydesigners": [],
       "id": 2
+    },
+    {
+      "usermail": "z@gmail.com",
+      "password": "1111",
+      "cart": [],
+      "mydesigners": [],
+      "isloggedin": false,
+      "id": 3
     }
   ],
   "data": [
@@ -751,7 +759,7 @@
       "image": "https://is4.fwrdassets.com/images/p/fw/45/GUCC-WL87_V1.jpg",
       "new": "true",
       "category": "clothing"
-    }, 
+    },
     {
       "id": 87,
       "designer": "Acne Studios",
@@ -796,7 +804,7 @@
       "image": "https://is4.fwrdassets.com/images/p/fw/p/CRNF-WZ38_V2.jpg",
       "new": "true",
       "category": "shoes"
-    }, 
+    },
     {
       "id": 92,
       "designer": "ISABEL MARANT",
@@ -1473,7 +1481,6 @@
       "id": 20,
       "name": "BRANDON MAXWELL"
     },
-                                     
     {
       "id": 21,
       "name": "CALLE DEL MAR"
@@ -1554,8 +1561,6 @@
       "id": 40,
       "name": "DANIELE CARLOTTA"
     },
-
-    
     {
       "id": 41,
       "name": "ETRO"
@@ -1596,7 +1601,6 @@
       "id": 50,
       "name": "EB DENIM"
     },
-    
     {
       "id": 51,
       "name": "FWRD"
@@ -1637,8 +1641,6 @@
       "id": 60,
       "name": "F. MILLER"
     },
-
-    
     {
       "id": 61,
       "name": "GRLFRND"
@@ -1679,7 +1681,6 @@
       "id": 70,
       "name": "GABRIELA HEARST"
     },
-    
     {
       "id": 71,
       "name": "HOLDEN"
@@ -1720,8 +1721,6 @@
       "id": 80,
       "name": "HAIGHT"
     },
-
-    
     {
       "id": 81,
       "name": "IOKA"
@@ -1762,8 +1761,6 @@
       "id": 90,
       "name": "IINDACO"
     },
-
-    
     {
       "id": 91,
       "name": "JOHN ELLIOTT"
@@ -1828,7 +1825,6 @@
       "id": 106,
       "name": "KORAL"
     },
-
     {
       "id": 107,
       "name": "L'ACADEMIE"
@@ -1869,7 +1865,6 @@
       "id": 116,
       "name": "LOREN STEWART"
     },
-
     {
       "id": 117,
       "name": "MACH & MACH"
@@ -1910,7 +1905,6 @@
       "id": 126,
       "name": "MONCLER"
     },
-
     {
       "id": 127,
       "name": "NANNETTE DE GASPE"
@@ -1951,7 +1945,6 @@
       "id": 136,
       "name": "NICHOLAS"
     },
-
     {
       "id": 137,
       "name": "OFF-WHITE"
@@ -1992,7 +1985,6 @@
       "id": 146,
       "name": "OSEREE"
     },
-
     {
       "id": 147,
       "name": "PRE-OWNED"
@@ -2033,7 +2025,6 @@
       "id": 156,
       "name": "POSSE"
     },
-
     {
       "id": 157,
       "name": "R13"
@@ -2074,7 +2065,6 @@
       "id": 166,
       "name": "ROHE"
     },
-
     {
       "id": 167,
       "name": "SABLYN"
@@ -2115,7 +2105,6 @@
       "id": 176,
       "name": "SPORTY & RICH"
     },
-
     {
       "id": 177,
       "name": "TEKLA"
@@ -2156,7 +2145,6 @@
       "id": 186,
       "name": "TOM FORD"
     },
-
     {
       "id": 187,
       "name": "U BEAUTY"
@@ -2169,7 +2157,6 @@
       "id": 189,
       "name": "UNIFROM"
     },
-
     {
       "id": 187,
       "name": "VALENTINO"
@@ -2275,58 +2262,4 @@
       "name": "ZIMMERMANN"
     }
   ]
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

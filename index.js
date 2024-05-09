@@ -8,7 +8,6 @@ async function fetchProducts(url) {
     finaldata = data;
     arr = data;
     localStorage.setItem('products', JSON.stringify(finaldata));
-    // console.log(data);
   } catch (error) {
     console.log(error);
   }
@@ -24,7 +23,7 @@ function display(data) {
 }
 fetchProducts('http://localhost:3000/data');
 let macardbox = document.getElementById('macardbox');
-
+let productpage = document.getElementById('productpage');
 function cardCreater(item) {
   let div = document.createElement('div');
   div.className = 'cardstyle';
@@ -41,7 +40,9 @@ function cardCreater(item) {
   title.innerText = item.title;
   price.innerText = item.price;
   div.append(image, designer, title, price);
-  // div.addEventListener('click', productpage);
+  div.addEventListener('click', () => {
+    console.log('clicked');
+  });
   return div;
 }
 
