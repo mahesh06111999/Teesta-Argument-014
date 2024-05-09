@@ -44,10 +44,12 @@
               <a href="index.html">FWRD</a>
             </div>
             <div>
-              <span>
-                <input type="text" placeholder="search" /><button
-                  class="st-button"
-                >
+              <span id="span">
+                <input
+                  type="text"
+                  placeholder="search"
+                  id="searchname"
+                /><button class="st-button" id="searchbutton">
                   <i class="fa-solid fa-magnifying-glass"></i>
                 </button>
               </span>
@@ -556,10 +558,11 @@
             </div>
             <div id="malineunder">
               <div id="matotalvalue"></div>
-              <select name="" id="" class="maselectdesigner">
-                <option value="">Sort by price High to Low</option>
-                <option value="">Sort by price Low to High</option>
-                <option value="">Sort by designer</option>
+              <select name="" id="sorter" class="maselectdesigner">
+                <option value="">Sort By</option>
+                <option value="high">Sort by price High to Low</option>
+                <option value="low">Sort by price Low to High</option>
+                <option value="designer">Sort by designer</option>
               </select>
             </div>
             <div id="macardbox"></div>
