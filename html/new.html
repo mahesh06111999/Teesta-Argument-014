@@ -54,25 +54,49 @@
 
           <div id="st-navP3">
             <strong>
-              <a href="new.html">new</a>
+              <a href="new.html" onclick="displayCards(new)">new</a>
               <a href="designer.html">designers</a>
-              <a href="clothing.html">clothing</a>
-              <a href="dresses.html">dresses</a>
-              <a href="shoes.html">shoes</a>
-              <a href="bags.html">bags</a>
-              <a href="accessories.html">accessories</a>
-              <a href="beauty.html">beauty</a>
-              <a href="sale.html">sale</a>
-              <a href="shops.html">shops</a>
+              <a href="new.html" onclick="displayCards(clothing)">clothing</a>
+              <a href="new.html" onclick="displayCards(dress)">dresses</a>
+              <a href="new.html" onclick="displayCards('shoes')">shoes</a>
+              <a href="new.html" onclick="displayCards('bags')">bags</a>
+              <a href="new.html" onclick="displayCards('accessories')"
+                >accessories</a
+              >
+              <a href="new.html" onclick="displayCards('beauty')">beauty</a>
+              <a href="new.html" onclick="displayCards('sale')">sale</a>
+              <a href="new.html" onclick="displayCards('shops')">shops</a>
               <a href="Kendalls.html">kendall's edit</a>
             </strong>
           </div>
         </section>
         <!--////////////////////////////////syed/////////////////////////////////////-->
       </nav>
-      <main>
-        <!-- rahul and pradeep -->
-      </main>
+      <div id="maherosection">
+        <div id="macategory">
+          <h3 id="mah3">CATEGORY</h3>
+          <a href="">All Sale Items</a>
+        </div>
+        <div id="macontainer">
+          <div id="maheadsec">
+            <div id="maline">
+              <p style="padding-left: 10px">Filter by:</p>
+              <select class="maselectdesigner">
+                <option value="">Designer</option>
+              </select>
+            </div>
+            <div id="malineunder">
+              <div id="matotalvalue"></div>
+              <select name="" id="" class="maselectdesigner">
+                <option value="">Sort by price High to Low</option>
+                <option value="">Sort by price Low to High</option>
+                <option value="">Sort by designer</option>
+              </select>
+            </div>
+            <div id="macardbox"></div>
+          </div>
+        </div>
+      </div>
 
       <footer>
         <!-- mahesh -->
