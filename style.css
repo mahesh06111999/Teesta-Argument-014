@@ -14,6 +14,7 @@ body {
   width: 100%;
   margin: auto;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 #st-navP1 > div > span {
@@ -141,7 +142,7 @@ body {
   font-family: Arial, sans-serif;
 }
 
-#st-button{
+#st-button {
   padding: 8px;
   font-family: Arial, sans-serif;
   font-size: 13px;
@@ -149,7 +150,7 @@ body {
   cursor: pointer;
 }
 
-.st-button{
+.st-button {
   padding: 10px;
   border: none;
   font-family: Arial, sans-serif;
@@ -158,51 +159,51 @@ body {
   cursor: pointer;
 }
 
-.st-button:hover{
+.st-button:hover {
   transform: scale(1.1);
 }
 
-.st-content > div > a:hover{
+.st-content > div > a:hover {
   text-decoration: underline;
 }
 
-.st-newDD{
+.st-newDD {
   display: none;
 }
 
-.st-designersDD{
+.st-designersDD {
   display: none;
 }
 
-.st-clothingDD{
+.st-clothingDD {
   display: none;
 }
 
-.st-dressesDD{
+.st-dressesDD {
   display: none;
 }
 
-.st-shoesDD{
+.st-shoesDD {
   display: none;
 }
 
-.st-bagsDD{
+.st-bagsDD {
   display: none;
 }
 
-.st-accessoriesDD{
+.st-accessoriesDD {
   display: none;
 }
 
-.st-beautyDD{
+.st-beautyDD {
   display: none;
 }
 
-.st-shopsDD{
+.st-shopsDD {
   display: none;
 }
 
-.st-kendallDD{
+.st-kendallDD {
   display: none;
 }
 
@@ -215,46 +216,46 @@ body {
     rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
-.st-dropdown>:hover .st-newDD{
+.st-dropdown > :hover .st-newDD {
   display: flex;
 }
 
-.st-dropdown>:hover .st-designersDD{
+.st-dropdown > :hover .st-designersDD {
   display: flex;
 }
 
-.st-dropdown>:hover .st-clothingDD{
+.st-dropdown > :hover .st-clothingDD {
   display: flex;
 }
 
-.st-dropdown>:hover .st-dressesDD{
+.st-dropdown > :hover .st-dressesDD {
   display: flex;
 }
 
-.st-dropdown>:hover .st-shoesDD{
+.st-dropdown > :hover .st-shoesDD {
   display: flex;
 }
 
-.st-dropdown>:hover .st-bagsDD{
+.st-dropdown > :hover .st-bagsDD {
   display: flex;
 }
 
-.st-dropdown>:hover .st-accessoriesDD{
+.st-dropdown > :hover .st-accessoriesDD {
   display: flex;
 }
 
-.st-dropdown>:hover .st-beautyDD{
+.st-dropdown > :hover .st-beautyDD {
   display: flex;
   left: 40%;
   transition: 1s ease;
 }
 
-.st-dropdown>:hover .st-shopsDD{
+.st-dropdown > :hover .st-shopsDD {
   display: flex;
   left: 40%;
 }
 
-.st-dropdown>:hover .st-kendallDD{
+.st-dropdown > :hover .st-kendallDD {
   display: flex;
   left: 55%;
 }
@@ -450,6 +451,9 @@ input {
 #macategory {
   width: 180px;
   padding: 0px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
 }
 #macontainer {
   width: 1400px;
@@ -488,9 +492,19 @@ input {
   align-items: center;
   width: 400px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 10px;
+  box-sizing: border-box;
 }
 .cardstyle img {
-  height: 500px;
+  height: 400px;
+  margin: 15px 0px;
+}
+.maptags {
+  margin: 7px;
+}
+.optionfont {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 /* ============== Rahul and pradeep ================ */
 
