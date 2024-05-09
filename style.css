@@ -75,6 +75,7 @@ body {
 #st-navP2 > div:nth-of-type(2) > a {
   font-size: 38px;
   font-weight: 1000;
+  cursor: default;
 }
 
 #st-navP2 > div:nth-of-type(3) > a {
@@ -140,16 +141,21 @@ body {
   font-family: Arial, sans-serif;
 }
 
+#st-button{
+  padding: 8px;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
 .st-button{
   padding: 10px;
   border: none;
-  background: hsl(0, 0%, 90%);
   font-family: Arial, sans-serif;
   font-size: 14px;
-  font-weight: 450;
+  font-weight: 500;
   cursor: pointer;
-  border-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
 
 .st-button:hover{
@@ -160,41 +166,98 @@ body {
   text-decoration: underline;
 }
 
+.st-newDD{
+  display: none;
+}
+
 .st-designersDD{
-  /* display: none; */
+  display: none;
 }
 
 .st-clothingDD{
-  /* display: none; */
+  display: none;
+}
+
+.st-dressesDD{
+  display: none;
+}
+
+.st-shoesDD{
+  display: none;
 }
 
 .st-bagsDD{
-  /* display: none; */
+  display: none;
 }
 
-.st-accessroiesDD{
-  /* display: none; */
+.st-accessoriesDD{
+  display: none;
 }
 
 .st-beautyDD{
-  /* display: none; */
+  display: none;
+}
+
+.st-shopsDD{
+  display: none;
+}
+
+.st-kendallDD{
+  display: none;
 }
 
 .st-dropdown .st-content {
   background-color: white;
   position: absolute;
-  display:none;
   border-radius: 10px;
   transition: display 1s ease;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
+.st-dropdown>:hover .st-newDD{
+  display: flex;
+}
 
+.st-dropdown>:hover .st-designersDD{
+  display: flex;
+}
 
+.st-dropdown>:hover .st-clothingDD{
+  display: flex;
+}
 
+.st-dropdown>:hover .st-dressesDD{
+  display: flex;
+}
 
+.st-dropdown>:hover .st-shoesDD{
+  display: flex;
+}
 
+.st-dropdown>:hover .st-bagsDD{
+  display: flex;
+}
+
+.st-dropdown>:hover .st-accessoriesDD{
+  display: flex;
+}
+
+.st-dropdown>:hover .st-beautyDD{
+  display: flex;
+  left: 40%;
+  transition: 1s ease;
+}
+
+.st-dropdown>:hover .st-shopsDD{
+  display: flex;
+  left: 40%;
+}
+
+.st-dropdown>:hover .st-kendallDD{
+  display: flex;
+  left: 55%;
+}
 /* ////////////////////////////syed taqi /////////////////////////////*/
 
 #mafoot1 {
