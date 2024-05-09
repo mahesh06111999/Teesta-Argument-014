@@ -7,21 +7,21 @@ body {
   font-family: sans-serif;
 }
 
- /* ////////////////////////////syed taqi /////////////////////////////*/
+/* ////////////////////////////syed taqi /////////////////////////////*/
 
- .st-container{
+.st-container {
   max-width: 1600px;
   width: 100%;
   margin: auto;
   align-items: center;
 }
 
-#st-navP1 > div > span{
+#st-navP1 > div > span {
   margin: 8px;
   cursor: pointer;
 }
 
-#st-navP1{
+#st-navP1 {
   gap: 20px;
   font-family: Arial;
   display: flex;
@@ -30,54 +30,54 @@ body {
   border-bottom: 1px solid #e3e3e3;
 }
 
-#st-navP1 > div:nth-of-type(1) span > img{
+#st-navP1 > div:nth-of-type(1) span > img {
   width: 30px;
   height: 30px;
   border-radius: 50%;
 }
 
-#st-navP1 > div:nth-of-type(1){
+#st-navP1 > div:nth-of-type(1) {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-#st-navP1 > div:nth-of-type(2) > span{
+#st-navP1 > div:nth-of-type(2) > span {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-#st-navP1>div>span:hover{
+#st-navP1 > div > span:hover {
   text-decoration: underline;
 }
 
-#st-navP2{
+#st-navP2 {
   font-family: Arial, sans-serif;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-#st-navP2>div:nth-of-type(1)>a{
+#st-navP2 > div:nth-of-type(1) > a {
   margin: 15px;
   font-size: 14px;
 }
 
-#st-navP2>div:nth-of-type(1)>a:hover{
+#st-navP2 > div:nth-of-type(1) > a:hover {
   text-decoration: underline;
 }
 
-#st-navP2>div:nth-of-type(3)>a:hover{
+#st-navP2 > div:nth-of-type(3) > a:hover {
   text-decoration: underline;
 }
 
-#st-navP2>div:nth-of-type(2)>a{
+#st-navP2 > div:nth-of-type(2) > a {
   font-size: 38px;
   font-weight: 1000;
 }
 
-#st-navP2>div:nth-of-type(3)>a{
+#st-navP2 > div:nth-of-type(3) > a {
   margin: 15px;
   display: inline-flex;
   justify-content: center;
@@ -86,7 +86,7 @@ body {
   gap: 5px;
 }
 
-#st-navP2>div:nth-of-type(3)>span{
+#st-navP2 > div:nth-of-type(3) > span {
   margin: 15px;
   display: inline-flex;
   justify-content: center;
@@ -96,33 +96,33 @@ body {
   cursor: pointer;
 }
 
-#st-navP3 > div{
+#st-navP3 > div {
   margin-top: 15px;
   display: flex;
-  align-items:center;
+  align-items: center;
   font-weight: bold;
   justify-content: space-between;
 }
 
-#st-navP3 > div >div > a{
+#st-navP3 > div > div > a {
   text-transform: uppercase;
   font-family: Arial, sans-serif;
   padding: 10px;
   cursor: pointer;
 }
 
-#st-navP3>div>div>a:hover{
+#st-navP3 > div > div > a:hover {
   text-decoration: underline;
 }
 
-.st-content > div{
+.st-content > div {
   display: flex;
   margin-top: 5px;
   flex-direction: column;
   padding: 15px;
 }
 
-.st-content > div > span{
+.st-content > div > span {
   margin-bottom: 10px;
   font-size: 13px;
   text-transform: uppercase;
@@ -131,14 +131,14 @@ body {
   padding: 8px;
 }
 
-.st-content > div > a{
+.st-content > div > a {
   padding: 5px;
   text-transform: capitalize;
   font-weight: 400;
   font-family: Arial, sans-serif;
 }
 
-.st-content > div > a:hover{
+.st-content > div > a:hover {
   text-decoration: underline;
 }
 
@@ -146,22 +146,15 @@ body {
   display: flex; /* Change display when .st-dropdown is hovered */
 }
 
-.st-dropdown .st-content{
+.st-dropdown .st-content {
   background-color: white;
   display: none;
   position: absolute;
   border-radius: 10px;
   transition: display 1s ease;
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
-
-
-
-
-
-
-
-
 
 /* ////////////////////////////syed taqi /////////////////////////////*/
 
@@ -177,7 +170,6 @@ body {
 #mafoot1 > p:nth-child(1) {
   font-weight: 500;
 }
-
 
 #mafoot1 > p:nth-child(2) {
   font-size: 13.5px;
@@ -349,8 +341,55 @@ input {
   display: block;
   gap: 5px;
 }
+#maherosection {
+  display: flex;
+  gap: 15px;
+}
+#macategory {
+  width: 180px;
+  padding: 0px 15px;
+}
+#macontainer {
+  width: 1400px;
+}
+.maselectdesigner {
+  border: none;
+  font-size: 16px;
+}
+#maline {
+  display: flex;
+  gap: 12px;
+  border-bottom: 1px solid grey;
+}
+#mah3 {
+  margin-top: 20px;
+  padding-bottom: 9px;
+  border-bottom: 1px solid grey;
+}
+#macardbox {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 60px;
+}
+#malineunder {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
 
-
+.cardstyle {
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.cardstyle img {
+  height: 500px;
+}
 /* ============== Rahul and pradeep ================ */
 
 main {
@@ -371,18 +410,19 @@ main {
 #rpCard2 {
   /* border: 2px solid black; */
   display: grid;
-  grid-template-columns: repeat(3 , 1fr);
+  grid-template-columns: repeat(3, 1fr);
   padding: 1em;
   gap: 1.2%;
- 
 }
 
-#rpCard2 img , #rpCard3 img {
+#rpCard2 img,
+#rpCard3 img {
   width: 120%;
   height: 100%;
 }
 
-#rpCard2 p , #rpCard3 p {
+#rpCard2 p,
+#rpCard3 p {
   text-align: center;
   font-size: 1em;
 }
@@ -395,18 +435,16 @@ main {
 #rpCard3 {
   /* border: 2px solid black; */
   display: grid;
-  grid-template-columns: repeat(4 , 1fr);
+  grid-template-columns: repeat(4, 1fr);
 }
 
-
-#rpCard3  div , #rpCard2 div {
+#rpCard3 div,
+#rpCard2 div {
   /* border: 2px solid black; */
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
-
 
 /* 
 #rpCard2 > img:nth-of-type(1) {
