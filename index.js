@@ -46,7 +46,7 @@ function cardCreater(item) {
 
 function displayCards(val) {
   console.log(val);
-  if (val == 'new') {
+  if (val === 'new') {
     let arr1 = arr.filter((ele) => {
       if (ele.new == 'true') {
         return true;
