@@ -8,20 +8,21 @@ async function fetchProducts(url) {
     finaldata = data;
     arr = data;
     localStorage.setItem('products', JSON.stringify(finaldata));
-    console.log(data);
+    // console.log(data);
   } catch (error) {
     console.log(error);
   }
 }
 
+let matotalvalue = document.getElementById('matotalvalue');
 function display(data) {
+  matotalvalue.innerHTML = `<p>${data.length} Items</p>`;
   macardbox.innerHTML = '';
   data.forEach((item) => {
     macardbox.append(cardCreater(item));
   });
 }
 fetchProducts('http://localhost:3000/data');
-
 let macardbox = document.getElementById('macardbox');
 
 function cardCreater(item) {
@@ -45,24 +46,23 @@ function cardCreater(item) {
 }
 
 function displayCards(val) {
-  console.log(val);
+  let arr1;
   if (val === 'new') {
-    let arr1 = arr.filter((ele) => {
+    arr1 = arr.filter((ele) => {
       if (ele.new == 'true') {
         return true;
       }
     });
     display(arr1);
-    console.log(arr1);
   } else {
-    let arr1 = arr.filter((ele) => {
+    arr1 = arr.filter((ele) => {
       if (ele.category == val) {
         return true;
       }
     });
     display(arr1);
-    console.log(arr1);
   }
+  localStorage.setItem('pagearr', JSON.stringify(arr1));
 }
 
 let designers = finaldata.map((item) => {
@@ -79,7 +79,53 @@ finaldesigners.forEach((ele) => {
   selection.appendChild(option);
 });
 
-selection.addEventListener('change', () => {
+selection.addEventListener('change', (e) => {
+  console.log(e);
   console.log(selection.value);
-  display(finaldata);
+
+  let ans1 = finaldata.filter((ele) => {
+    return ele.designer == selection.value;
+  });
+  display(ans1);
+});
+
+let sorter1 = document.getElementById('sorter');
+
+sorter1.addEventListener('change', () => {
+  let pagearr = JSON.parse(localStorage.getItem('pagearr'));
+
+  pagearr = pagearr.map((item) => {
+    let price = item.price.replace('₹', '').replace(',', '');
+    return { ...item, price: parseInt(price) };
+  });
+  if (sorter1.value == 'low') {
+    pagearr.sort((a, b) => {
+      return a.price - b.price;
+    });
+    display(pagearr);
+  } else if (sorter1.value == 'high') {
+    pagearr.sort((a, b) => {
+      return b.price - a.price;
+    });
+    display(pagearr);
+  } else if (sorter1.value == 'designer') {
+    pagearr.sort((a, b) => {
+      return a.designer.localeCompare(b.designer);
+    });
+    display(pagearr);
+  }
+});
+
+let searchname = document.getElementById('searchname');
+let searchbutton = document.getElementById('searchbutton');
+
+searchbutton.addEventListener('click', (e) => {
+  e.preventDefault();
+  let value = searchname.value;
+  console.log(value);
+  let ans1 = finaldata.filter((ele) => {
+    return ele.title.toLowerCase().includes(value);
+  });
+  display(ans1);
+  searchname.value = '';
 });
