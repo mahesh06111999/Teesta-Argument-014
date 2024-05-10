@@ -23,7 +23,7 @@ function display(data) {
 }
 fetchProducts('http://localhost:3000/data');
 let macardbox = document.getElementById('macardbox');
-let productpage = document.getElementById('productpage');
+
 function cardCreater(item) {
   let div = document.createElement('div');
   div.className = 'cardstyle';
@@ -41,7 +41,8 @@ function cardCreater(item) {
   price.innerText = item.price;
   div.append(image, designer, title, price);
   div.addEventListener('click', () => {
-    console.log('clicked');
+    localStorage.setItem('clickeditem', JSON.stringify(item));
+    window.location.href = 'productdisplay.html';
   });
   return div;
 }
