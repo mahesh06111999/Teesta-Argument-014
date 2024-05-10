@@ -22,6 +22,53 @@
       "mydesigners": [],
       "isloggedin": false,
       "id": 3
+    },
+    {
+      "usermail": "mmm@gmail.com",
+      "password": "9980",
+      "cart": [
+        {
+          "id": 50,
+          "designer": "ACNE STUDIOS",
+          "title": "Midsummer Shopper Bag",
+          "price": "₹57,119.75",
+          "image": "https://is4.fwrdassets.com/images/p/fw/45/ACNE-WY93_V1.jpg",
+          "new": "false",
+          "category": "bags"
+        },
+        {
+          "id": 46,
+          "designer": "ADIDAS ORIGINALS",
+          "title": "Rivalry 86 Low Sneaker",
+          "price": "₹10,006.38",
+          "image": "https://is4.fwrdassets.com/images/p/fw/z/ADIO-MZ224_V1.jpg",
+          "new": "true",
+          "category": "shoes"
+        }
+      ],
+      "mydesigners": [],
+      "isloggedin": true,
+      "wishlist": [
+        {
+          "id": 50,
+          "designer": "ACNE STUDIOS",
+          "title": "Midsummer Shopper Bag",
+          "price": "₹57,119.75",
+          "image": "https://is4.fwrdassets.com/images/p/fw/45/ACNE-WY93_V1.jpg",
+          "new": "false",
+          "category": "bags"
+        },
+        {
+          "id": 46,
+          "designer": "ADIDAS ORIGINALS",
+          "title": "Rivalry 86 Low Sneaker",
+          "price": "₹10,006.38",
+          "image": "https://is4.fwrdassets.com/images/p/fw/z/ADIO-MZ224_V1.jpg",
+          "new": "true",
+          "category": "shoes"
+        }
+      ],
+      "id": 4
     }
   ],
   "data": [
@@ -1390,9 +1437,6 @@
       "new": "true",
       "category": "bags"
     }
-<<<<<<< HEAD
-    
-=======
   ],
   "designers": [
     {
@@ -2255,6 +2299,5 @@
       "id": 212,
       "name": "ZIMMERMANN"
     }
->>>>>>> 5849fa4dfa5c5c16a70fd35503de77e6f6b5d2d1
   ]
 }

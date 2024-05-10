@@ -123,8 +123,8 @@ body {
   text-decoration: underline;
 }
 
-#st-navP3>div>div>div>div>img:hover {
-  opacity: 0.40;
+#st-navP3 > div > div > div > div > img:hover {
+  opacity: 0.4;
 }
 
 .st-content > div {
@@ -276,7 +276,7 @@ body {
 }
 /* ///////////////////////////////////////////////////////////////// */
 
-.st-heading{
+.st-heading {
   text-transform: uppercase;
   font-family: Arial, sans-serif;
   font-size: 27px;
@@ -284,6 +284,7 @@ body {
   margin: 22px 0px 16px;
   font-weight: 540;
 }
+
 .st-cardContainer{
   width: 85%;
   margin: auto;
@@ -337,6 +338,7 @@ body {
   padding-left: 10px;
 }
 
+
 .st-cardContainer>a>div>p:nth-of-type(2){
   margin-bottom: 50px;
   padding: 5px;
@@ -344,6 +346,35 @@ body {
 }
 
 /* ////////////////////////////syed taqi /////////////////////////////*/
+.btn1 {
+  background-color: black;
+  color: white;
+  padding: 15px 30px;
+  width: 300px;
+  margin: 5px;
+}
+.btn2 {
+  padding: 15px 30px;
+  width: 300px;
+  margin: 5px;
+}
+#backpage {
+  padding: 10px 40px;
+  color: aliceblue;
+  background-color: blue;
+  border: 1px solid blue;
+  border-radius: 5px;
+  margin: 10px;
+}
+.pcardstyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+}
+.pcardstyle img {
+  width: 500px;
+}
 
 #mafoot1 {
   display: flex;

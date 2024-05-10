@@ -19,6 +19,7 @@ signup.addEventListener('click', (e) => {
       cart: [],
       mydesigners: [],
       isloggedin: false,
+      wishlist: [],
     };
     async function postdata() {
       let res = await fetch('http://localhost:3000/users', {
