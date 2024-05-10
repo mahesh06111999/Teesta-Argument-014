@@ -285,7 +285,7 @@ body {
   font-weight: 540;
 }
 .st-cardContainer{
-  width: 95%;
+  width: 85%;
   margin: auto;
   height: auto;
   /* border: 1px solid red; */
@@ -300,7 +300,7 @@ body {
   display: block;
   flex-direction: column;
   margin: auto;
-  width: 93%;
+  width: 95%;
   height: auto;
   cursor: pointer;
   align-items: center;
@@ -340,9 +340,10 @@ body {
 
 .st-cardContainer>div>p:nth-of-type(2){
   margin-bottom: 50px;
+  text-decoration: underline;
 }
 
-/* ////////////////////////////syed taqi /////////////////////////////*/
+/* ////////////////////////////syed taqi  style ends here/////////////////////////////*/
 
 #mafoot1 {
   display: flex;
