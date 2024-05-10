@@ -29,13 +29,39 @@ function cartcard(item) {
   div.append(image, title, div2, price);
 
   a1.addEventListener('click', () => {
-    console.log(item);
+    cart.cart.forEach((item2) => {
+      if (item.id === item2.id) {
+        cart.wishlist.push(item);
+        console.log(cart.wishlist);
+        localStorage.setItem('user', JSON.stringify(cart));
+      } else {
+        let newcart = cart.cart.filter((item1) => {
+          if (item1.id != item.id) {
+            return item;
+          }
+        });
+
+        cart.cart = newcart;
+        localStorage.setItem('user', JSON.stringify(cart));
+        updater(cart);
+      }
+      updater(cart);
+    });
   });
   a2.addEventListener('click', () => {
-    console.log(item);
+    let newcart = cart.cart.filter((item1) => {
+      if (item1.id != item.id) {
+        return item;
+      }
+    });
+
+    cart.cart = newcart;
+    localStorage.setItem('user', JSON.stringify(cart));
+    updater(cart);
   });
   return div;
 }
+
 let sum = 0;
 
 cart.cart.forEach((element) => {
@@ -48,3 +74,18 @@ document.getElementById('estimatedtotal').innerText = sum;
 
 let btncheckout = document.getElementById('btncheckout');
 btncheckout.addEventListener('click', () => {});
+
+async function updater(user1) {
+  try {
+    let res = await fetch(`http://localhost:3000/users/${user1.id}`, {
+      method: 'PATCH',
+      headers: {
+        'Content-type': 'application/json',
+      },
+      body: JSON.stringify(user1),
+    });
+    let data = await res.json();
+  } catch (error) {
+    console.error('Error:', error);
+  }
+}
