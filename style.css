@@ -620,7 +620,7 @@ input {
 }
 /* ============== Rahul and pradeep ================ */
 
-main {
+#Rmain {
   display: flex;
   flex-direction: column;
   align-items: center;
