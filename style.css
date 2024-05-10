@@ -698,3 +698,46 @@ main {
 #rpCard2 > img:nth-of-type(6) {
   
 } */
+
+
+
+/* pradeep  */
+
+#deepMain {
+  margin: 50px 0 50px 0;
+  display: flex;
+  flex-direction: row;
+}
+
+#deepSideBar {
+  flex:2;
+
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-start; */
+  align-self: flex-start;
+  gap : 10px;
+}
+
+#deepSideBar> a:hover {
+  text-decoration: underline;
+}
+
+#deepDesigner {
+  flex: 8;
+}
+
+.deepContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.deepContainer > p {
+  flex-basis: calc(33.33% - 10px);
+  margin: 5px;
+  box-sizing: border-box;
+}
+
+.deepContainer > p > span {
+  padding-right: 5px;
+}
