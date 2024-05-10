@@ -27,19 +27,23 @@ function cardCreater(item) {
 }
 console.log(user);
 wishlist.addEventListener('click', () => {
+  wishcontainer.innerHTML = '';
   user.wishlist.forEach((item) => {
     wishcontainer.append(cardCreater(item));
   });
 });
+
 let finaldata = JSON.parse(localStorage.getItem('products'));
+
 mydesigners.addEventListener('click', () => {
   console.log('clicked');
-  let ans;
+  let ans = [];
   user.mydesigners.forEach((item) => {
-    console.log(item);
-    ans = finaldata.filter((ele) => {
-      return ele.designer.toLowerCase().includes(item.toLowerCase());
-    });
+    ans = ans.concat(
+      finaldata.filter((ele) => {
+        return ele.designer.toLowerCase().includes(item.toLowerCase());
+      })
+    );
   });
   wishcontainer.innerHTML = '';
   ans.forEach((item) => {
