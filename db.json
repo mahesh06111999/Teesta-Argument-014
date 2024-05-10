@@ -69,6 +69,45 @@
         }
       ],
       "id": 4
+    },
+    {
+      "usermail": "abc@gmail.com",
+      "password": "12345",
+      "cart": [],
+      "mydesigners": [
+        {},
+        {},
+        "BAINA",
+        "BALENCIAGA"
+      ],
+      "isloggedin": true,
+      "wishlist": [
+        {
+          "id": 1,
+          "image": "https://is4.fwrdassets.com/images/p/fw/p/NOMF-WD478_V1.jpg",
+          "designer": "Norma Kamali",
+          "title": "Strapless Bill Pickleball Dress",
+          "price": "₹32,833",
+          "category": "clothing"
+        },
+        {
+          "id": 2,
+          "image": "https://is4.fwrdassets.com/images/p/fw/p/RTFF-WP31_V1.jpg",
+          "designer": "retrofete",
+          "title": "Danica Pant",
+          "price": "₹24,520",
+          "category": "clothing"
+        },
+        {
+          "id": 2,
+          "image": "https://is4.fwrdassets.com/images/p/fw/p/RTFF-WP31_V1.jpg",
+          "designer": "retrofete",
+          "title": "Danica Pant",
+          "price": "₹24,520",
+          "category": "clothing"
+        }
+      ],
+      "id": 5
     }
   ],
   "data": [
