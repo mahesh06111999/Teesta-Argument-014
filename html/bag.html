@@ -5,16 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="../style.css" />
-    <!-- <script
+    <script
       src="https://kit.fontawesome.com/fff2546269.js"
       crossorigin="anonymous"
     ></script>
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
-    /> -->
+    />
 
     <style>
+      .divbox2 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .divbox1 {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 150px;
+      }
+
+      .images {
+        width: 150px;
+      }
       #Rmain-bag {
         max-width: 1600px;
         width: 100%;
@@ -42,7 +57,7 @@
       #Rmain-title2 {
         margin-top: 1%;
         display: flex;
-        justify-content: space-between;
+        /* justify-content: space-between; */
       }
 
       #Rmain-title2 {
@@ -69,13 +84,13 @@
       #Rcontainer-2 button {
         background-color: black;
         color: #fff;
-        width: 125%;
-        margin-left: 27%;
-        padding: 22px;
+        width: 100%;
+        margin-left: 10%;
+        padding: 15px;
         font-size: 1.2em;
       }
       #Rcontainer-2-child {
-        width: 175%;
+        width: 100%;
         display: flex;
         justify-content: space-around;
       }
@@ -84,7 +99,7 @@
         width: 100%;
         font-size: 110%;
         font-weight: bold;
-        margin-left: 35%;
+        margin-left: 10%;
       }
 
       #Rcontainer-2 > div:nth-of-type(3) img {
@@ -607,7 +622,7 @@
     <main id="Rmain-bag">
       <div id="Rmain-title">
         <div>
-          <h2>SHOPPING BAG (1)</h2>
+          <h2 id="count"></h2>
         </div>
         <div>
           <a href="#"> Need assistance? (866) 434-3169</a>
@@ -616,52 +631,45 @@
       </div>
 
       <div id="Rmain-title2">
-        <p>ITEM</p>
-        <p>PRICE</p>
-        <p>ORDER SUMMARY</p>
+        <p style="margin-left: 50px">ITEM</p>
+        <p style="margin-left: 870px">PRICE</p>
+        <p style="margin-left: 270px">ORDER SUMMARY</p>
       </div>
       <hr id="Rhr" />
 
       <div id="Rmain-conatiner">
-        <div id="Rcontainer-1">
-          <table>
-            <tr>
-              <th>fe</th>
-              <th>fee</th>
-              <th>efef</th>
-            </tr>
-          </table>
-        </div>
+        <!-- append the card data here -->
+        <div id="Rcontainer-1"></div>
 
         <div id="Rcontainer-2">
           <div id="Rcontainer-2-child">
             <div>
-              <p>Subtotal (1)</p>
+              <p>Subtotal</p>
               <p>FREE Shipping Options</p>
               <p>Estimated Total</p>
             </div>
 
             <div>
-              <p>₹97,562.20</p>
-              <p>₹0.00</p>
-              <p>₹141,465.19</p>
+              <p id="subtotal">₹97,562.20</p>
+              <p>0.00</p>
+              <p id="estimatedtotal">₹141,465.19</p>
             </div>
           </div>
 
           <div>
-            <button>PROCEED TO CHECKOUT</button>
+            <button id="btncheckout">PROCEED TO CHECKOUT</button>
           </div>
-          <div>
-            <p>FREE International shipping for orders above $100 USD</p>
+          <div id="international">
+            <p>FREE International shipping for orders above 100 RS</p>
             <img src="../images/payment-logo.png" alt="" />
           </div>
         </div>
       </div>
 
       <div id="Rcontinue-shopping">
-        <a href="#">Continue shopping</a>
-        <a href="">save my bag for later</a>
+        <a href="new.html">Continue shopping</a>
       </div>
     </main>
   </body>
+  <script src="../bag.js"></script>
 </html>
