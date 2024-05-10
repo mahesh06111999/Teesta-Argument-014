@@ -28,6 +28,60 @@ function productPageCreater(item) {
   btn2.className = 'btn2';
   btn1.innerText = 'ADD TO BAG';
   btn2.innerText = 'Add To Wish List';
+  btn1.addEventListener('click', () => {
+    let user1 = JSON.parse(localStorage.getItem('user'));
+    if (user1.isloggedin == true) {
+      user1.cart.push(item);
+      localStorage.setItem('user', JSON.stringify(user1));
+
+      async function patchData(user1) {
+        try {
+          let res = await fetch(`http://localhost:3000/users/${user1.id}`, {
+            method: 'PATCH',
+            headers: {
+              'Content-type': 'application/json',
+            },
+            body: JSON.stringify(user1),
+          });
+          let data = await res.json();
+          alert('Added to cart!');
+        } catch (error) {
+          console.error('Error:', error);
+        }
+      }
+
+      patchData(user1);
+    } else {
+      alert('Log in First!');
+    }
+  });
+
+  btn2.addEventListener('click', () => {
+    let user1 = JSON.parse(localStorage.getItem('user'));
+    if (user1.isloggedin === true) {
+      user1.wishlist.push(item);
+      localStorage.setItem('user', JSON.stringify(user1));
+      async function patchData(user1) {
+        try {
+          let res = await fetch(`http://localhost:3000/users/${user1.id}`, {
+            method: 'PATCH',
+            headers: {
+              'Content-type': 'application/json',
+            },
+            body: JSON.stringify(user1),
+          });
+          let data = await res.json();
+          alert('Added to wishlist!');
+        } catch (error) {
+          console.error('Error:', error);
+        }
+      }
+
+      patchData(user1);
+    } else {
+      alert('Log in First!');
+    }
+  });
 
   div22.append(designer, title, price, btn1, btn2);
   div.append(image, div22);
