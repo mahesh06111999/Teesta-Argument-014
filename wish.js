@@ -13,13 +13,26 @@ function cardCreater(item) {
   let price = document.createElement('p');
   title.className = 'maptags';
   price.className = 'maptags';
-
+  let btn = document.createElement('button');
+  btn.innerText = 'Move to Cart';
+  btn.className = 'mabtnclass';
+  btn.addEventListener('click', () => {
+    console.log(item);
+    user.cart.push(item);
+    let newwish = user.wishlist.filter((ele) => {
+      return ele.id != item.id;
+    });
+    user.wishlist = newwish;
+    localStorage.setItem('user', JSON.stringify(user));
+    updater(user);
+  });
   image.setAttribute('src', item.image);
   designer.innerText = item.designer;
   title.innerText = item.title;
   price.innerText = item.price;
-  div.append(image, designer, title, price);
-  div.addEventListener('click', () => {
+  div.append(image, designer, title, price, btn);
+  image.addEventListener('click', (e) => {
+    e.preventDefault();
     localStorage.setItem('clickeditem', JSON.stringify(item));
     window.location.href = 'productdisplay.html';
   });
@@ -51,3 +64,18 @@ mydesigners.addEventListener('click', () => {
   });
   console.log(ans);
 });
+
+async function updater(user1) {
+  try {
+    let res = await fetch(`http://localhost:3000/users/${user1.id}`, {
+      method: 'PATCH',
+      headers: {
+        'Content-type': 'application/json',
+      },
+      body: JSON.stringify(user1),
+    });
+    let data = await res.json();
+  } catch (error) {
+    console.error('Error:', error);
+  }
+}

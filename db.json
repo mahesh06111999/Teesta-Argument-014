@@ -75,46 +75,6 @@
       "password": "1234",
       "cart": [
         {
-          "id": 50,
-          "designer": "ACNE STUDIOS",
-          "title": "Midsummer Shopper Bag",
-          "price": 57119,
-          "image": "https://is4.fwrdassets.com/images/p/fw/45/ACNE-WY93_V1.jpg",
-          "new": "false",
-          "category": "bags"
-        },
-        {
-          "id": 46,
-          "designer": "ADIDAS ORIGINALS",
-          "title": "Rivalry 86 Low Sneaker",
-          "price": 10006,
-          "image": "https://is4.fwrdassets.com/images/p/fw/z/ADIO-MZ224_V1.jpg",
-          "new": "true",
-          "category": "shoes"
-        }
-      ],
-      "mydesigners": ["BAINA", "A.L.C.", "BALENCIAGA", "A'MMONDE ATELIER"],
-      "isloggedin": true,
-      "wishlist": [
-        {
-          "id": 46,
-          "designer": "ADIDAS ORIGINALS",
-          "title": "Rivalry 86 Low Sneaker",
-          "price": 10006,
-          "image": "https://is4.fwrdassets.com/images/p/fw/z/ADIO-MZ224_V1.jpg",
-          "new": "true",
-          "category": "shoes"
-        },
-        {
-          "id": 41,
-          "designer": "ACNE STUDIOS",
-          "title": "Holtz Lace Camo Sun Hat",
-          "price": 35022,
-          "image": "https://is4.fwrdassets.com/images/p/fw/45s/ACNE-WA212_V1.jpg",
-          "new": "true",
-          "category": "dress"
-        },
-        {
           "id": 133,
           "designer": "ANASTASIO HOME",
           "title": "Swell Candle Set",
@@ -133,6 +93,14 @@
           "category": "bags"
         }
       ],
+      "mydesigners": [
+        "BAINA",
+        "A.L.C.",
+        "BALENCIAGA",
+        "A'MMONDE ATELIER"
+      ],
+      "isloggedin": true,
+      "wishlist": [],
       "id": 5
     }
   ],
