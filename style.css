@@ -284,6 +284,7 @@ body {
 
 #st-wishlist > div {
   display: flex;
+  margin: 20px;
 }
 
 #st-wishlist > div > a {
@@ -291,14 +292,18 @@ body {
   margin-top: 50px;
   border-radius: 6px;
   font-family: Arial, sans-serif;
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 500;
+  width: 100px;
+  padding: 10px;
+  text-align: center;
 }
 
 #st-wishlist > div > a:hover {
   background-color: white;
   cursor: pointer;
 }
+
 /* ///////////////////////////////////////////////////////////////// */
 
 .st-heading {
@@ -456,7 +461,12 @@ a {
   width: 320px;
   font-size: 14px;
 }
-
+#wishcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  padding: 60px;
+}
 #malist4 {
   display: flex;
   flex-direction: column;
