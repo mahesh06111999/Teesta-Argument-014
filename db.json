@@ -71,40 +71,51 @@
       "id": 4
     },
     {
-      "usermail": "abc@gmail.com",
-      "password": "12345",
+      "usermail": "ss@gmail.com",
+      "password": "1234",
       "cart": [],
       "mydesigners": [
-        {},
-        {},
         "BAINA",
+        "A.L.C.",
         "BALENCIAGA"
       ],
       "isloggedin": true,
       "wishlist": [
         {
-          "id": 1,
-          "image": "https://is4.fwrdassets.com/images/p/fw/p/NOMF-WD478_V1.jpg",
-          "designer": "Norma Kamali",
-          "title": "Strapless Bill Pickleball Dress",
-          "price": "₹32,833",
-          "category": "clothing"
+          "id": 46,
+          "designer": "ADIDAS ORIGINALS",
+          "title": "Rivalry 86 Low Sneaker",
+          "price": "₹10,006.38",
+          "image": "https://is4.fwrdassets.com/images/p/fw/z/ADIO-MZ224_V1.jpg",
+          "new": "true",
+          "category": "shoes"
         },
         {
-          "id": 2,
-          "image": "https://is4.fwrdassets.com/images/p/fw/p/RTFF-WP31_V1.jpg",
-          "designer": "retrofete",
-          "title": "Danica Pant",
-          "price": "₹24,520",
-          "category": "clothing"
+          "id": 41,
+          "designer": "ACNE STUDIOS",
+          "title": "Holtz Lace Camo Sun Hat",
+          "price": "₹35,022.33",
+          "image": "https://is4.fwrdassets.com/images/p/fw/45s/ACNE-WA212_V1.jpg",
+          "new": "true",
+          "category": "dress"
         },
         {
-          "id": 2,
-          "image": "https://is4.fwrdassets.com/images/p/fw/p/RTFF-WP31_V1.jpg",
-          "designer": "retrofete",
-          "title": "Danica Pant",
-          "price": "₹24,520",
-          "category": "clothing"
+          "id": 133,
+          "designer": "ANASTASIO HOME",
+          "title": "Swell Candle Set",
+          "price": "₹16,260.37",
+          "image": "https://is4.fwrdassets.com/images/p/fw/45/AOMF-WH42_V3.jpg",
+          "new": "true",
+          "category": "beauty"
+        },
+        {
+          "id": 50,
+          "designer": "ACNE STUDIOS",
+          "title": "Midsummer Shopper Bag",
+          "price": "₹57,119.75",
+          "image": "https://is4.fwrdassets.com/images/p/fw/45/ACNE-WY93_V1.jpg",
+          "new": "false",
+          "category": "bags"
         }
       ],
       "id": 5
