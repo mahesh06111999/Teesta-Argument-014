@@ -57,7 +57,7 @@ To run this project locally:
 ## Contributors
 
 - [Mahesh S R](https://github.com/mahesh06111999)
-- []()
+- [Taqiuddin Raheemuddin Syed](https://github.com/mr-taqi)
 - []()
 - []()
 
