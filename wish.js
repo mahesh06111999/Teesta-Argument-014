@@ -3,6 +3,14 @@ let wishcontainer = document.getElementById('wishcontainer');
 let user = JSON.parse(localStorage.getItem('user'));
 let mydesigners = document.getElementById('mydesigners');
 
+if (user && user.isloggedin) {
+  const status = document.querySelector('[href="signinup.html"]');
+  status.textContent = 'Sign Out.';
+} else {
+  const status = document.querySelector('[href="signinup.html"]');
+  status.textContent = 'Sign In.';
+}
+
 function cardCreater(item) {
   let div = document.createElement('div');
   div.className = 'cardstyle';

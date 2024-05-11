@@ -1,5 +1,12 @@
 let cart = JSON.parse(localStorage.getItem('user'));
-
+let user = JSON.parse(localStorage.getItem('user')) || {};
+if (user && user.isloggedin) {
+  const status = document.querySelector('[href="signinup.html"]');
+  status.textContent = 'Sign Out.';
+} else {
+  const status = document.querySelector('[href="signinup.html"]');
+  status.textContent = 'Sign In.';
+}
 let cartcontent = document.getElementById('Rcontainer-1');
 
 document.getElementById(
@@ -29,25 +36,25 @@ function cartcard(item) {
   div.append(image, title, div2, price);
 
   a1.addEventListener('click', () => {
-    cart.cart.forEach((item2) => {
+    let itemFoundInCart = false;
+
+    cart.cart.forEach((item2, index) => {
       if (item.id === item2.id) {
         cart.wishlist.push(item);
-        console.log(cart.wishlist);
+        cart.cart.splice(index, 1);
         localStorage.setItem('user', JSON.stringify(cart));
-      } else {
-        let newcart = cart.cart.filter((item1) => {
-          if (item1.id != item.id) {
-            return item;
-          }
-        });
-
-        cart.cart = newcart;
-        localStorage.setItem('user', JSON.stringify(cart));
-        updater(cart);
+        itemFoundInCart = true;
       }
-      updater(cart);
     });
+
+    if (!itemFoundInCart) {
+      cart.wishlist.push(item);
+      localStorage.setItem('user', JSON.stringify(cart));
+    }
+
+    updater(cart);
   });
+
   a2.addEventListener('click', () => {
     let newcart = cart.cart.filter((item1) => {
       if (item1.id != item.id) {

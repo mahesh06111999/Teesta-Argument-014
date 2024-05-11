@@ -30,7 +30,7 @@ function productPageCreater(item) {
   btn2.innerText = 'Add To Wish List';
   btn1.addEventListener('click', () => {
     let user1 = JSON.parse(localStorage.getItem('user'));
-    if (user1.isloggedin == true) {
+    if (user1 && user1.isloggedin == true) {
       user1.cart.push(item);
       localStorage.setItem('user', JSON.stringify(user1));
 
@@ -58,7 +58,7 @@ function productPageCreater(item) {
 
   btn2.addEventListener('click', () => {
     let user1 = JSON.parse(localStorage.getItem('user'));
-    if (user1.isloggedin === true) {
+    if (user1 && user1.isloggedin === true) {
       user1.wishlist.push(item);
       localStorage.setItem('user', JSON.stringify(user1));
       async function patchData(user1) {

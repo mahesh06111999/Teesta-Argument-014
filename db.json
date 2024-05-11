@@ -73,23 +73,49 @@
     {
       "usermail": "ss@gmail.com",
       "password": "1234",
-      "cart": [
-        {
-          "id": 46,
-          "designer": "ADIDAS ORIGINALS",
-          "title": "Rivalry 86 Low Sneaker",
-          "price": 10006,
-          "image": "https://is4.fwrdassets.com/images/p/fw/z/ADIO-MZ224_V1.jpg",
-          "new": "true",
-          "category": "shoes"
-        }
-      ],
+      "cart": [],
       "mydesigners": [
         "BAINA",
         "A.L.C.",
         "BALENCIAGA",
         "A'MMONDE ATELIER",
-        "CAMP HIGH"
+        "CAMP HIGH",
+        "HELSA",
+        "ALBERTA FERRETTI",
+        "ANASTASIO HOME",
+        "BHANDON",
+        "BIRKENSTOCK",
+        "BOYY",
+        "BIBA DE SOUSA",
+        "BRANDON MAXWELL",
+        "ETRO",
+        "BIANCA",
+        "ANDREADAMO",
+        "ACNE STUDIOS",
+        "BALLY",
+        "DAVID KOMA",
+        "ETERNE",
+        "ERL",
+        "CALLE DEL MAR",
+        "MACH & MACH",
+        "U BEAUTY",
+        "ULLA JOHNSON",
+        "UNIFROM",
+        "CANADA GOOSE",
+        "DIOTIMA",
+        "FLATLIST",
+        "ISABEL MARANT",
+        "FOREO",
+        "WOLFORD",
+        "OLIVE ATELIERS",
+        "A.EMERY",
+        "ALANUI",
+        "CHRISTOPHER ESBER",
+        "COPERNI",
+        "DIESEL",
+        "FREDERIC MALLE",
+        "EERA",
+        "GANNI"
       ],
       "isloggedin": true,
       "wishlist": [
@@ -101,6 +127,14 @@
           "image": "https://is4.fwrdassets.com/images/p/fw/45/AOMF-WH42_V3.jpg",
           "new": "true",
           "category": "beauty"
+        },
+        {
+          "id": 3,
+          "image": "https://is4.fwrdassets.com/images/p/fw/p/SPOF-WD363_V1.jpg",
+          "designer": "self-portrait",
+          "title": "Crepe Bow Mini Dress",
+          "price": 38651,
+          "category": "clothing"
         }
       ],
       "id": 5
