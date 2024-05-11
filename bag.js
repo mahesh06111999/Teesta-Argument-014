@@ -101,3 +101,8 @@ async function updater(user1) {
     console.error('Error:', error);
   }
 }
+function displayCards(val) {
+  console.log('working');
+  window.location.href = 'new.html';
+  localStorage.setItem('filtered', val);
+}
