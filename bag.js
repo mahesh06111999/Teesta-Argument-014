@@ -66,12 +66,14 @@ function getTotalQuantity(cart) {
 function moveItemToWishlist(item) {
   cart.wishlist.push(item);
   removeItemFromCart(item);
+  updater(cart);
 }
 
 function removeItemFromCart(item) {
   cart.cart = cart.cart.filter((item1) => item1.id !== item.id);
   localStorage.setItem('user', JSON.stringify(cart));
   updateCartUI();
+  updater(cart);
 }
 
 function updateCartQuantity() {
@@ -109,6 +111,31 @@ function addItemToCart(item) {
 
   localStorage.setItem('user', JSON.stringify(cart));
   updateCartUI();
+  updater(cart);
 }
 
 updateCartUI();
+let btncheckout = document.getElementById('btncheckout');
+btncheckout.addEventListener('click', () => {
+  cart.cart = [];
+  console.log(cart);
+  localStorage.setItem('user', JSON.stringify(cart));
+  updateCartUI();
+  updater(cart);
+});
+
+async function updater(user1) {
+  try {
+    let res = await fetch(`http://localhost:3000/users/${user1.id}`, {
+      method: 'PATCH',
+      headers: {
+        'Content-type': 'application/json',
+      },
+      body: JSON.stringify(user1),
+    });
+    let data = await res.json();
+    console.log(data);
+  } catch (error) {
+    console.error('Error:', error);
+  }
+}
