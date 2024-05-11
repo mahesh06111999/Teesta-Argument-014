@@ -73,7 +73,17 @@
     {
       "usermail": "ss@gmail.com",
       "password": "1234",
-      "cart": [],
+      "cart": [
+        {
+          "id": 133,
+          "designer": "ANASTASIO HOME",
+          "title": "Swell Candle Set",
+          "price": 16260,
+          "image": "https://is4.fwrdassets.com/images/p/fw/45/AOMF-WH42_V3.jpg",
+          "new": "true",
+          "category": "beauty"
+        }
+      ],
       "mydesigners": [
         "BAINA",
         "A.L.C.",
@@ -120,21 +130,22 @@
       "isloggedin": true,
       "wishlist": [
         {
-          "id": 133,
-          "designer": "ANASTASIO HOME",
-          "title": "Swell Candle Set",
-          "price": 16260,
-          "image": "https://is4.fwrdassets.com/images/p/fw/45/AOMF-WH42_V3.jpg",
-          "new": "true",
-          "category": "beauty"
-        },
-        {
           "id": 3,
           "image": "https://is4.fwrdassets.com/images/p/fw/p/SPOF-WD363_V1.jpg",
           "designer": "self-portrait",
           "title": "Crepe Bow Mini Dress",
           "price": 38651,
           "category": "clothing"
+        },
+        {
+          "id": 42,
+          "designer": "AGOLDE",
+          "title": "Harper Mid Rise Straight",
+          "price": 18178,
+          "image": "https://is4.fwrdassets.com/images/p/fw/z/AGOL-WJ530_V1.jpg",
+          "new": "true",
+          "category": "dress",
+          "quantity": 1
         }
       ],
       "id": 5
