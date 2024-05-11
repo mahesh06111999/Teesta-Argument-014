@@ -2,6 +2,7 @@ let wishlist = document.getElementById('wishlist');
 let wishcontainer = document.getElementById('wishcontainer');
 let user = JSON.parse(localStorage.getItem('user'));
 let mydesigners = document.getElementById('mydesigners');
+console.log(user);
 
 function cardCreater(item) {
   let div = document.createElement('div');
