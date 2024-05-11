@@ -76,7 +76,7 @@ let btncheckout = document.getElementById('btncheckout');
 btncheckout.addEventListener('click', () => {
   alert('Order placed sucessfully');
   cart.cart = [];
-  localStorage.setItem('user', cart);
+  localStorage.setItem('user', JSON.stringify(cart));
   updater(cart);
 });
 

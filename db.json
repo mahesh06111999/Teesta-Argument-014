@@ -73,7 +73,17 @@
     {
       "usermail": "ss@gmail.com",
       "password": "1234",
-      "cart": [],
+      "cart": [
+        {
+          "id": 46,
+          "designer": "ADIDAS ORIGINALS",
+          "title": "Rivalry 86 Low Sneaker",
+          "price": 10006,
+          "image": "https://is4.fwrdassets.com/images/p/fw/z/ADIO-MZ224_V1.jpg",
+          "new": "true",
+          "category": "shoes"
+        }
+      ],
       "mydesigners": [
         "BAINA",
         "A.L.C.",

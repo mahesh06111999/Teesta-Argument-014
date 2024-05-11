@@ -7,7 +7,7 @@ async function fetchProducts(url) {
     display(data);
     finaldata = data;
     arr = data;
-    localStorage.setItem('products', JSON.stringify(finaldata));
+    localStorage.setItem('products', JSON.stringify(data));
   } catch (error) {
     console.log(error);
   }
