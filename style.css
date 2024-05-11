@@ -307,6 +307,7 @@ body {
 /* ///////////////////////////////////////////////////////////////// */
 
 .st-heading {
+  text-align: center;
   text-transform: uppercase;
   font-family: Arial, sans-serif;
   font-size: 27px;
