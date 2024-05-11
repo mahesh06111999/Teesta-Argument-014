@@ -2,7 +2,6 @@ let wishlist = document.getElementById('wishlist');
 let wishcontainer = document.getElementById('wishcontainer');
 let user = JSON.parse(localStorage.getItem('user'));
 let mydesigners = document.getElementById('mydesigners');
-console.log(user);
 
 function cardCreater(item) {
   let div = document.createElement('div');
@@ -50,7 +49,6 @@ wishlist.addEventListener('click', () => {
 let finaldata = JSON.parse(localStorage.getItem('products'));
 
 mydesigners.addEventListener('click', () => {
-  console.log('clicked');
   let ans = [];
   user.mydesigners.forEach((item) => {
     ans = ans.concat(
@@ -63,7 +61,6 @@ mydesigners.addEventListener('click', () => {
   ans.forEach((item) => {
     wishcontainer.append(cardCreater(item));
   });
-  console.log(ans);
 });
 
 async function updater(user1) {

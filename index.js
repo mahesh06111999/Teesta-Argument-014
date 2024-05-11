@@ -73,11 +73,15 @@ let designers = finaldata.map((item) => {
 let finaldesigners = [...new Set(designers)];
 
 let selection = document.getElementById('selection');
+finaldesigners.sort((a, b) => {
+  return a - b;
+});
+
 finaldesigners.forEach((ele) => {
   let option = document.createElement('option');
   option.className = 'optionfont';
   option.value = ele;
-  option.textContent = ele;
+  option.textContent = ele.toUpperCase();
   selection.appendChild(option);
 });
 
@@ -96,10 +100,10 @@ let sorter1 = document.getElementById('sorter');
 sorter1.addEventListener('change', () => {
   let pagearr = JSON.parse(localStorage.getItem('pagearr'));
 
-  pagearr = pagearr.map((item) => {
-    let price = item.price.replace('₹', '').replace(',', '');
-    return { ...item, price: parseInt(price) };
-  });
+  // pagearr = pagearr.map((item) => {
+  //   let price = item.price.replace('₹', '').replace(',', '');
+  //   return { ...item, price: parseInt(price) };
+  // });
   if (sorter1.value == 'low') {
     pagearr.sort((a, b) => {
       return a.price - b.price;
