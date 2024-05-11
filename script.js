@@ -1,10 +1,10 @@
 let deepDesigner = document.getElementById('deepDesigner');
 let user = JSON.parse(localStorage.getItem('user')) || {};
 if (user && user.isloggedin) {
-  const status = document.querySelector('[href="signinup.html"]');
+  const status = document.querySelector('#s1');
   status.textContent = 'Sign Out.';
 } else {
-  const status = document.querySelector('[href="signinup.html"]');
+  const status = document.querySelector('#s1');
   status.textContent = 'Sign In.';
 }
 //display all the designer to the page on loading

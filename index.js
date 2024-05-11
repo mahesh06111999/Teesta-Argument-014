@@ -2,17 +2,19 @@ let finaldata = JSON.parse(localStorage.getItem('products')) || [];
 let user = JSON.parse(localStorage.getItem('user')) || {};
 let arr;
 let filtervalue = localStorage.getItem('filtered');
-
+// let s1 = document.getElementById('s1');
+// console.log(s1);
 if (user && user.isloggedin) {
-  const status = document.querySelector('[href="signinup.html"]');
+  const status = document.querySelector('#s1');
   status.textContent = 'Sign Out.';
+  console.log(status);
   status.innerText === 'Sign Out.' &&
     status.addEventListener('click', () => {
       localStorage.removeItem('user');
       status.textContent = 'Sign In.';
     });
 } else {
-  const status = document.querySelector('[href="signinup.html"]');
+  const status = document.querySelector('#s1');
   status.textContent = 'Sign In.';
 }
 
