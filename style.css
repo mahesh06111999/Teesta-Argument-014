@@ -762,6 +762,10 @@ input {
   gap: 10px;
 }
 
+#deepSideBar> a {
+  padding-left: 10%;
+}
+
 #deepSideBar > a:hover {
   text-decoration: underline;
 }
