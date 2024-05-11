@@ -100,7 +100,7 @@
           "price": 16260,
           "image": "https://is4.fwrdassets.com/images/p/fw/45/AOMF-WH42_V3.jpg",
           "new": "true",
-          "category": "beauty"
+          "category": "accessories"
         }
       ],
       "id": 5
@@ -1263,7 +1263,7 @@
       "price": 16260,
       "image": "https://is4.fwrdassets.com/images/p/fw/45/AOMF-WH42_V3.jpg",
       "new": "true",
-      "category": "beauty"
+      "category": "accessories"
     },
     {
       "id": 134,
@@ -1272,7 +1272,7 @@
       "price": 13758,
       "image": "https://is4.fwrdassets.com/images/p/fw/45/AOMF-WH44_V1.jpg",
       "new": "false",
-      "category": "beauty"
+      "category": "accessories"
     },
     {
       "id": 135,
@@ -1281,7 +1281,7 @@
       "price": 57953,
       "image": "https://is4.fwrdassets.com/images/p/fw/z/AOMF-WH16_V1.jpg",
       "new": "false",
-      "category": "beauty"
+      "category": "accessories"
     },
     {
       "id": 136,
@@ -1290,7 +1290,7 @@
       "price": 12507,
       "image": "https://is4.fwrdassets.com/images/p/fw/z/AOMF-WH27_V1.jpg",
       "new": "false",
-      "category": "beauty"
+      "category": "accessories"
     },
     {
       "id": 137,
@@ -1299,7 +1299,7 @@
       "price": 31269,
       "image": "https://is4.fwrdassets.com/images/p/fw/z/AOMF-WH15_V2.jpg",
       "new": "false",
-      "category": "beauty"
+      "category": "accessories"
     },
     {
       "id": 138,
@@ -1308,7 +1308,7 @@
       "price": 31269,
       "image": "https://is4.fwrdassets.com/images/p/fw/z/AOMF-WH15_V2.jpg",
       "new": "false",
-      "category": "beauty"
+      "category": "accessories"
     },
     {
       "id": 139,
@@ -1344,7 +1344,7 @@
       "price": 137587,
       "image": "https://is4.fwrdassets.com/images/p/fw/45/VENT-WY1109_V2.jpg",
       "new": "false",
-      "category": "beauty"
+      "category": "accessories"
     },
     {
       "id": 143,
@@ -1471,6 +1471,60 @@
       "image": "https://is4.fwrdassets.com/images/p/fw/45/BOTT-MY223_V1.jpg",
       "new": "true",
       "category": "bags"
+    },
+    {
+      "id": 157,
+      "designer": "AESOP",
+      "title": "Eleos Aromatique Hand Balm",
+      "price": 8338,
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/AESR-WU182_V2.jpg",
+      "new": "true",
+      "category": "beauty"
+    },
+    {
+      "id": 158,
+      "designer": "F. MILLER",
+      "title": "Hand & Body Wash",
+      "price": 3523,
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/FMIF-WU1_V1.jpg",
+      "new": "false",
+      "category": "beauty"
+    },
+    {
+      "id": 159,
+      "designer": "AUGUSTINUS BABER",
+      "title": "The Geranium Rose Body Oil",
+      "price": 9972,
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/ABAF-WU6_V3.jpg",
+      "new": "false",
+      "category": "beauty"
+    },
+    {
+      "id": 160,
+      "designer": "CORPUS",
+      "title": "Katrafay Body Scrub",
+      "price": 6472,
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/CPUF-WU3_V1.jpg",
+      "new": "false",
+      "category": "beauty"
+    },
+    {
+      "id": 161,
+      "designer": "WONDER VALLEY",
+      "title": "Little Wonders Skincare Set",
+      "price": 6822,
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/WLEF-WU7_V1.jpg",
+      "new": "false",
+      "category": "beauty"
+    },
+    {
+      "id": 162,
+      "designer": "NONFICTION",
+      "title": "Best Gift Set",
+      "price": 16522,
+      "image": "https://is4.fwrdassets.com/images/p/fw/45/NONF-UU14_V1.jpg",
+      "new": "false",
+      "category": "beauty"
     }
   ],
   "designers": [
