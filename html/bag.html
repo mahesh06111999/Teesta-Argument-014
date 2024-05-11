@@ -15,6 +15,16 @@
     />
 
     <style>
+      #orderplacer {
+        position: relative;
+        left: 1100px;
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        border: 1px solid black;
+        padding: 20px;
+        visibility: hidden;
+      }
       .divbox2 {
         display: flex;
         flex-direction: column;
@@ -147,10 +157,12 @@
             <a href="index.html">FWRD</a>
           </div>
           <div>
-            <span>
-              <input type="text" placeholder="search" /><button
-                class="st-button"
-              >
+            <span style="border-bottom: 1px solid black">
+              <input
+                type="text"
+                placeholder="search"
+                style="border: none; margin-bottom: 5px"
+              /><button class="st-button">
                 <i class="fa-solid fa-magnifying-glass"></i>
               </button>
             </span>
@@ -666,6 +678,16 @@
             <img src="../images/payment-logo.png" alt="" />
           </div>
         </div>
+      </div>
+      <div id="orderplacer">
+        ADDRESS: <input type="text" style="width: 300px" /><br />
+        CARD NUMBER: <input type="text" style="width: 300px" /><br />
+        <div style="display: flex; gap: 20px">
+          EXPIRY DATE: <input type="text" style="width: 120px" /><br />
+          CVV: <input type="text" style="width: 120px" /><br />
+        </div>
+
+        <button>PLACE ORDER</button>
       </div>
 
       <div id="Rcontinue-shopping">

@@ -73,7 +73,15 @@
     {
       "usermail": "ss@gmail.com",
       "password": "1234",
-      "cart": [
+      "cart": [],
+      "mydesigners": [
+        "BAINA",
+        "A.L.C.",
+        "BALENCIAGA",
+        "A'MMONDE ATELIER"
+      ],
+      "isloggedin": true,
+      "wishlist": [
         {
           "id": 133,
           "designer": "ANASTASIO HOME",
@@ -82,25 +90,8 @@
           "image": "https://is4.fwrdassets.com/images/p/fw/45/AOMF-WH42_V3.jpg",
           "new": "true",
           "category": "beauty"
-        },
-        {
-          "id": 50,
-          "designer": "ACNE STUDIOS",
-          "title": "Midsummer Shopper Bag",
-          "price": 57119,
-          "image": "https://is4.fwrdassets.com/images/p/fw/45/ACNE-WY93_V1.jpg",
-          "new": "false",
-          "category": "bags"
         }
       ],
-      "mydesigners": [
-        "BAINA",
-        "A.L.C.",
-        "BALENCIAGA",
-        "A'MMONDE ATELIER"
-      ],
-      "isloggedin": true,
-      "wishlist": [],
       "id": 5
     }
   ],

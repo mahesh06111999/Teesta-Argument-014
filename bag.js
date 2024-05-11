@@ -69,11 +69,16 @@ cart.cart.forEach((element) => {
   cartcontent.append(cartcard(element));
 });
 
-document.getElementById('subtotal').innerText = sum;
-document.getElementById('estimatedtotal').innerText = sum;
+document.getElementById('subtotal').innerText = '₹ ' + sum;
+document.getElementById('estimatedtotal').innerText = '₹ ' + sum;
 
 let btncheckout = document.getElementById('btncheckout');
-btncheckout.addEventListener('click', () => {});
+btncheckout.addEventListener('click', () => {
+  alert('Order placed sucessfully');
+  cart.cart = [];
+  localStorage.setItem('user', cart);
+  updater(cart);
+});
 
 async function updater(user1) {
   try {
