@@ -75,13 +75,14 @@
       "password": "1234",
       "cart": [
         {
-          "id": 133,
-          "designer": "ANASTASIO HOME",
-          "title": "Swell Candle Set",
-          "price": 16260,
-          "image": "https://is4.fwrdassets.com/images/p/fw/45/AOMF-WH42_V3.jpg",
+          "id": 42,
+          "designer": "AGOLDE",
+          "title": "Harper Mid Rise Straight",
+          "price": 18178,
+          "image": "https://is4.fwrdassets.com/images/p/fw/z/AGOL-WJ530_V1.jpg",
           "new": "true",
-          "category": "beauty"
+          "category": "dress",
+          "quantity": 1
         }
       ],
       "mydesigners": [
@@ -138,14 +139,13 @@
           "category": "clothing"
         },
         {
-          "id": 42,
-          "designer": "AGOLDE",
-          "title": "Harper Mid Rise Straight",
-          "price": 18178,
-          "image": "https://is4.fwrdassets.com/images/p/fw/z/AGOL-WJ530_V1.jpg",
+          "id": 133,
+          "designer": "ANASTASIO HOME",
+          "title": "Swell Candle Set",
+          "price": 16260,
+          "image": "https://is4.fwrdassets.com/images/p/fw/45/AOMF-WH42_V3.jpg",
           "new": "true",
-          "category": "dress",
-          "quantity": 1
+          "category": "beauty"
         }
       ],
       "id": 5
