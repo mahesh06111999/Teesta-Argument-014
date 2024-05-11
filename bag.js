@@ -126,13 +126,16 @@ btncheckout.addEventListener('click', () => {
 
 async function updater(user1) {
   try {
-    let res = await fetch(`http://localhost:3000/users/${user1.id}`, {
-      method: 'PATCH',
-      headers: {
-        'Content-type': 'application/json',
-      },
-      body: JSON.stringify(user1),
-    });
+    let res = await fetch(
+      `https://teesta-argument-014.onrender.com/users/${user1.id}`,
+      {
+        method: 'PATCH',
+        headers: {
+          'Content-type': 'application/json',
+        },
+        body: JSON.stringify(user1),
+      }
+    );
     let data = await res.json();
     console.log(data);
   } catch (error) {

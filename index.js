@@ -41,7 +41,7 @@ function display(data) {
     macardbox.append(cardCreater(item));
   });
 }
-fetchProducts('http://localhost:3000/data');
+fetchProducts('https://teesta-argument-014.onrender.com/data');
 
 let macardbox = document.getElementById('macardbox');
 

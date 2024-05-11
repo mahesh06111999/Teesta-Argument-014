@@ -36,13 +36,16 @@ function productPageCreater(item) {
 
       async function patchData(user1) {
         try {
-          let res = await fetch(`http://localhost:3000/users/${user1.id}`, {
-            method: 'PATCH',
-            headers: {
-              'Content-type': 'application/json',
-            },
-            body: JSON.stringify(user1),
-          });
+          let res = await fetch(
+            `https://teesta-argument-014.onrender.com/users/${user1.id}`,
+            {
+              method: 'PATCH',
+              headers: {
+                'Content-type': 'application/json',
+              },
+              body: JSON.stringify(user1),
+            }
+          );
           let data = await res.json();
           alert('Added to cart!');
         } catch (error) {
@@ -63,13 +66,16 @@ function productPageCreater(item) {
       localStorage.setItem('user', JSON.stringify(user1));
       async function patchData(user1) {
         try {
-          let res = await fetch(`http://localhost:3000/users/${user1.id}`, {
-            method: 'PATCH',
-            headers: {
-              'Content-type': 'application/json',
-            },
-            body: JSON.stringify(user1),
-          });
+          let res = await fetch(
+            `https://teesta-argument-014.onrender.com/users/${user1.id}`,
+            {
+              method: 'PATCH',
+              headers: {
+                'Content-type': 'application/json',
+              },
+              body: JSON.stringify(user1),
+            }
+          );
           let data = await res.json();
           alert('Added to wishlist!');
         } catch (error) {
