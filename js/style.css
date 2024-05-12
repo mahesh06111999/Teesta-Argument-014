@@ -762,7 +762,8 @@ input {
   gap: 10px;
 }
 
-#deepSideBar> a {
+#deepSideBar > a,
+#deepSideBar > h4 {
   padding-left: 10%;
 }
 
