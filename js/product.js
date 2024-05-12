@@ -4,6 +4,11 @@ let page = document.getElementById('ppage');
 let item = JSON.parse(localStorage.getItem('clickeditem'));
 productPageCreater(item);
 
+function redirect(value) {
+  localStorage.setItem('filtervalue', value);
+  window.location.href = 'new.html';
+}
+
 function productPageCreater(item) {
   let div = document.createElement('div');
   div.className = 'pcardstyle';
@@ -56,6 +61,7 @@ function productPageCreater(item) {
       patchData(user1);
     } else {
       alert('Log in First!');
+      window.location.href = 'signinup.html';
     }
   });
 
@@ -86,6 +92,7 @@ function productPageCreater(item) {
       patchData(user1);
     } else {
       alert('Log in First!');
+      window.location.href = 'signinup.html';
     }
   });
 

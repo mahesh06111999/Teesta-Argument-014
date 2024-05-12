@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FRWD</title>
-    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="./js/style.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
@@ -17,7 +17,7 @@
         <section class="st-container">
           <div id="st-navP1">
             <div>
-              <span><img src="../images/flag.png" alt="flag image" /></span>
+              <span><img src="./images/flag.png" alt="flag image" /></span>
               <i class="fa-solid fa-grip-lines-vertical"></i>
               <span><strong>EN</strong></span>
               <i class="fa-solid fa-grip-lines-vertical"></i>
@@ -44,12 +44,12 @@
               <a href="index.html">FWRD</a>
             </div>
             <div>
-              <span id="span">
+              <span style="border-bottom: 1px solid black">
                 <input
                   type="text"
                   placeholder="search"
-                  id="searchname"
-                /><button class="st-button" id="searchbutton">
+                  style="border: none; margin-bottom: 5px"
+                /><button class="st-button">
                   <i class="fa-solid fa-magnifying-glass"></i>
                 </button>
               </span>
@@ -64,8 +64,7 @@
             <div class="st-dropdown">
               <div>
                 <a
-                  href="new.html"
-                  onclick="displayCards('new'); event.preventDefault();"
+                  onclick="event.preventDefault(); redirect('new'); displayCards('new');"
                   >new</a
                 >
                 <div class="st-content st-newDD" id="">
@@ -172,8 +171,7 @@
               </div>
               <div>
                 <a
-                  href="new.html"
-                  onclick="displayCards('clothing'); event.preventDefault();"
+                  onclick="event.preventDefault(); redirect('clothing'); displayCards('clothing');"
                   >clothing</a
                 >
                 <div class="st-content st-clothingDD">
@@ -194,9 +192,9 @@
                     <a href="#">all clothing</a>
                     <a href="#">dresses</a>
                     <a href="#">tops</a>
-                    <a href="#">jackets \& coats</a>
-                    <a href="#">jumpsuits \& rompers</a>
-                    <a href="#">sweaters \& kints</a>
+                    <a href="#">jackets & coats</a>
+                    <a href="#">jumpsuits & rompers</a>
+                    <a href="#">sweaters & kints</a>
                     <a href="#">loungwears</a>
                     <a href="#">denim</a>
                     <a href="#">pants</a>
@@ -229,8 +227,7 @@
               </div>
               <div>
                 <a
-                  href="new.html"
-                  onclick="displayCards('dress'); event.preventDefault();"
+                  onclick="event.preventDefault(); redirect('dress'); displayCards('dress');"
                   >dresses</a
                 >
                 <div class="st-content st-dressesDD">
@@ -277,8 +274,7 @@
               </div>
               <div>
                 <a
-                  href="new.html"
-                  onclick="displayCards('shoes'); event.preventDefault();"
+                  onclick="event.preventDefault(); redirect('shoes'); displayCards('shoes');"
                   >shoes</a
                 >
                 <div class="st-content st-shoesDD">
@@ -321,8 +317,7 @@
               </div>
               <div>
                 <a
-                  href="new.html"
-                  onclick="displayCards('bags'); event.preventDefault();"
+                  onclick="event.preventDefault(); redirect('bags'); displayCards('bags');"
                   >bags</a
                 >
                 <div class="st-content st-bagsDD">
@@ -365,8 +360,7 @@
               </div>
               <div>
                 <a
-                  href="new.html"
-                  onclick="displayCards('accessories'); event.preventDefault();"
+                  onclick="event.preventDefault(); redirect('accessories'); displayCards('accessories');"
                   >accessories</a
                 >
                 <div class="st-content st-accessoriesDD">
@@ -386,7 +380,7 @@
                     <a href="#">home</a>
                     <a href="#">gifts</a>
                     <a href="#">gift Certificates</a>
-                    <a href="#">sunglasses \& eyewear</a>
+                    <a href="#">sunglasses & eyewear</a>
                   </div>
                   <div>
                     <span>featured brands</span>
@@ -403,8 +397,7 @@
               </div>
               <div>
                 <a
-                  href="new.html"
-                  onclick="displayCards('beauty'); event.preventDefault();"
+                  onclick="event.preventDefault(); redirect('beauty'); displayCards('beauty');"
                   >beauty</a
                 >
                 <div class="st-content st-beautyDD">
@@ -429,7 +422,7 @@
                     <a href="#">hair</a>
                     <a href="#">makeup</a>
                     <a href="#">skincare</a>
-                    <a href="#">tools \& brushes</a>
+                    <a href="#">tools & brushes</a>
                     <a href="#">ties</a>
                     <a href="#">watches</a>
                   </div>
@@ -450,8 +443,7 @@
               </div>
               <div>
                 <a
-                  href="new.html"
-                  onclick="displayCards('sale'); event.preventDefault();"
+                  onclick="event.preventDefault(); redirect('sale'); displayCards('sale');"
                   >sale</a
                 >
               </div>
@@ -519,54 +511,54 @@
         </section>
         <!--////////////////////////////////syed/////////////////////////////////////-->
       </nav>
-      <div id="maherosection">
-        <div id="macategory">
-          <h3 id="mah3">CATEGORY</h3>
-          <a href="">All Sale Items</a>
-          <a href="">Accessories</a>
-          <a href="">Active wear</a>
-          <a href="">Bags</a>
-          <a href="">Beauty</a>
-          <a href="">Denim</a>
-          <a href="">Dresses</a>
-          <a href="">Home</a>
-          <a href="">Intimates</a>
-          <a href="">Jackets \& Coats</a>
-          <a href="">Jewelry</a>
-          <a href="">Jumpsuits \& Rompers</a>
-          <a href="">Leather</a>
-          <a href="">Loungewear</a>
-          <a href="">Misc</a>
-          <a href="">Pants</a>
-          <a href="">Pre-owned</a>
-          <a href="">Shoes</a>
-          <a href="">Shorts</a>
-          <a href="">Skirts</a>
-          <a href="">Sweaters \& Knits</a>
-          <a href="">T-shirts</a>
-          <a href="">Tops</a>
+      <main id="maimg1">
+        <!-- mahesh -->
+        <div id="maheadings">
+          <p>KENDALL JENNER FOR FWRD</p>
+          <p>BY SEAN THOMAS</p>
         </div>
-        <div id="macontainer">
-          <div id="maheadsec">
-            <div id="maline">
-              <p style="padding-left: 10px">Filter by:</p>
-              <select class="maselectdesigner" id="selection">
-                <option value="">Designer</option>
-              </select>
-            </div>
-            <div id="malineunder">
-              <div id="matotalvalue"></div>
-              <select name="" id="sorter" class="maselectdesigner">
-                <option value="">Sort By</option>
-                <option value="high">Sort by price High to Low</option>
-                <option value="low">Sort by price Low to High</option>
-                <option value="designer">Sort by designer</option>
-              </select>
-            </div>
-            <div id="macardbox"></div>
-          </div>
+        <img
+          src="https://is4.revolveassets.com/images/up/2023/December/010124_f_KJ_LP_01_2x.jpg"
+          alt=""
+          width="1600px"
+        />
+
+        <img
+          src="https://is4.revolveassets.com/images/up/2023/December/010124_f_KJ_LP_02_2x.jpg"
+          alt=""
+          width="1600px"
+        />
+
+        <img
+          src="https://is4.revolveassets.com/images/up/2023/December/010124_f_KJ_LP_03_2x.jpg"
+          alt=""
+          width="1600px"
+        />
+
+        <img
+          src="https://is4.revolveassets.com/images/up/2023/December/010124_f_KJ_LP_04_2x.jpg"
+          alt=""
+          width="1600px"
+        />
+        <img
+          src="https://is4.revolveassets.com/images/up/2023/December/010124_f_KJ_LP_06_2x.jpg"
+          alt=""
+          width="1600px"
+        />
+        <img
+          src="https://is4.revolveassets.com/images/up/2023/December/010124_f_KJ_LP_07_2x.jpg"
+          alt=""
+          width="1600px"
+        />
+        <img
+          src="https://is4.revolveassets.com/images/up/2023/December/010124_f_KJ_LP_08_2x.jpg"
+          alt=""
+          width="1600px"
+        />
+        <div id="ma1">
+          <a href="">SHOP NEW ARRIVALS</a>
         </div>
-      </div>
+      </main>
 
       <footer>
         <!-- mahesh -->
@@ -628,7 +620,7 @@
       </footer>
     </div>
   </body>
-  <script src="../index.js"></script>
+  <script src="./js/index.js"></script>
 </html>
 
 <script

@@ -99,7 +99,11 @@ async function addDesigner(user1) {
 display(1);
 
 function displayCards(val) {
-  console.log('working');
+  localStorage.setItem('filtervalue', val);
   window.location.href = 'new.html';
-  localStorage.setItem('filtered', val);
+}
+
+function redirect(value) {
+  localStorage.setItem('filtervalue', value);
+  window.location.href = 'new.html';
 }

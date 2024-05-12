@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FRWD</title>
-    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="./js/style.css" />
     <script
       src="https://kit.fontawesome.com/fff2546269.js"
       crossorigin="anonymous"
@@ -21,7 +21,7 @@
         <section class="st-container">
           <div id="st-navP1">
             <div>
-              <span><img src="../images/flag.png" alt="flag image" /></span>
+              <span><img src="./images/flag.png" alt="flag image" /></span>
               <i class="fa-solid fa-grip-lines-vertical"></i>
               <span><strong>EN</strong></span>
               <i class="fa-solid fa-grip-lines-vertical"></i>
@@ -68,8 +68,7 @@
             <div class="st-dropdown">
               <div>
                 <a
-                  href="new.html"
-                  onclick="displayCards('new'); event.preventDefault();"
+                  onclick="event.preventDefault(); redirect('new'); displayCards('new');"
                   >new</a
                 >
                 <div class="st-content st-newDD" id="">
@@ -176,8 +175,7 @@
               </div>
               <div>
                 <a
-                  href="new.html"
-                  onclick="displayCards('clothing'); event.preventDefault();"
+                  onclick="event.preventDefault(); redirect('clothing'); displayCards('clothing');"
                   >clothing</a
                 >
                 <div class="st-content st-clothingDD">
@@ -233,8 +231,7 @@
               </div>
               <div>
                 <a
-                  href="new.html"
-                  onclick="displayCards('dress'); event.preventDefault();"
+                  onclick="event.preventDefault(); redirect('dress'); displayCards('dress');"
                   >dresses</a
                 >
                 <div class="st-content st-dressesDD">
@@ -281,8 +278,7 @@
               </div>
               <div>
                 <a
-                  href="new.html"
-                  onclick="displayCards('shoes'); event.preventDefault();"
+                  onclick="event.preventDefault(); redirect('shoes'); displayCards('shoes');"
                   >shoes</a
                 >
                 <div class="st-content st-shoesDD">
@@ -325,8 +321,7 @@
               </div>
               <div>
                 <a
-                  href="new.html"
-                  onclick="displayCards('bags'); event.preventDefault();"
+                  onclick="event.preventDefault(); redirect('bags'); displayCards('bags');"
                   >bags</a
                 >
                 <div class="st-content st-bagsDD">
@@ -368,7 +363,10 @@
                 </div>
               </div>
               <div>
-                <a href="new.html">accessories</a>
+                <a
+                  onclick="event.preventDefault(); redirect('accessories'); displayCards('accessories');"
+                  >accessories</a
+                >
                 <div class="st-content st-accessoriesDD">
                   <div>
                     <img
@@ -403,8 +401,7 @@
               </div>
               <div>
                 <a
-                  href="new.html"
-                  onclick="displayCards('beauty'); event.preventDefault();"
+                  onclick="event.preventDefault(); redirect('beauty'); displayCards('beauty');"
                   >beauty</a
                 >
                 <div class="st-content st-beautyDD">
@@ -450,17 +447,12 @@
               </div>
               <div>
                 <a
-                  href="new.html"
-                  onclick="displayCards('sale'); event.preventDefault();"
+                  onclick="event.preventDefault(); redirect('sale'); displayCards('sale');"
                   >sale</a
                 >
               </div>
               <div>
-                <a
-                  href="shops.html"
-                  onclick="displayCards('shops'); event.preventDefault();"
-                  >shops</a
-                >
+                <a href="shops.html">shops</a>
                 <div class="st-content st-shopsDD">
                   <div>
                     <img
@@ -760,7 +752,7 @@
       </footer>
     </div>
   </body>
-  <script src="../index.js"></script>
+  <script defer src="./js/index.js"></script>
 </html>
 
 <script

@@ -118,10 +118,10 @@ updateCartUI();
 let btncheckout = document.getElementById('btncheckout');
 btncheckout.addEventListener('click', () => {
   cart.cart = [];
-  console.log(cart);
   localStorage.setItem('user', JSON.stringify(cart));
   updateCartUI();
   updater(cart);
+  alert('Order Placed Sucessfully!');
 });
 
 async function updater(user1) {
@@ -141,4 +141,8 @@ async function updater(user1) {
   } catch (error) {
     console.error('Error:', error);
   }
+}
+function redirect(value) {
+  localStorage.setItem('filtervalue', value);
+  window.location.href = 'new.html';
 }

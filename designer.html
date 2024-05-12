@@ -3,26 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FWRD Wishlist</title>
-    <link rel="stylesheet" href="../style.css" />
-    <script
-      src="https://kit.fontawesome.com/fff2546269.js"
-      crossorigin="anonymous"
-    ></script>
+    <title>FRWD</title>
+    <link rel="stylesheet" href="./js/style.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
+    <script
+      src="https://kit.fontawesome.com/d72375f458.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
-
   <body>
-    <section class="st-container">
+    <div id="container">
       <nav>
         <!--////////////////////////////////syed/////////////////////////////////////-->
         <section class="st-container">
           <div id="st-navP1">
             <div>
-              <span><img src="../images/flag.png" alt="flag image" /></span>
+              <span><img src="./images/flag.png" alt="flag image" /></span>
               <i class="fa-solid fa-grip-lines-vertical"></i>
               <span><strong>EN</strong></span>
               <i class="fa-solid fa-grip-lines-vertical"></i>
@@ -68,9 +67,7 @@
           <div id="st-navP3">
             <div class="st-dropdown">
               <div>
-                <a
-                  href="new.html"
-                  onclick="displayCards('new'); event.preventDefault();"
+                <a onclick="event.preventDefault(); displayCards('new'); "
                   >new</a
                 >
                 <div class="st-content st-newDD" id="">
@@ -150,9 +147,7 @@
                     <a href="">ferragemo</a>
                   </div>
                   <div>
-                    <span>
-                      <pre></pre>
-                    </span>
+                    <span><pre></pre></span>
                     <a href="#">gabreila Hearst</a>
                     <a href="#">givenchy</a>
                     <a href="#">helsa</a>
@@ -164,9 +159,7 @@
                     <a href="#">miu miu</a>
                   </div>
                   <div>
-                    <span>
-                      <pre></pre>
-                    </span>
+                    <span><pre></pre></span>
                     <a href="#">pre-owned</a>
                     <a href="#">rick owners</a>
                     <a href="#">saint laurent</a>
@@ -180,9 +173,7 @@
                 </div>
               </div>
               <div>
-                <a
-                  href="new.html"
-                  onclick="displayCards('clothing'); event.preventDefault();"
+                <a onclick="event.preventDefault(); displayCards('clothing'); "
                   >clothing</a
                 >
                 <div class="st-content st-clothingDD">
@@ -203,9 +194,9 @@
                     <a href="#">all clothing</a>
                     <a href="#">dresses</a>
                     <a href="#">tops</a>
-                    <a href="#">jackets \& coats</a>
-                    <a href="#">jumpsuits \& rompers</a>
-                    <a href="#">sweaters \& kints</a>
+                    <a href="#">jackets & coats</a>
+                    <a href="#">jumpsuits & rompers</a>
+                    <a href="#">sweaters & kints</a>
                     <a href="#">loungwears</a>
                     <a href="#">denim</a>
                     <a href="#">pants</a>
@@ -237,9 +228,7 @@
                 </div>
               </div>
               <div>
-                <a
-                  href="new.html"
-                  onclick="displayCards('dress'); event.preventDefault();"
+                <a onclick="event.preventDefault(); displayCards('dress'); "
                   >dresses</a
                 >
                 <div class="st-content st-dressesDD">
@@ -256,14 +245,12 @@
                     <a href="#">black</a>
                     <a href="#">cocktail</a>
                     <a href="#">denim</a>
-                    <a href="#">embellished \& sequined</a>
+                    <a href="#">embellished & sequined</a>
                     <a href="#">gowns</a>
                     <a href="#">lace</a>
                   </div>
                   <div>
-                    <span>
-                      <pre></pre>
-                    </span>
+                    <span><pre></pre></span>
                     <a href="#">leather</a>
                     <a href="#">long sleeve</a>
                     <a href="#">maxi</a>
@@ -274,9 +261,7 @@
                     <a href="#">one shoulder</a>
                   </div>
                   <div>
-                    <span>
-                      <pre></pre>
-                    </span>
+                    <span><pre></pre></span>
                     <a href="#">printed</a>
                     <a href="#">sleeveless</a>
                     <a href="#">slip dress</a>
@@ -289,9 +274,7 @@
                 </div>
               </div>
               <div>
-                <a
-                  href="new.html"
-                  onclick="displayCards('shoes'); event.preventDefault();"
+                <a onclick="event.preventDefault(); displayCards('shoes'); "
                   >shoes</a
                 >
                 <div class="st-content st-shoesDD">
@@ -333,9 +316,7 @@
                 </div>
               </div>
               <div>
-                <a
-                  href="new.html"
-                  onclick="displayCards('bags'); event.preventDefault();"
+                <a onclick="event.preventDefault(); displayCards('bags'); "
                   >bags</a
                 >
                 <div class="st-content st-bagsDD">
@@ -377,7 +358,10 @@
                 </div>
               </div>
               <div>
-                <a href="new.html">accessories</a>
+                <a
+                  onclick="event.preventDefault(); displayCards('accessories'); "
+                  >accessories</a
+                >
                 <div class="st-content st-accessoriesDD">
                   <div>
                     <img
@@ -395,7 +379,7 @@
                     <a href="#">home</a>
                     <a href="#">gifts</a>
                     <a href="#">gift Certificates</a>
-                    <a href="#">sunglasses \& eyewear</a>
+                    <a href="#">sunglasses & eyewear</a>
                   </div>
                   <div>
                     <span>featured brands</span>
@@ -411,9 +395,7 @@
                 </div>
               </div>
               <div>
-                <a
-                  href="new.html"
-                  onclick="displayCards('beauty'); event.preventDefault();"
+                <a onclick="event.preventDefault(); displayCards('beauty'); "
                   >beauty</a
                 >
                 <div class="st-content st-beautyDD">
@@ -438,7 +420,7 @@
                     <a href="#">hair</a>
                     <a href="#">makeup</a>
                     <a href="#">skincare</a>
-                    <a href="#">tools \& brushes</a>
+                    <a href="#">tools & brushes</a>
                     <a href="#">ties</a>
                     <a href="#">watches</a>
                   </div>
@@ -458,18 +440,12 @@
                 </div>
               </div>
               <div>
-                <a
-                  href="new.html"
-                  onclick="displayCards('sale'); event.preventDefault();"
+                <a onclick="event.preventDefault(); displayCards('shops'); "
                   >sale</a
                 >
               </div>
               <div>
-                <a
-                  href="new.html"
-                  onclick="displayCards('shops'); event.preventDefault();"
-                  >shops</a
-                >
+                <a href="shops.html">shops</a>
                 <div class="st-content st-shopsDD">
                   <div>
                     <img
@@ -530,15 +506,25 @@
             </div>
           </div>
         </section>
+        <!--////////////////////////////////syed/////////////////////////////////////-->
       </nav>
+      <main id="deepMain">
+        <!-- rahul and pradeep -->
 
-      <div id="st-wishlist">
-        <div>
-          <a href="#" value="wishlist" id="wishlist">Wish List</a>
-          <a href="#" value="mydesigners" id="mydesigners">My Designers</a>
+        <div id="deepSideBar">
+          <a href="#">All Designers</a>
+          <a href="#">Clothing</a>
+          <a href="#">Bags</a>
+          <a href="#">Shoes</a>
+          <a href="#">Jewelry</a>
+          <a href="#">Accessories</a>
+          <a href="#">Beauty</a>
+          <a href="#">Home</a>
+          <a href="#">Pre-Owned</a>
         </div>
-      </div>
-      <div id="wishcontainer"></div>
+        <div id="deepDesigner"></div>
+      </main>
+
       <footer>
         <!-- mahesh -->
         <div id="mafoot1">
@@ -597,12 +583,14 @@
           2024 © Eminent, Inc. (a Revolve Group company). All Rights Reserved.
         </p>
       </footer>
-    </section>
+    </div>
   </body>
+  <!-- <script src="../index.js"></script> -->
 
-  <script src="../wish.js"></script>
-  <script
-    src="https://kit.fontawesome.com/b9d3c9efb7.js"
-    crossorigin="anonymous"
-  ></script>
+  <script src="./js/script.js"></script>
 </html>
+
+<script
+  src="https://kit.fontawesome.com/b9d3c9efb7.js"
+  crossorigin="anonymous"
+></script>

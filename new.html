@@ -4,15 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FRWD</title>
-    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="./js/style.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
-    <script
-      src="https://kit.fontawesome.com/d72375f458.js"
-      crossorigin="anonymous"
-    ></script>
   </head>
   <body>
     <div id="container">
@@ -21,7 +17,7 @@
         <section class="st-container">
           <div id="st-navP1">
             <div>
-              <span><img src="../images/flag.png" alt="flag image" /></span>
+              <span><img src="./images/flag.png" alt="flag image" /></span>
               <i class="fa-solid fa-grip-lines-vertical"></i>
               <span><strong>EN</strong></span>
               <i class="fa-solid fa-grip-lines-vertical"></i>
@@ -48,12 +44,12 @@
               <a href="index.html">FWRD</a>
             </div>
             <div>
-              <span style="border-bottom: 1px solid black">
+              <span id="span">
                 <input
                   type="text"
                   placeholder="search"
-                  style="border: none; margin-bottom: 5px"
-                /><button class="st-button">
+                  id="searchname"
+                /><button class="st-button" id="searchbutton">
                   <i class="fa-solid fa-magnifying-glass"></i>
                 </button>
               </span>
@@ -67,9 +63,7 @@
           <div id="st-navP3">
             <div class="st-dropdown">
               <div>
-                <a
-                  href="new.html"
-                  onclick="displayCards('new'); event.preventDefault();"
+                <a onclick="event.preventDefault(); displayCards('new');"
                   >new</a
                 >
                 <div class="st-content st-newDD" id="">
@@ -175,9 +169,7 @@
                 </div>
               </div>
               <div>
-                <a
-                  href="new.html"
-                  onclick="displayCards('clothing'); event.preventDefault();"
+                <a onclick="displayCards('clothing'); event.preventDefault();"
                   >clothing</a
                 >
                 <div class="st-content st-clothingDD">
@@ -198,9 +190,9 @@
                     <a href="#">all clothing</a>
                     <a href="#">dresses</a>
                     <a href="#">tops</a>
-                    <a href="#">jackets & coats</a>
-                    <a href="#">jumpsuits & rompers</a>
-                    <a href="#">sweaters & kints</a>
+                    <a href="#">jackets \& coats</a>
+                    <a href="#">jumpsuits \& rompers</a>
+                    <a href="#">sweaters \& kints</a>
                     <a href="#">loungwears</a>
                     <a href="#">denim</a>
                     <a href="#">pants</a>
@@ -232,9 +224,7 @@
                 </div>
               </div>
               <div>
-                <a
-                  href="new.html"
-                  onclick="displayCards('dress'); event.preventDefault();"
+                <a onclick="event.preventDefault();displayCards('dress');"
                   >dresses</a
                 >
                 <div class="st-content st-dressesDD">
@@ -280,9 +270,7 @@
                 </div>
               </div>
               <div>
-                <a
-                  href="new.html"
-                  onclick="displayCards('shoes'); event.preventDefault();"
+                <a onclick="displayCards('shoes'); event.preventDefault();"
                   >shoes</a
                 >
                 <div class="st-content st-shoesDD">
@@ -324,9 +312,7 @@
                 </div>
               </div>
               <div>
-                <a
-                  href="new.html"
-                  onclick="displayCards('bags'); event.preventDefault();"
+                <a onclick=" event.preventDefault();displayCards('bags');"
                   >bags</a
                 >
                 <div class="st-content st-bagsDD">
@@ -369,7 +355,6 @@
               </div>
               <div>
                 <a
-                  href="new.html"
                   onclick="displayCards('accessories'); event.preventDefault();"
                   >accessories</a
                 >
@@ -390,7 +375,7 @@
                     <a href="#">home</a>
                     <a href="#">gifts</a>
                     <a href="#">gift Certificates</a>
-                    <a href="#">sunglasses & eyewear</a>
+                    <a href="#">sunglasses \& eyewear</a>
                   </div>
                   <div>
                     <span>featured brands</span>
@@ -406,9 +391,7 @@
                 </div>
               </div>
               <div>
-                <a
-                  href="new.html"
-                  onclick="event.preventDefault(); displayCards('beauty'); "
+                <a onclick=" event.preventDefault();displayCards('beauty');"
                   >beauty</a
                 >
                 <div class="st-content st-beautyDD">
@@ -433,7 +416,7 @@
                     <a href="#">hair</a>
                     <a href="#">makeup</a>
                     <a href="#">skincare</a>
-                    <a href="#">tools & brushes</a>
+                    <a href="#">tools \& brushes</a>
                     <a href="#">ties</a>
                     <a href="#">watches</a>
                   </div>
@@ -452,13 +435,13 @@
                   </div>
                 </div>
               </div>
-              <div><a href="new.html">sale</a></div>
               <div>
-                <a
-                  href="shops.html"
-                  onclick="displayCards('shops'); event.preventDefault();"
-                  >shops</a
+                <a onclick="displayCards('sale'); event.preventDefault();"
+                  >sale</a
                 >
+              </div>
+              <div>
+                <a href="shops.html">shops</a>
                 <div class="st-content st-shopsDD">
                   <div>
                     <img
@@ -521,22 +504,54 @@
         </section>
         <!--////////////////////////////////syed/////////////////////////////////////-->
       </nav>
-      <main id="deepMain">
-        <!-- rahul and pradeep -->
-
-        <div id="deepSideBar">
-          <a href="#">All Designers</a>
-          <a href="#">Clothing</a>
-          <a href="#">Bags</a>
-          <a href="#">Shoes</a>
-          <a href="#">Jewelry</a>
-          <a href="#">Accessories</a>
-          <a href="#">Beauty</a>
-          <a href="#">Home</a>
-          <a href="#">Pre-Owned</a>
+      <div id="maherosection">
+        <div id="macategory">
+          <h3 id="mah3">CATEGORY</h3>
+          <a href="">All Sale Items</a>
+          <a href="">Accessories</a>
+          <a href="">Active wear</a>
+          <a href="">Bags</a>
+          <a href="">Beauty</a>
+          <a href="">Denim</a>
+          <a href="">Dresses</a>
+          <a href="">Home</a>
+          <a href="">Intimates</a>
+          <a href="">Jackets \& Coats</a>
+          <a href="">Jewelry</a>
+          <a href="">Jumpsuits \& Rompers</a>
+          <a href="">Leather</a>
+          <a href="">Loungewear</a>
+          <a href="">Misc</a>
+          <a href="">Pants</a>
+          <a href="">Pre-owned</a>
+          <a href="">Shoes</a>
+          <a href="">Shorts</a>
+          <a href="">Skirts</a>
+          <a href="">Sweaters \& Knits</a>
+          <a href="">T-shirts</a>
+          <a href="">Tops</a>
         </div>
-        <div id="deepDesigner"></div>
-      </main>
+        <div id="macontainer">
+          <div id="maheadsec">
+            <div id="maline">
+              <p style="padding-left: 10px">Filter by:</p>
+              <select class="maselectdesigner" id="selection">
+                <option value="">Designer</option>
+              </select>
+            </div>
+            <div id="malineunder">
+              <div id="matotalvalue"></div>
+              <select name="" id="sorter" class="maselectdesigner">
+                <option value="">Sort By</option>
+                <option value="high">Sort by price High to Low</option>
+                <option value="low">Sort by price Low to High</option>
+                <option value="designer">Sort by designer</option>
+              </select>
+            </div>
+            <div id="macardbox"></div>
+          </div>
+        </div>
+      </div>
 
       <footer>
         <!-- mahesh -->
@@ -598,9 +613,7 @@
       </footer>
     </div>
   </body>
-  <!-- <script src="../index.js"></script> -->
-
-  <script src="../script.js"></script>
+  <script src="./js/index.js"></script>
 </html>
 
 <script

@@ -1,13 +1,12 @@
 let finaldata = JSON.parse(localStorage.getItem('products')) || [];
 let user = JSON.parse(localStorage.getItem('user')) || {};
 let arr;
-let filtervalue = localStorage.getItem('filtered');
-// let s1 = document.getElementById('s1');
-// console.log(s1);
+let filtervalue = localStorage.getItem('filtervalue');
+let s1 = document.getElementById('s1');
+
 if (user && user.isloggedin) {
   const status = document.querySelector('#s1');
   status.textContent = 'Sign Out.';
-  console.log(status);
   status.innerText === 'Sign Out.' &&
     status.addEventListener('click', () => {
       localStorage.removeItem('user');
@@ -26,6 +25,8 @@ async function fetchProducts(url) {
     finaldata = data;
     arr = data;
     localStorage.setItem('products', JSON.stringify(data));
+
+    console.log(filtervalue);
     if (filtervalue) {
       displayCards(filtervalue);
       localStorage.setItem('filtervalue', '');
@@ -36,6 +37,7 @@ async function fetchProducts(url) {
 }
 
 let matotalvalue = document.getElementById('matotalvalue');
+
 function display(data) {
   matotalvalue.innerHTML = `<p>${data.length} Items</p>`;
   macardbox.innerHTML = '';
@@ -69,9 +71,13 @@ function cardCreater(item) {
   });
   return div;
 }
-
+function redirect(value) {
+  localStorage.setItem('filtervalue', value);
+  window.location.href = 'new.html';
+}
 function displayCards(val) {
-  console.log('first');
+  localStorage.setItem('filtervalue', val);
+  console.log(val);
   let arr1;
   if (val === 'new') {
     arr1 = arr.filter((ele) => {
@@ -87,7 +93,7 @@ function displayCards(val) {
         return true;
       }
     });
-    console.log(arr1, val);
+    console.log(arr1);
     display(arr1);
   }
   localStorage.setItem('pagearr', JSON.stringify(arr1));
@@ -112,9 +118,6 @@ finaldesigners.forEach((ele) => {
 });
 
 selection.addEventListener('change', (e) => {
-  console.log(e);
-  console.log(selection.value);
-
   let ans1 = finaldata.filter((ele) => {
     return ele.designer == selection.value;
   });
@@ -125,15 +128,14 @@ let sorter1 = document.getElementById('sorter');
 
 sorter1.addEventListener('change', () => {
   let pagearr = JSON.parse(localStorage.getItem('pagearr'));
-
-  // pagearr = pagearr.map((item) => {
-  //   let price = item.price.replace('₹', '').replace(',', '');
-  //   return { ...item, price: parseInt(price) };
-  // });
+  console.log(pagearr);
+  let val = localStorage.getItem('val');
+  console.log(val);
   if (sorter1.value == 'low') {
     pagearr.sort((a, b) => {
       return a.price - b.price;
     });
+
     display(pagearr);
   } else if (sorter1.value == 'high') {
     pagearr.sort((a, b) => {
@@ -154,8 +156,9 @@ let searchbutton = document.getElementById('searchbutton');
 searchbutton.addEventListener('click', (e) => {
   e.preventDefault();
   let value = searchname.value;
-  console.log(value);
-  let ans1 = finaldata.filter((ele) => {
+  let pagearr = JSON.parse(localStorage.getItem('pagearr'));
+
+  let ans1 = pagearr.filter((ele) => {
     return ele.title.toLowerCase().includes(value);
   });
   display(ans1);
