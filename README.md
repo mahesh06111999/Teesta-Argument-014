@@ -53,7 +53,7 @@ To run this project locally:
 
 ## Desktop view
 
-<img src="./casio/desktopview.png" alt="">
+<img src="./images/desktopview.png" alt="">
 
 ## Contributors
 
