@@ -3,6 +3,14 @@ let wishcontainer = document.getElementById('wishcontainer');
 let user = JSON.parse(localStorage.getItem('user'));
 let mydesigners = document.getElementById('mydesigners');
 
+if (user && user.isloggedin) {
+  const status = document.querySelector('#s1');
+  status.textContent = 'Sign Out.';
+} else {
+  const status = document.querySelector('#s1');
+  status.textContent = 'Sign In.';
+}
+
 function cardCreater(item) {
   let div = document.createElement('div');
   div.className = 'cardstyle';
@@ -65,15 +73,24 @@ mydesigners.addEventListener('click', () => {
 
 async function updater(user1) {
   try {
-    let res = await fetch(`http://localhost:3000/users/${user1.id}`, {
-      method: 'PATCH',
-      headers: {
-        'Content-type': 'application/json',
-      },
-      body: JSON.stringify(user1),
-    });
+    let res = await fetch(
+      `https://teesta-argument-014.onrender.com/users/${user1.id}`,
+      {
+        method: 'PATCH',
+        headers: {
+          'Content-type': 'application/json',
+        },
+        body: JSON.stringify(user1),
+      }
+    );
     let data = await res.json();
   } catch (error) {
     console.error('Error:', error);
   }
+}
+
+function displayCards(val) {
+  console.log('working');
+  window.location.href = 'new.html';
+  localStorage.setItem('filtered', val);
 }

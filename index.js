@@ -1,5 +1,23 @@
 let finaldata = JSON.parse(localStorage.getItem('products')) || [];
+let user = JSON.parse(localStorage.getItem('user')) || {};
 let arr;
+let filtervalue = localStorage.getItem('filtered');
+// let s1 = document.getElementById('s1');
+// console.log(s1);
+if (user && user.isloggedin) {
+  const status = document.querySelector('#s1');
+  status.textContent = 'Sign Out.';
+  console.log(status);
+  status.innerText === 'Sign Out.' &&
+    status.addEventListener('click', () => {
+      localStorage.removeItem('user');
+      status.textContent = 'Sign In.';
+    });
+} else {
+  const status = document.querySelector('#s1');
+  status.textContent = 'Sign In.';
+}
+
 async function fetchProducts(url) {
   try {
     let res = await fetch(url);
@@ -8,6 +26,10 @@ async function fetchProducts(url) {
     finaldata = data;
     arr = data;
     localStorage.setItem('products', JSON.stringify(data));
+    if (filtervalue) {
+      displayCards(filtervalue);
+      localStorage.setItem('filtervalue', '');
+    }
   } catch (error) {
     console.log(error);
   }
@@ -21,7 +43,8 @@ function display(data) {
     macardbox.append(cardCreater(item));
   });
 }
-fetchProducts('http://localhost:3000/data');
+fetchProducts('https://teesta-argument-014.onrender.com/data');
+
 let macardbox = document.getElementById('macardbox');
 
 function cardCreater(item) {
@@ -48,6 +71,7 @@ function cardCreater(item) {
 }
 
 function displayCards(val) {
+  console.log('first');
   let arr1;
   if (val === 'new') {
     arr1 = arr.filter((ele) => {
@@ -55,6 +79,7 @@ function displayCards(val) {
         return true;
       }
     });
+    console.log(arr1, val);
     display(arr1);
   } else {
     arr1 = arr.filter((ele) => {
@@ -62,6 +87,7 @@ function displayCards(val) {
         return true;
       }
     });
+    console.log(arr1, val);
     display(arr1);
   }
   localStorage.setItem('pagearr', JSON.stringify(arr1));

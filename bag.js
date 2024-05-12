@@ -1,10 +1,21 @@
 let cart = JSON.parse(localStorage.getItem('user'));
+if (!cart) {
+  cart = { cart: [], wishlist: [] };
+}
 
+let user = JSON.parse(localStorage.getItem('user')) || {};
+if (user && user.isloggedin) {
+  const status = document.querySelector('#s1');
+  status.textContent = 'Sign Out.';
+} else {
+  const status = document.querySelector('#s1');
+  status.textContent = 'Sign In.';
+}
 let cartcontent = document.getElementById('Rcontainer-1');
 
 document.getElementById(
   'count'
-).innerHTML = `<h5>SHOPPING BAG (${cart.cart.length})</h5>`;
+).innerHTML = `<h5>SHOPPING BAG (${getTotalQuantity(cart.cart)})</h5>`;
 
 function cartcard(item) {
   let div = document.createElement('div');
@@ -15,6 +26,7 @@ function cartcard(item) {
   let a1 = document.createElement('a');
   let a2 = document.createElement('a');
   let price = document.createElement('p');
+  let quantityInput = document.createElement('input');
   let div2 = document.createElement('div');
   div2.className = 'divbox2';
 
@@ -25,71 +37,107 @@ function cartcard(item) {
   a2.setAttribute('id', 'remove');
   a2.innerText = 'Remove';
   price.innerText = '₹' + item.price;
+  quantityInput.type = 'number';
+  quantityInput.value = item.quantity || 1;
+  quantityInput.min = 1;
+  quantityInput.addEventListener('change', () => {
+    item.quantity = parseInt(quantityInput.value);
+    updateCartQuantity();
+  });
+
   div2.append(a1, a2);
-  div.append(image, title, div2, price);
+  div.append(image, title, div2, price, quantityInput);
 
   a1.addEventListener('click', () => {
-    cart.cart.forEach((item2) => {
-      if (item.id === item2.id) {
-        cart.wishlist.push(item);
-        console.log(cart.wishlist);
-        localStorage.setItem('user', JSON.stringify(cart));
-      } else {
-        let newcart = cart.cart.filter((item1) => {
-          if (item1.id != item.id) {
-            return item;
-          }
-        });
-
-        cart.cart = newcart;
-        localStorage.setItem('user', JSON.stringify(cart));
-        updater(cart);
-      }
-      updater(cart);
-    });
+    moveItemToWishlist(item);
   });
+
   a2.addEventListener('click', () => {
-    let newcart = cart.cart.filter((item1) => {
-      if (item1.id != item.id) {
-        return item;
-      }
-    });
-
-    cart.cart = newcart;
-    localStorage.setItem('user', JSON.stringify(cart));
-    updater(cart);
+    removeItemFromCart(item);
   });
+
   return div;
 }
 
-let sum = 0;
+function getTotalQuantity(cart) {
+  return cart.reduce((total, item) => total + (item.quantity || 1), 0);
+}
 
-cart.cart.forEach((element) => {
-  sum += element.price;
-  cartcontent.append(cartcard(element));
-});
+function moveItemToWishlist(item) {
+  cart.wishlist.push(item);
+  removeItemFromCart(item);
+  updater(cart);
+}
 
-document.getElementById('subtotal').innerText = '₹ ' + sum;
-document.getElementById('estimatedtotal').innerText = '₹ ' + sum;
+function removeItemFromCart(item) {
+  cart.cart = cart.cart.filter((item1) => item1.id !== item.id);
+  localStorage.setItem('user', JSON.stringify(cart));
+  updateCartUI();
+  updater(cart);
+}
 
+function updateCartQuantity() {
+  localStorage.setItem('user', JSON.stringify(cart));
+  updateCartUI();
+}
+
+function updateCartUI() {
+  cartcontent.innerHTML = '';
+  let sum = 0;
+
+  cart.cart.forEach((element) => {
+    sum += element.price * (element.quantity || 1);
+    cartcontent.append(cartcard(element));
+  });
+
+  document.getElementById('subtotal').innerText = '₹ ' + sum;
+  document.getElementById('estimatedtotal').innerText = '₹ ' + sum;
+  document.getElementById(
+    'count'
+  ).innerHTML = `<h5>SHOPPING BAG (${getTotalQuantity(cart.cart)})</h5>`;
+}
+
+function addItemToCart(item) {
+  const existingItemIndex = cart.cart.findIndex(
+    (cartItem) => cartItem.id === item.id
+  );
+
+  if (existingItemIndex !== -1) {
+    cart.cart[existingItemIndex].quantity += 1;
+  } else {
+    item.quantity = 1;
+    cart.cart.push(item);
+  }
+
+  localStorage.setItem('user', JSON.stringify(cart));
+  updateCartUI();
+  updater(cart);
+}
+
+updateCartUI();
 let btncheckout = document.getElementById('btncheckout');
 btncheckout.addEventListener('click', () => {
-  alert('Order placed sucessfully');
   cart.cart = [];
+  console.log(cart);
   localStorage.setItem('user', JSON.stringify(cart));
+  updateCartUI();
   updater(cart);
 });
 
 async function updater(user1) {
   try {
-    let res = await fetch(`http://localhost:3000/users/${user1.id}`, {
-      method: 'PATCH',
-      headers: {
-        'Content-type': 'application/json',
-      },
-      body: JSON.stringify(user1),
-    });
+    let res = await fetch(
+      `https://teesta-argument-014.onrender.com/users/${user1.id}`,
+      {
+        method: 'PATCH',
+        headers: {
+          'Content-type': 'application/json',
+        },
+        body: JSON.stringify(user1),
+      }
+    );
     let data = await res.json();
+    console.log(data);
   } catch (error) {
     console.error('Error:', error);
   }

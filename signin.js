@@ -22,7 +22,7 @@ signup.addEventListener('click', (e) => {
       wishlist: [],
     };
     async function postdata() {
-      let res = await fetch('http://localhost:3000/users', {
+      let res = await fetch('https://teesta-argument-014.onrender.com/users', {
         method: 'POST',
         headers: {
           'Content-type': 'application/json',
@@ -72,5 +72,5 @@ signin.addEventListener('click', (e) => {
       console.log(error);
     }
   }
-  fetchData('http://localhost:3000/users');
+  fetchData('https://teesta-argument-014.onrender.com/users');
 });
