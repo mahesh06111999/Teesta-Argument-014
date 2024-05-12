@@ -59,7 +59,7 @@ To run this project locally:
 
 - [Mahesh S R](https://github.com/mahesh06111999)
 - [Taqiuddin Raheemuddin Syed](https://github.com/mr-taqi)
-- []()
+- [Pradeep Yadav](https://github.com/simply-code-it)
 - []()
 
 ## Acknowledgments
