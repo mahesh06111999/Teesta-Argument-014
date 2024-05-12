@@ -53,6 +53,7 @@ function productPageCreater(item) {
           );
           let data = await res.json();
           alert('Added to cart!');
+          window.location.href = 'bag.html';
         } catch (error) {
           console.error('Error:', error);
         }
