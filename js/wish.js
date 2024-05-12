@@ -25,7 +25,7 @@ function cardCreater(item) {
   btn.innerText = 'Move to Cart';
   btn.className = 'mabtnclass';
   btn.addEventListener('click', () => {
-    console.log(item);
+    window.location.href = 'bag.html';
     user.cart.push(item);
     let newwish = user.wishlist.filter((ele) => {
       return ele.id != item.id;
@@ -92,5 +92,10 @@ async function updater(user1) {
 function displayCards(val) {
   console.log('working');
   window.location.href = 'new.html';
-  localStorage.setItem('filtered', val);
+  localStorage.setItem('filtervalue', val);
+}
+
+function redirect(value) {
+  localStorage.setItem('filtervalue', value);
+  window.location.href = 'new.html';
 }

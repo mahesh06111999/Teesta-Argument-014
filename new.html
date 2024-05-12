@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FRWD</title>
-    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="./js/style.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
@@ -17,7 +17,7 @@
         <section class="st-container">
           <div id="st-navP1">
             <div>
-              <span><img src="../images/flag.png" alt="flag image" /></span>
+              <span><img src="./images/flag.png" alt="flag image" /></span>
               <i class="fa-solid fa-grip-lines-vertical"></i>
               <span><strong>EN</strong></span>
               <i class="fa-solid fa-grip-lines-vertical"></i>
@@ -63,9 +63,7 @@
           <div id="st-navP3">
             <div class="st-dropdown">
               <div>
-                <a
-                  href="new.html"
-                  onclick="displayCards('new'); event.preventDefault();"
+                <a onclick="event.preventDefault(); displayCards('new');"
                   >new</a
                 >
                 <div class="st-content st-newDD" id="">
@@ -171,9 +169,7 @@
                 </div>
               </div>
               <div>
-                <a
-                  href="new.html"
-                  onclick="displayCards('clothing'); event.preventDefault();"
+                <a onclick="displayCards('clothing'); event.preventDefault();"
                   >clothing</a
                 >
                 <div class="st-content st-clothingDD">
@@ -228,9 +224,7 @@
                 </div>
               </div>
               <div>
-                <a
-                  href="new.html"
-                  onclick="displayCards('dress'); event.preventDefault();"
+                <a onclick="event.preventDefault();displayCards('dress');"
                   >dresses</a
                 >
                 <div class="st-content st-dressesDD">
@@ -276,9 +270,7 @@
                 </div>
               </div>
               <div>
-                <a
-                  href="new.html"
-                  onclick="displayCards('shoes'); event.preventDefault();"
+                <a onclick="displayCards('shoes'); event.preventDefault();"
                   >shoes</a
                 >
                 <div class="st-content st-shoesDD">
@@ -320,9 +312,7 @@
                 </div>
               </div>
               <div>
-                <a
-                  href="new.html"
-                  onclick="displayCards('bags'); event.preventDefault();"
+                <a onclick=" event.preventDefault();displayCards('bags');"
                   >bags</a
                 >
                 <div class="st-content st-bagsDD">
@@ -365,7 +355,6 @@
               </div>
               <div>
                 <a
-                  href="new.html"
                   onclick="displayCards('accessories'); event.preventDefault();"
                   >accessories</a
                 >
@@ -402,9 +391,7 @@
                 </div>
               </div>
               <div>
-                <a
-                  href="new.html"
-                  onclick="displayCards('beauty'); event.preventDefault();"
+                <a onclick=" event.preventDefault();displayCards('beauty');"
                   >beauty</a
                 >
                 <div class="st-content st-beautyDD">
@@ -449,9 +436,7 @@
                 </div>
               </div>
               <div>
-                <a
-                  href="new.html"
-                  onclick="displayCards('sale'); event.preventDefault();"
+                <a onclick="displayCards('sale'); event.preventDefault();"
                   >sale</a
                 >
               </div>
@@ -628,7 +613,7 @@
       </footer>
     </div>
   </body>
-  <script src="../index.js"></script>
+  <script src="./js/index.js"></script>
 </html>
 
 <script
