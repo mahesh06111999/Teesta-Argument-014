@@ -11,7 +11,7 @@ Welcome to FWRD
 
 
 Forward:
-[Live Demo](https://frwd-1.netlify.app/)
+[Live Demo](forward-6.netlify.app/)
 
 ## Features
 
